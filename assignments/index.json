@@ -1,0 +1,1100 @@
+{
+  "schema_version": "text-enrichment-allocation-index-v3",
+  "study_version": "2026-09-07-study3-v1",
+  "assignment_version": "n42-study3-fano-v1",
+  "allocation_sha256": "0f2a0a5403ab64db4ceb9d80d564bf79f96756a0e1cbe955cd363ea85a1579c2",
+  "participant_slots": [
+    {
+      "participant_slot": 1,
+      "allocation_id": "n42-study3-fano-v1-slot-01",
+      "file": "slots/slot-01.json",
+      "allocation_sha256": "4fed405431907b3f3a56ad4ab9a92a524af610b067d8ebf77807abb13b7eb0b3",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 9,
+          "after_trial": 9,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 16,
+          "after_trial": 54,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 23,
+          "after_trial": 99,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 2,
+      "allocation_id": "n42-study3-fano-v1-slot-02",
+      "file": "slots/slot-02.json",
+      "allocation_sha256": "e9fcbad96a923d72d9b3aa03ed104e34cc0227e6854caf02b6e43265209ac62c",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 10,
+          "after_trial": 10,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 17,
+          "after_trial": 55,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 24,
+          "after_trial": 100,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 3,
+      "allocation_id": "n42-study3-fano-v1-slot-03",
+      "file": "slots/slot-03.json",
+      "allocation_sha256": "1928b781c44e0533c0eabac8fcfdd634e1c385fc13de1625cf97c106ef4ee461",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 11,
+          "after_trial": 11,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 18,
+          "after_trial": 56,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 25,
+          "after_trial": 101,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 4,
+      "allocation_id": "n42-study3-fano-v1-slot-04",
+      "file": "slots/slot-04.json",
+      "allocation_sha256": "e498dceaf7626c9d5bf66bbb1cdcbd1a673cd1ddcdf6ccbb20d83bbe3193a0d6",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 12,
+          "after_trial": 12,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 19,
+          "after_trial": 57,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 26,
+          "after_trial": 102,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 5,
+      "allocation_id": "n42-study3-fano-v1-slot-05",
+      "file": "slots/slot-05.json",
+      "allocation_sha256": "03727e9cb40f7feb2e0c58d7d840eb641d6b03b84f317ad4ef5a49b02f586bfe",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 13,
+          "after_trial": 13,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 20,
+          "after_trial": 58,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 27,
+          "after_trial": 103,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 6,
+      "allocation_id": "n42-study3-fano-v1-slot-06",
+      "file": "slots/slot-06.json",
+      "allocation_sha256": "7daf9350775e65976312bf326bb9072ec73106d55476cad54844393def3f6d9d",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 14,
+          "after_trial": 14,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 21,
+          "after_trial": 59,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 28,
+          "after_trial": 104,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 7,
+      "allocation_id": "n42-study3-fano-v1-slot-07",
+      "file": "slots/slot-07.json",
+      "allocation_sha256": "4272b18f1b698c972969c53638778d515921a913d15356e17b7475f84bcb67aa",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 15,
+          "after_trial": 15,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 22,
+          "after_trial": 60,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 29,
+          "after_trial": 105,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 8,
+      "allocation_id": "n42-study3-fano-v1-slot-08",
+      "file": "slots/slot-08.json",
+      "allocation_sha256": "e0e6495748907cc0cd2d6d18bef2d2f748a2675deb3d57d53cdc7c9af1d1dd19",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 16,
+          "after_trial": 16,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 23,
+          "after_trial": 61,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 9,
+          "after_trial": 85,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 9,
+      "allocation_id": "n42-study3-fano-v1-slot-09",
+      "file": "slots/slot-09.json",
+      "allocation_sha256": "bef4cfa8b7ffd232735376761daf6b7e99252f12fedb88fde7c2274c169ef3a1",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 17,
+          "after_trial": 17,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 24,
+          "after_trial": 62,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 10,
+          "after_trial": 86,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 10,
+      "allocation_id": "n42-study3-fano-v1-slot-10",
+      "file": "slots/slot-10.json",
+      "allocation_sha256": "064ab15a8c9a52dbb4c99bdae561db1ce489d372bc26e6842ee7dd7b07476eba",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 18,
+          "after_trial": 18,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 25,
+          "after_trial": 63,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 11,
+          "after_trial": 87,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 11,
+      "allocation_id": "n42-study3-fano-v1-slot-11",
+      "file": "slots/slot-11.json",
+      "allocation_sha256": "09f52772fad516d60e0e07bdbd12de385c79dd54ac90f528c3ef3c73f78f54cd",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 19,
+          "after_trial": 19,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 26,
+          "after_trial": 64,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 12,
+          "after_trial": 88,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 12,
+      "allocation_id": "n42-study3-fano-v1-slot-12",
+      "file": "slots/slot-12.json",
+      "allocation_sha256": "700c11a17622b3db7faf2b2f044238003085e62f8eb8fb9eb895f4f596169a7e",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 20,
+          "after_trial": 20,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 27,
+          "after_trial": 65,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 13,
+          "after_trial": 89,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 13,
+      "allocation_id": "n42-study3-fano-v1-slot-13",
+      "file": "slots/slot-13.json",
+      "allocation_sha256": "23c24ce0ae597ad1888cd4c39464bbb094486adbff0ade10cc66d7502beb5fc0",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 21,
+          "after_trial": 21,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 28,
+          "after_trial": 66,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 14,
+          "after_trial": 90,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 14,
+      "allocation_id": "n42-study3-fano-v1-slot-14",
+      "file": "slots/slot-14.json",
+      "allocation_sha256": "f17ea14445e65e106b22f7119bb8fc81513cc23265294254329419475458b8e2",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 22,
+          "after_trial": 22,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 29,
+          "after_trial": 67,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 15,
+          "after_trial": 91,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 15,
+      "allocation_id": "n42-study3-fano-v1-slot-15",
+      "file": "slots/slot-15.json",
+      "allocation_sha256": "03931e8b3d1333b505ea22dc1be51377ba8028f959993f635c94e43fe92eab4b",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 23,
+          "after_trial": 23,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 9,
+          "after_trial": 47,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 16,
+          "after_trial": 92,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 16,
+      "allocation_id": "n42-study3-fano-v1-slot-16",
+      "file": "slots/slot-16.json",
+      "allocation_sha256": "29780cb182242a34579c6ccaf2abc81d06ca946bc7fd373cebbc53d68e8af447",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 24,
+          "after_trial": 24,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 10,
+          "after_trial": 48,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 17,
+          "after_trial": 93,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 17,
+      "allocation_id": "n42-study3-fano-v1-slot-17",
+      "file": "slots/slot-17.json",
+      "allocation_sha256": "8f598c5141a20836d9db83d670dd4b3f31d8c3339344e8ca3d687fc835c60801",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 25,
+          "after_trial": 25,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 11,
+          "after_trial": 49,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 18,
+          "after_trial": 94,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 18,
+      "allocation_id": "n42-study3-fano-v1-slot-18",
+      "file": "slots/slot-18.json",
+      "allocation_sha256": "cffcf91e9b4d76e1c9bdf3c4ef7ad0bc8c31aa6af12b2440b07fafb7d6010003",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 26,
+          "after_trial": 26,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 12,
+          "after_trial": 50,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 19,
+          "after_trial": 95,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 19,
+      "allocation_id": "n42-study3-fano-v1-slot-19",
+      "file": "slots/slot-19.json",
+      "allocation_sha256": "52f29bec098a10638f84a405a8a5ca9b677ab421775a2622cc2eed4a4bd5c51d",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 27,
+          "after_trial": 27,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 13,
+          "after_trial": 51,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 20,
+          "after_trial": 96,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 20,
+      "allocation_id": "n42-study3-fano-v1-slot-20",
+      "file": "slots/slot-20.json",
+      "allocation_sha256": "d8dd72492da61ec5e45a903a0a3e160ad3a88b0328bcfa99baa15bf2b949ca0a",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 28,
+          "after_trial": 28,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 14,
+          "after_trial": 52,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 21,
+          "after_trial": 97,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 21,
+      "allocation_id": "n42-study3-fano-v1-slot-21",
+      "file": "slots/slot-21.json",
+      "allocation_sha256": "3cdc18c5def75fe7a5c2a7215f4ed22bae5c7081adda5ca1ef19b9dfde14e386",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 29,
+          "after_trial": 29,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 15,
+          "after_trial": 53,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 22,
+          "after_trial": 98,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 22,
+      "allocation_id": "n42-study3-fano-v1-slot-22",
+      "file": "slots/slot-22.json",
+      "allocation_sha256": "28eddbbaf87b9937c9423ba3f2b99253881778921c7dd9f7b4d58f1710fb5f65",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 9,
+          "after_trial": 9,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 16,
+          "after_trial": 54,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 23,
+          "after_trial": 99,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 23,
+      "allocation_id": "n42-study3-fano-v1-slot-23",
+      "file": "slots/slot-23.json",
+      "allocation_sha256": "7fab483f5e5ad88715128a2aee6f4bc988c3f550cd106ed979059bca80e77fc9",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 10,
+          "after_trial": 10,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 17,
+          "after_trial": 55,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 24,
+          "after_trial": 100,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 24,
+      "allocation_id": "n42-study3-fano-v1-slot-24",
+      "file": "slots/slot-24.json",
+      "allocation_sha256": "d9e2328f477dd2761959968d3567074599e1b311f6757c58c6959c628a4c72e9",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 11,
+          "after_trial": 11,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 18,
+          "after_trial": 56,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 25,
+          "after_trial": 101,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 25,
+      "allocation_id": "n42-study3-fano-v1-slot-25",
+      "file": "slots/slot-25.json",
+      "allocation_sha256": "cea6293dd5113c83a43d669eea89dd9ffea994bc0b4ed75d1601d2edf08762f2",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 12,
+          "after_trial": 12,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 19,
+          "after_trial": 57,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 26,
+          "after_trial": 102,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 26,
+      "allocation_id": "n42-study3-fano-v1-slot-26",
+      "file": "slots/slot-26.json",
+      "allocation_sha256": "cd3ee6dcc507a77fe34c8814abcc47593055ed33bb99aa343b9954002bbe6cf4",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 13,
+          "after_trial": 13,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 20,
+          "after_trial": 58,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 27,
+          "after_trial": 103,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 27,
+      "allocation_id": "n42-study3-fano-v1-slot-27",
+      "file": "slots/slot-27.json",
+      "allocation_sha256": "9a16f026a463f0c045c9e5718f02d2539853177c1f595bb12d6cb408aae5a828",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 14,
+          "after_trial": 14,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 21,
+          "after_trial": 59,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 28,
+          "after_trial": 104,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 28,
+      "allocation_id": "n42-study3-fano-v1-slot-28",
+      "file": "slots/slot-28.json",
+      "allocation_sha256": "b7b99b4e8f1837257347f440886514c0f65a5e3c76584259d05186e7e06669c1",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 15,
+          "after_trial": 15,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 22,
+          "after_trial": 60,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 29,
+          "after_trial": 105,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 29,
+      "allocation_id": "n42-study3-fano-v1-slot-29",
+      "file": "slots/slot-29.json",
+      "allocation_sha256": "3e9d84f6a459f98daffffdcee280a5e8d270f8c82c0a62e20f047b5d34ee0ab3",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 16,
+          "after_trial": 16,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 23,
+          "after_trial": 61,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 9,
+          "after_trial": 85,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 30,
+      "allocation_id": "n42-study3-fano-v1-slot-30",
+      "file": "slots/slot-30.json",
+      "allocation_sha256": "107dee5a453a184e4cade0e30c80078d46472c6f014f2ffe643b72cfa558ad1a",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 17,
+          "after_trial": 17,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 24,
+          "after_trial": 62,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 10,
+          "after_trial": 86,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 31,
+      "allocation_id": "n42-study3-fano-v1-slot-31",
+      "file": "slots/slot-31.json",
+      "allocation_sha256": "74f0a4a2dce37ce70f1c12232aefd5770e640ada828bd9430e26beec8a0586d8",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 18,
+          "after_trial": 18,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 25,
+          "after_trial": 63,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 11,
+          "after_trial": 87,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 32,
+      "allocation_id": "n42-study3-fano-v1-slot-32",
+      "file": "slots/slot-32.json",
+      "allocation_sha256": "f69caf770a0b7af4eb68ffaf922f20254313420a7052ac1e454efad404ef51cf",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 19,
+          "after_trial": 19,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 26,
+          "after_trial": 64,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 12,
+          "after_trial": 88,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 33,
+      "allocation_id": "n42-study3-fano-v1-slot-33",
+      "file": "slots/slot-33.json",
+      "allocation_sha256": "867c528fa2478441512544f575b16436cd20740d4a81cd73be13ab3abca74d27",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 20,
+          "after_trial": 20,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 27,
+          "after_trial": 65,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 13,
+          "after_trial": 89,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 34,
+      "allocation_id": "n42-study3-fano-v1-slot-34",
+      "file": "slots/slot-34.json",
+      "allocation_sha256": "70996aea0e3293b251a33728aa4a79648a7e6aba0abb4ead47f0f55138392c9d",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 21,
+          "after_trial": 21,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 28,
+          "after_trial": 66,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 14,
+          "after_trial": 90,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 35,
+      "allocation_id": "n42-study3-fano-v1-slot-35",
+      "file": "slots/slot-35.json",
+      "allocation_sha256": "d87427838f2a7e0ec34fc9686a88142810264caba96843c116a48bfb31b55260",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 22,
+          "after_trial": 22,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 29,
+          "after_trial": 67,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 15,
+          "after_trial": 91,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 36,
+      "allocation_id": "n42-study3-fano-v1-slot-36",
+      "file": "slots/slot-36.json",
+      "allocation_sha256": "2f23b3db517e8bd3790a4342f9987b63bff5af50c0ee3915a989e587792474c2",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 23,
+          "after_trial": 23,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 9,
+          "after_trial": 47,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 16,
+          "after_trial": 92,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 37,
+      "allocation_id": "n42-study3-fano-v1-slot-37",
+      "file": "slots/slot-37.json",
+      "allocation_sha256": "d4d29b5e6671cf009b7db72005f28cd7695b99f3cef1e1192a01e9f47e5fa539",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 24,
+          "after_trial": 24,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 10,
+          "after_trial": 48,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 17,
+          "after_trial": 93,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 38,
+      "allocation_id": "n42-study3-fano-v1-slot-38",
+      "file": "slots/slot-38.json",
+      "allocation_sha256": "10a6b5e597ee85356042e315f3c7f39c98907206d298ae8032077391234f95eb",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 25,
+          "after_trial": 25,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 11,
+          "after_trial": 49,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 18,
+          "after_trial": 94,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 39,
+      "allocation_id": "n42-study3-fano-v1-slot-39",
+      "file": "slots/slot-39.json",
+      "allocation_sha256": "ee867c2bc9ce22b2c8842dfa3e135a0591d57b45523253ea7f102ac649df0918",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 26,
+          "after_trial": 26,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 12,
+          "after_trial": 50,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 19,
+          "after_trial": 95,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 40,
+      "allocation_id": "n42-study3-fano-v1-slot-40",
+      "file": "slots/slot-40.json",
+      "allocation_sha256": "99bafbccb721d30a95647680a6df534b11b0cd4f14936805d1736268bad99dc5",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 27,
+          "after_trial": 27,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 13,
+          "after_trial": 51,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 20,
+          "after_trial": 96,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 41,
+      "allocation_id": "n42-study3-fano-v1-slot-41",
+      "file": "slots/slot-41.json",
+      "allocation_sha256": "bdf52512853422380aea4a9a3cbe447341ac0af9b16739e8c5cdb2722058b186",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 28,
+          "after_trial": 28,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 14,
+          "after_trial": 52,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 21,
+          "after_trial": 97,
+          "response": 1
+        }
+      ]
+    },
+    {
+      "participant_slot": 42,
+      "allocation_id": "n42-study3-fano-v1-slot-42",
+      "file": "slots/slot-42.json",
+      "allocation_sha256": "be8316d533e21facddd3e7001366c95d9a3d2a2cf9af9fadcc9861ff07f50108",
+      "attention_checks": [
+        {
+          "set_id": 1,
+          "within_set_after_trial": 29,
+          "after_trial": 29,
+          "response": 1
+        },
+        {
+          "set_id": 2,
+          "within_set_after_trial": 15,
+          "after_trial": 53,
+          "response": 3
+        },
+        {
+          "set_id": 3,
+          "within_set_after_trial": 22,
+          "after_trial": 98,
+          "response": 1
+        }
+      ]
+    }
+  ]
+}

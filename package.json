@@ -1,0 +1,12 @@
+{
+  "name": "text-enrichment-reader-study3",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests/assignment.test.mjs && node tests/eligibility.test.mjs && node tests/attention.test.mjs && node tests/exit-routing.test.mjs && node tests/study-flow.test.mjs && node tests/stimulus-fit.test.mjs && node tests/network.test.mjs && node tests/font-loading.test.mjs && node tests/interface-copy.test.mjs && node tests/log-schema.test.mjs && node tests/collector-validation.test.mjs && node tests/collector-batch.test.mjs && node scripts/verify-stimuli.mjs",
+    "generate-assignments": "python3 scripts/generate_assignments.py",
+    "import-final-output": "node scripts/import-final-output.mjs",
+    "refresh-stimuli-manifest": "node scripts/finalize-stimuli.mjs",
+    "serve": "python3 -m http.server 4173"
+  }
+}

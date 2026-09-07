@@ -1,0 +1,313 @@
+{
+  "schema_version": "text-enrichment-trial-log-v3",
+  "study_version": "2026-09-07-study3-v1",
+  "columns": [
+    {
+      "name": "event_id",
+      "type": "string",
+      "required": true,
+      "description": "Idempotency key for one analyzed trial response."
+    },
+    {
+      "name": "participant_id",
+      "type": "string",
+      "required": true,
+      "description": "Pseudonymous Prolific participant identifier."
+    },
+    {
+      "name": "participant_slot",
+      "type": "integer",
+      "required": true,
+      "description": "Pre-generated allocation slot, 1–42."
+    },
+    {
+      "name": "set_id",
+      "type": "integer",
+      "required": true,
+      "description": "Study set, 1–3."
+    },
+    {
+      "name": "set_trial_index",
+      "type": "integer",
+      "required": true,
+      "description": "Trial position within the set, 1–38."
+    },
+    {
+      "name": "global_trial_index",
+      "type": "integer",
+      "required": true,
+      "description": "Trial position across the study, 1–114."
+    },
+    {
+      "name": "document_id",
+      "type": "string",
+      "required": true,
+      "description": "Document identifier."
+    },
+    {
+      "name": "condition_id",
+      "type": "string",
+      "required": true,
+      "description": "Enriched condition identifier."
+    },
+    {
+      "name": "enriched_file",
+      "type": "string",
+      "required": true,
+      "description": "HTML file used for the enriched version."
+    },
+    {
+      "name": "degree_value",
+      "type": "integer",
+      "required": true,
+      "description": "Condition index, 1–7; M is 7 and its realized mass/count fields must be used for intensity analyses."
+    },
+    {
+      "name": "baseline_side",
+      "type": "enum:left|right",
+      "required": true,
+      "description": "Screen side containing D0_plain."
+    },
+    {
+      "name": "document_exposure_number",
+      "type": "integer",
+      "required": true,
+      "description": "First, second, or third exposure to this document."
+    },
+    {
+      "name": "randomization_seed",
+      "type": "string",
+      "required": true,
+      "description": "Seed and set rotation used to reproduce trial order."
+    },
+    {
+      "name": "rating",
+      "type": "number",
+      "required": true,
+      "description": "Preference normalized to the enriched version: −3 to +3."
+    },
+    {
+      "name": "response_time",
+      "type": "number",
+      "required": true,
+      "description": "Rating response time in milliseconds."
+    },
+    {
+      "name": "session_id",
+      "type": "string",
+      "required": true,
+      "description": "Pseudonymous Prolific session identifier."
+    },
+    {
+      "name": "study_id",
+      "type": "string",
+      "required": true,
+      "description": "Prolific study identifier."
+    },
+    {
+      "name": "allocation_id",
+      "type": "string",
+      "required": true,
+      "description": "Immutable allocation identifier for the participant slot."
+    },
+    {
+      "name": "enriched_side",
+      "type": "enum:left|right",
+      "required": true,
+      "description": "Screen side containing the enriched version."
+    },
+    {
+      "name": "source_document_id",
+      "type": "string|null",
+      "required": false,
+      "description": "Source pipeline document UUID."
+    },
+    {
+      "name": "stimulus_validation_status",
+      "type": "string",
+      "required": false,
+      "description": "Source-pipeline validation status."
+    },
+    {
+      "name": "visual_coverage",
+      "type": "number|null",
+      "required": false,
+      "description": "Observed enrichment ink-mass ratio."
+    },
+    {
+      "name": "target_coverage",
+      "type": "number|null",
+      "required": false,
+      "description": "Target enrichment ink-mass ratio."
+    },
+    {
+      "name": "retained_factor_count",
+      "type": "integer|null",
+      "required": false,
+      "description": "Number of retained enrichment factors."
+    },
+    {
+      "name": "stimulus_sha256",
+      "type": "string|null",
+      "required": false,
+      "description": "Exact HTML stimulus hash."
+    },
+    {
+      "name": "visual_sha256",
+      "type": "string|null",
+      "required": false,
+      "description": "Normalized visual-content hash."
+    },
+    {
+      "name": "factor_ids_sha256",
+      "type": "string|null",
+      "required": false,
+      "description": "Hash of the sorted factor identifiers, recorded for M."
+    },
+    {
+      "name": "model_optimal_equivalent_condition_id",
+      "type": "string|null",
+      "required": false,
+      "description": "Existing D condition visually identical to M, or null for a novel prefix."
+    },
+    {
+      "name": "model_optimal_is_novel",
+      "type": "boolean|null",
+      "required": false,
+      "description": "Whether M is a novel retained-factor prefix."
+    },
+    {
+      "name": "fano_block_id",
+      "type": "string",
+      "required": true,
+      "description": "Document-specific Fano row assigned to the participant."
+    },
+    {
+      "name": "set_permutation_id",
+      "type": "string",
+      "required": true,
+      "description": "Permutation of the three assigned conditions over sets."
+    },
+    {
+      "name": "assigned_condition_triple_json",
+      "type": "json",
+      "required": true,
+      "description": "The participant-document condition triple."
+    },
+    {
+      "name": "within_document_visual_duplicate",
+      "type": "boolean",
+      "required": true,
+      "description": "Whether M and its visually equivalent D condition both occur in the participant-document triple."
+    },
+    {
+      "name": "spatial_rating",
+      "type": "integer",
+      "required": true,
+      "description": "Raw left-to-right rating, −3 to +3."
+    },
+    {
+      "name": "planned_fixation_ms",
+      "type": "number",
+      "required": true,
+      "description": "Planned fixation duration."
+    },
+    {
+      "name": "planned_exposure_ms",
+      "type": "number",
+      "required": true,
+      "description": "Planned simultaneous stimulus duration."
+    },
+    {
+      "name": "actual_exposure_ms",
+      "type": "number",
+      "required": true,
+      "description": "Measured simultaneous stimulus duration."
+    },
+    {
+      "name": "preload_ms",
+      "type": "number",
+      "required": true,
+      "description": "Time used to preload and size the pair."
+    },
+    {
+      "name": "attempt_count",
+      "type": "integer",
+      "required": true,
+      "description": "Attempt number after discarded timing attempts."
+    },
+    {
+      "name": "stimulus_scale",
+      "type": "number",
+      "required": true,
+      "description": "Common scale applied to both documents."
+    },
+    {
+      "name": "source_viewport_width",
+      "type": "number",
+      "required": true,
+      "description": "Source stimulus width in CSS pixels."
+    },
+    {
+      "name": "source_viewport_height",
+      "type": "number",
+      "required": true,
+      "description": "Source stimulus height in CSS pixels."
+    },
+    {
+      "name": "fitted_content_height",
+      "type": "number",
+      "required": true,
+      "description": "Pair-locked content height used for fitting."
+    },
+    {
+      "name": "left_content_height",
+      "type": "number",
+      "required": true,
+      "description": "Measured left-document content height."
+    },
+    {
+      "name": "right_content_height",
+      "type": "number",
+      "required": true,
+      "description": "Measured right-document content height."
+    },
+    {
+      "name": "trimmed_bottom_whitespace_px",
+      "type": "number",
+      "required": true,
+      "description": "Unused bottom whitespace excluded from fit."
+    },
+    {
+      "name": "fullscreen",
+      "type": "boolean",
+      "required": true,
+      "description": "Whether the browser was in fullscreen mode."
+    },
+    {
+      "name": "display_info_json",
+      "type": "json",
+      "required": true,
+      "description": "Display and browser quality metadata."
+    },
+    {
+      "name": "responded_at",
+      "type": "datetime",
+      "required": true,
+      "description": "Client response timestamp."
+    },
+    {
+      "name": "study_version",
+      "type": "string",
+      "required": true,
+      "description": "Deployed study version."
+    },
+    {
+      "name": "received_at",
+      "type": "datetime",
+      "required": true,
+      "description": "Server receipt timestamp."
+    }
+  ],
+  "records": []
+}

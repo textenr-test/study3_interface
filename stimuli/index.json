@@ -1,0 +1,3169 @@
+{
+  "generated_at": "2026-09-07T17:23:58.724Z",
+  "document_count": 38,
+  "condition_count": 8,
+  "documents": [
+    {
+      "doc_id": "P1_DOC_A",
+      "file": "stimuli/P1_DOC_A.json",
+      "source_document_id": "19fa6de1-8dc3-4835-a189-d2e8796fb214",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "eeec89746314e34a08541bf99bd80af0e0c595b74dce017c88b7dc8f353c7507",
+        "D1_derived": "6e385c52d93c65744fe177a14b4c0a7c3cac040e25014093fed8c2e86b9f0138",
+        "D2_derived": "037afcb451211fb1b0df5675e92e0ac1a65acf2d640bda9705aa58e493701aed",
+        "W_writer_optimal": "85683be42555780e4362ddbfd1b69aedafeefcf97e2a22c9c5022c227d960f32",
+        "M_model_optimal": "94256fcfbe8412cc2930e5498bccc8d12a199bb035a0e68fc1ad5b70e8fee46d",
+        "D3_derived": "a3d9613502b765249bbe5d932e3b202f083bad376dbe66ab43961f994296e6cf",
+        "D4_derived": "b36562228cfa8e0897a3a9c7a999f99859857d78f0ea59f8037f81830427523c",
+        "D5_maximal": "92bd54d4108d9ab4696791494b091f0ca4bdcd17ee14cfe1ab99fd024cef48e2"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "a5d993572d5c08e429b06e63ad7409b38678880e5d38d07a4ece9cda62c6734c",
+        "D1_derived": "a215479dff2d2ccc1d259571021821e01e3357377c9ecd100f595a9e5a092844",
+        "D2_derived": "1dbd4ca9072f91f6d31f4ab7025098283a6ae18482d67bc561a887535dc1a7f7",
+        "W_writer_optimal": "eac72c6647c44b51ef5e7e011e9b86e6a6c6829aef1b3f6cf1d082fb5ae3c8d6",
+        "D3_derived": "f7f657014b7d0761752906c3006c3c5e0067372a31eb4632e896e228854545f2",
+        "D4_derived": "1ea072a447516574a8e8f96e1d026a733eab005c8bcc927bb019cbe23b868347",
+        "D5_maximal": "9e74ea82c2b14b733b202e6d1609bb1cb28f5731ea1d8fdbf946c93fd802227e",
+        "M_model_optimal": "9e74ea82c2b14b733b202e6d1609bb1cb28f5731ea1d8fdbf946c93fd802227e"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.16998049518350447,
+          "ink_mass_ratio": 0.13434439933126344,
+          "retained_factor_count": 7
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.33996099036700894,
+          "ink_mass_ratio": 0.33780152854072126,
+          "retained_factor_count": 14
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.5099414855505134,
+          "ink_mass_ratio": 0.5099414855505134,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 132,
+          "stimulus_sha256": "94256fcfbe8412cc2930e5498bccc8d12a199bb035a0e68fc1ad5b70e8fee46d",
+          "visual_sha256": "9e74ea82c2b14b733b202e6d1609bb1cb28f5731ea1d8fdbf946c93fd802227e",
+          "factor_ids_sha256": "21a3fef01393a85248908d749f9ced58f7a628233613412300118d9abded7c09",
+          "equivalent_condition_id": "D5_maximal",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.6732943237003423,
+          "ink_mass_ratio": 0.67485669930738,
+          "retained_factor_count": 50
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.8366471618501712,
+          "ink_mass_ratio": 0.8380105087174589,
+          "retained_factor_count": 82
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 132
+        }
+      }
+    },
+    {
+      "doc_id": "P1_DOC_B",
+      "file": "stimuli/P1_DOC_B.json",
+      "source_document_id": "fce84f38-049a-4f6c-90fd-1191ccc77cb9",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "1bfd6ade569485d775ac7d92174ca086579a10be8abcaa16ba5ffed54b0bc961",
+        "D1_derived": "f669ee3a6d058056b7c2834757abbf810d5cdafe36e8ee61d7bfe951c84eb9a8",
+        "D2_derived": "08875c280990d391b3dfb2d003303591a3983a148a6fa041ba70d5453b10f79d",
+        "W_writer_optimal": "c1d30ecb0c963124ef2e788d866a908e7e5e7d34fd8e4cab6aef45fa5ffb4cc5",
+        "M_model_optimal": "37805299a26f8e59fbd1cd16fb78e47bb8e8dcc6ec0242611bc34ac782bbf0ce",
+        "D3_derived": "26bcadcfa838a1d49837b9ce889f8da7884a0644c512e7e3399151df4b6c541f",
+        "D4_derived": "0e660c2c32c7b233b825c9224b32532568ca954a2ed808d4f14e379dc57c5f96",
+        "D5_maximal": "ec6388707b50c97dd1def4922c8b4a21f5f30d592d889c8012023eae3032e606"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "01779c8ed37128dac75b06b283d4ae1e5fd03dd96c4dcd8f1cb7eecded982fe3",
+        "D1_derived": "c8730b86a53395670d3690c0cdc9f374199a68925107c247123ca60b026327ae",
+        "D2_derived": "090ff25add48ad942cea3dccce7aa36fbc8b078cf229f46a08b883b7620928f3",
+        "W_writer_optimal": "e2043fc216c1f9e94ce5a0d9c300d64c9161ea82581c86f4afe779b8079cba37",
+        "D3_derived": "5b43c7d6a4d578075acd6cd3f60d0bd0af94c5f65da340749cfad9886a042774",
+        "D4_derived": "791ae60e8d02cce698a5a2d8b4d19f69b05d9eedcc7e9904d18bb25ef98c1010",
+        "D5_maximal": "44797546ff81e87c07efde285bddca8d206844df2cbeb09486960b8ebc6f9525",
+        "M_model_optimal": "791ae60e8d02cce698a5a2d8b4d19f69b05d9eedcc7e9904d18bb25ef98c1010"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.23889209463358335,
+          "ink_mass_ratio": 0.2463935372186959,
+          "retained_factor_count": 6
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.4777841892671667,
+          "ink_mass_ratio": 0.48384304673975764,
+          "retained_factor_count": 13
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.7166762839007501,
+          "ink_mass_ratio": 0.7166762839007501,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 0.7966101694915254,
+          "retained_factor_count": 47,
+          "stimulus_sha256": "37805299a26f8e59fbd1cd16fb78e47bb8e8dcc6ec0242611bc34ac782bbf0ce",
+          "visual_sha256": "791ae60e8d02cce698a5a2d8b4d19f69b05d9eedcc7e9904d18bb25ef98c1010",
+          "factor_ids_sha256": "335b6ad90a966efebd162452cbe90168c729d1d733250523f4d3ea0b05efc3ee",
+          "equivalent_condition_id": "D4_derived",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.8111175226005001,
+          "ink_mass_ratio": 0.8346797461050202,
+          "retained_factor_count": 36
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.90555876130025,
+          "ink_mass_ratio": 0.9134448932487017,
+          "retained_factor_count": 47
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 59
+        }
+      }
+    },
+    {
+      "doc_id": "P2_DOC_A",
+      "file": "stimuli/P2_DOC_A.json",
+      "source_document_id": "ff8bd05e-121e-41b4-a2f5-06898562218e",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "d543e06e5c1dbf352b487c6d2a71364b275b78f513a293be1f2049c56f7df742",
+        "D1_derived": "8d9cd8e47b72944a33af5a5149abb47c17de8241708026573ed4b029fa9f8c97",
+        "D2_derived": "c8bf43bc55469d27e136f3b1f8e5fc926f2bf5f8bd8f0d0052a928e85987c106",
+        "W_writer_optimal": "64bdf5f6fecb5d3cb5ad539904cef0fb7cf09f36ab77e1f961bb1c8e18dc0a5f",
+        "M_model_optimal": "d37846b35d457dd97bda89ef6687374b57e6e71660cf85b29e412cbf58f1832c",
+        "D3_derived": "8fd753ee4efdf8583176f47474f911c06f0599499889649dbc954f3da7199b8a",
+        "D4_derived": "5c949890722c91605257073bf3e8b875099d6c45687e6b1274f4b1f8ae4652bf",
+        "D5_maximal": "c13f0757e61ed5c44d51f64e2de156575197f0956f16d11b4385a1cbda003e9b"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "51309f1db06ae0392c8191e15b567777ae0bbb2f784f0a337f8d14d0eef006cf",
+        "D1_derived": "194fa9992165089c781ae99e884c28d0be5a7369569c8815216b5b384efc699c",
+        "D2_derived": "fe38c1e36f56df199ea47ecc9e3cb1521394da18e938c77f838a7535fa6718cd",
+        "W_writer_optimal": "75990853f11849524034b626237c1cb15a289172d054cb88f48029ab034a16ee",
+        "D3_derived": "465681c7705954221c3ca4f66ff57dc764522ccc6b1d73c37d4ef6e41517cde4",
+        "D4_derived": "4554362f082d17e2759df0ccd56c57c33272bd1bc00c9280e038af6996946804",
+        "D5_maximal": "9821a3fbb5caf5b78603c0ebf0f461c94391337b72524e921cedbdfa5518a474",
+        "M_model_optimal": "272e82e712256c6c598e436ac84efa87d05ecb3949a97a8f17524aefe8b2ec43"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.2802626496716879,
+          "ink_mass_ratio": 0.23476245654692932,
+          "retained_factor_count": 3
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.5605252993433758,
+          "ink_mass_ratio": 0.5534183082271147,
+          "retained_factor_count": 14
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.8407879490150637,
+          "ink_mass_ratio": 0.8407879490150637,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 0.14084507042253522,
+          "retained_factor_count": 10,
+          "stimulus_sha256": "d37846b35d457dd97bda89ef6687374b57e6e71660cf85b29e412cbf58f1832c",
+          "visual_sha256": "272e82e712256c6c598e436ac84efa87d05ecb3949a97a8f17524aefe8b2ec43",
+          "factor_ids_sha256": "0386d0e84d95f909cd364bcde59baef7dc530930af778bd84f5cf13988796352",
+          "equivalent_condition_id": null,
+          "is_novel_prefix": true
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.8938586326767092,
+          "ink_mass_ratio": 0.8882966396292005,
+          "retained_factor_count": 54
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.9469293163383545,
+          "ink_mass_ratio": 0.9450753186558517,
+          "retained_factor_count": 61
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 71
+        }
+      }
+    },
+    {
+      "doc_id": "P2_DOC_B",
+      "file": "stimuli/P2_DOC_B.json",
+      "source_document_id": "2de1d17d-57c3-4e4b-8ff3-5e09cae2b8f0",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "1d45ecd1fca4a183847af72edb60a36d733c93476d901b0f67d1c7f2d510571c",
+        "D1_derived": "7fb37f9fc43f87c01383c7b668840a909781018a7a6b73deab66a6292bf86763",
+        "D2_derived": "25fbaeb985a8dd7ed7f5d9706039c5a297de3355c809097185381d19e08f0dfa",
+        "W_writer_optimal": "b0bdf7497da29b562f89bf17dbf1de0e0b6bfc0fbe9d822ee2b1bd860ba46a01",
+        "M_model_optimal": "51baa0cbe4af5e36ad9c774550d7dd284a76868f20044a0f0278777a5c0df609",
+        "D3_derived": "0589061af45fda166d426f8a653e68b71c3d36048907295487d6a2c55404a822",
+        "D4_derived": "299d17f245f06c9d6dd4857947d3f3562c6d055dba1f6e0fc0dec350fce3305b",
+        "D5_maximal": "6debfcc01d6720006d8f50cf029e0e84ca2206db641c7bed5934a83705ae6ee1"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "e1b6e8fa53e9d28321f06e90cb4bfc82166c6fe82dfd1ef81ffbdd2968618c19",
+        "D1_derived": "19bf728c2d0f502dead5a39379e1391ba0f3e309e5d2da45ef5bacd0693b57a5",
+        "D2_derived": "b4904fbbe5671519e01414af57602a48d5f1617b81c87bca0fa9499f19224f2c",
+        "W_writer_optimal": "62fdb7d19faeb4158102d4a74f5e27f6167f418940a83a0b32e9648fe9e226f5",
+        "D3_derived": "33020710998729d22857326aa8ddef4d3d5bc7f834c02024964e2509027e61e1",
+        "D4_derived": "4760e87e1ad49ad3f7e0114a6db71e3ebb1c25f7e12f072b5b0fdcd5b621e257",
+        "D5_maximal": "8c086b83ac03f9ede4ae03a3aefa9bdd19a9043a375545a2d7d0e641e6bfbe58",
+        "M_model_optimal": "8c086b83ac03f9ede4ae03a3aefa9bdd19a9043a375545a2d7d0e641e6bfbe58"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.206710379666218,
+          "ink_mass_ratio": 0.1469798949151071,
+          "retained_factor_count": 4
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.413420759332436,
+          "ink_mass_ratio": 0.41722176386295545,
+          "retained_factor_count": 8
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.620131138998654,
+          "ink_mass_ratio": 0.620131138998654,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 59,
+          "stimulus_sha256": "51baa0cbe4af5e36ad9c774550d7dd284a76868f20044a0f0278777a5c0df609",
+          "visual_sha256": "8c086b83ac03f9ede4ae03a3aefa9bdd19a9043a375545a2d7d0e641e6bfbe58",
+          "factor_ids_sha256": "cd7af4c997477da62332bbaa9fe3f3378ed3966cbc30bc5424b6c512eb8f953d",
+          "equivalent_condition_id": "D5_maximal",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.7467540926657693,
+          "ink_mass_ratio": 0.7353423943723133,
+          "retained_factor_count": 26
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.8733770463328847,
+          "ink_mass_ratio": 0.869078118893569,
+          "retained_factor_count": 44
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 59
+        }
+      }
+    },
+    {
+      "doc_id": "P3_DOC_A",
+      "file": "stimuli/P3_DOC_A.json",
+      "source_document_id": "18778b32-bf46-4737-8fcd-80c1c23b0eeb",
+      "viewport_width": 900,
+      "viewport_height": 1025,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "c503bed41ae6cded883d225ac128ae081e5265107b324b6dd20b4f6634af1382",
+        "D1_derived": "14a1aec9061f4fb6bdbc01249a035b6645d0e43b05f6051c7a996d3644e64d3c",
+        "D2_derived": "50dd267ff8a87c070cd06818b52a51d996191704edfc25f163f280ddf769a35a",
+        "W_writer_optimal": "b1b673a5df6c7d979580c7282c89f9c262e4811e5bd8229b07663ed7fe6c61bf",
+        "M_model_optimal": "0f3b2b74f3d7524adfca262ba74d478afeaf039f34a5e9d7f29d21e7dc611efa",
+        "D3_derived": "16fbabfa49eefabf88c0c0f453f14ce22af6a7d9ea10306e007103d4aca581ab",
+        "D4_derived": "3c86fac4ea34ae1b531f64649bb63f2fbda7e9e525a0120a9e14ef2d8ab252b5",
+        "D5_maximal": "c1afe5a065fd52f975f50257d0681307ce96d273a0ec798bf1bbec475fae309d"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "1c7218ef1242d18a6a97c16dee0ca8bb1438e05c946a4068833cc4c0ba2abf47",
+        "D1_derived": "09443c15c64575a03baa945ef7c8ba417c804e87c8bf0d88d6af52cc5cefcfc7",
+        "D2_derived": "8ef58474ce9fda389ef0d5a5290c2162bf0173653380f7d2a16ec73b57158e8c",
+        "W_writer_optimal": "680ace304646b61051143562c3d45773773af8bbb5233aa7262cdd37880871e7",
+        "D3_derived": "3ce480f3ff0842488b0fc17d00197d8372d4b95a320e0c5d266d63a4290ea7f4",
+        "D4_derived": "7b022493d38970c59c3717ce746019e2235ddbbdc12f2185f37b04fe2a8211f1",
+        "D5_maximal": "17acd09d4baf1ecae4546a140d0f45dbbf05683b1ca8a1902c2dd649d08ce722",
+        "M_model_optimal": "7b022493d38970c59c3717ce746019e2235ddbbdc12f2185f37b04fe2a8211f1"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.08903565738204039,
+          "ink_mass_ratio": 0.008873592713925888,
+          "retained_factor_count": 1
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.17807131476408078,
+          "ink_mass_ratio": 0.09216704965531025,
+          "retained_factor_count": 2
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.26710697214612117,
+          "ink_mass_ratio": 0.26710697214612117,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 0.4444444444444444,
+          "retained_factor_count": 20,
+          "stimulus_sha256": "0f3b2b74f3d7524adfca262ba74d478afeaf039f34a5e9d7f29d21e7dc611efa",
+          "visual_sha256": "7b022493d38970c59c3717ce746019e2235ddbbdc12f2185f37b04fe2a8211f1",
+          "factor_ids_sha256": "82d1c294d994dd9486abf052d9e8e80678dba3e41709806b3307e224b1e8a467",
+          "equivalent_condition_id": "D4_derived",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.5114046480974141,
+          "ink_mass_ratio": 0.513288040763313,
+          "retained_factor_count": 7
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.7557023240487071,
+          "ink_mass_ratio": 0.7298037029831047,
+          "retained_factor_count": 20
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 45
+        }
+      }
+    },
+    {
+      "doc_id": "P3_DOC_B",
+      "file": "stimuli/P3_DOC_B.json",
+      "source_document_id": "97c3543a-2392-4c17-a1b5-1df07d2a05d4",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "d2855f2e2c4241b797ab64a756a3bcd4dfbf02585a242994a4f386d60ceffd68",
+        "D1_derived": "ad5225cdc6cb7e11b6ba8213236e1fbb8b0ed01bd610bb388948fddf1fcbefe6",
+        "D2_derived": "cfe29f4f0054bd822db36bc36f0076872449694823e3e2e450fd982b7ff5a628",
+        "W_writer_optimal": "2450116b01b7560ac507200243a961adf6f16451c8ba2c48bba4983a794abaef",
+        "M_model_optimal": "b06642ff993a5b798c86ae1b3143f42f47c5f56fcafc5ec97c3be71c5f6ab3d0",
+        "D3_derived": "b8d8d0605b01075764c759df47125919f5500a1080901a19ee4a0c5380afd2ab",
+        "D4_derived": "8857b629fc799e2d63708bcc8176513ddf55995f9475433244f06d20b76251d6",
+        "D5_maximal": "f1e5d5458f0b7089909d6e7dd28a79577a77c0d8d1cb5165d6614c2ec5d4030d"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "654b8022ea6d9f070ff957c24df5833ac012f67cdb915f5a8d70d380bcc70e82",
+        "D1_derived": "c9e46439ef7badc6026dbae4875a50f1243ecce886ffbdde98fe4df8806ce734",
+        "D2_derived": "5c60b03957d211b7765fa597f103465037f2cb233c7dcb01068b576c222395bc",
+        "W_writer_optimal": "bea9013a39f8718c7025b343a01450a4f7e5f50b7a1673433e09650123ddc2c3",
+        "D3_derived": "2441b5e3a662bee64e57a4ae5bc5082916df91d7a11c02507d5a35196185b8f5",
+        "D4_derived": "ca70ad0a0d046db62d9c8964b596d605874bf0ad678e93237d060ae9cd89e58a",
+        "D5_maximal": "2d5095d36ad3ef3756aebe44668dec2f8f3b3dbdac3f5310ba5b1cf893a5756b",
+        "M_model_optimal": "68208dcb9cc99526a1ab45aa1fcc0e680e52a96a6edc0b7800934a717ab288f0"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.1462226470934877,
+          "ink_mass_ratio": 0.1147643492267198,
+          "retained_factor_count": 2
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.2924452941869754,
+          "ink_mass_ratio": 0.25422979715307154,
+          "retained_factor_count": 5
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.4386679412804631,
+          "ink_mass_ratio": 0.4386679412804631,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 0.5,
+          "retained_factor_count": 18,
+          "stimulus_sha256": "b06642ff993a5b798c86ae1b3143f42f47c5f56fcafc5ec97c3be71c5f6ab3d0",
+          "visual_sha256": "68208dcb9cc99526a1ab45aa1fcc0e680e52a96a6edc0b7800934a717ab288f0",
+          "factor_ids_sha256": "a69e3752c7087e7df19d517e947bad946e67521d6b1e2841d36db5825a860169",
+          "equivalent_condition_id": null,
+          "is_novel_prefix": true
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.6257786275203088,
+          "ink_mass_ratio": 0.6512643557743935,
+          "retained_factor_count": 10
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.8128893137601544,
+          "ink_mass_ratio": 0.8152999489281458,
+          "retained_factor_count": 19
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 36
+        }
+      }
+    },
+    {
+      "doc_id": "P4_DOC_A",
+      "file": "stimuli/P4_DOC_A.json",
+      "source_document_id": "a16f413a-4c54-4b25-9a0d-454b3bcfda0c",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "9b0face2a004c79147f3869f80323a641aa57840a5f76fb76437d17d9eb0577f",
+        "D1_derived": "3a8a81c7828848e9fe577878c7d37b7b5da19a4e023a6c24f498c3cb96e77bc7",
+        "D2_derived": "bd1540e8b1d0f0d99e0b5c68c2b440ea6c2994aab0b3a89688ff64058b905a40",
+        "W_writer_optimal": "6b640680129c600142dfa5a1eeaf789bdc8e63155dc31d31b7c4ab19af1a1183",
+        "M_model_optimal": "ecd2486ace4a5478a62551ff25198367e48c7bbccfc4fa88a726aaf056320041",
+        "D3_derived": "6d7d6f2456dedc371c2867f75fd0457c4840b76e8b21ab4c224365ded224bcc5",
+        "D4_derived": "1c0b74e8f0a77cb4aaeffc6edff5b98f34a3302043d8fe31d0547837191fbcdd",
+        "D5_maximal": "2067f73f9d6aa61bf52f3dd2a7caede727e5aa948a838865f6db79afe5f0e895"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "bcac378179ba75a9cc3b74aba28d40816bee3eb834435691dd78d28b99518620",
+        "D1_derived": "8b217ab444ddf76a9aa9944f4146ed8011e63a577c3bbf5297eeda7921c62adc",
+        "D2_derived": "3a306c05b5d576379c18bff18a12dd396f85519aee9d26b532e3e9c87b59d4ae",
+        "W_writer_optimal": "ae8c9f3923d336b02a00197977bc7aa0c06c30f91481307cf3ab7158dcd25a8c",
+        "D3_derived": "d9220e0da4be24729481d9b3df817655101e0c64e85d3ca60abafe20976b33a4",
+        "D4_derived": "cef3721d9cfcd624f7189496a0fa60db1e98108d3d87b65cd22c28dc4b593785",
+        "D5_maximal": "1d379aa0f7d7165127f088ea1344afe432e929f5bf2167e6aee6c7148f76888b",
+        "M_model_optimal": "cef3721d9cfcd624f7189496a0fa60db1e98108d3d87b65cd22c28dc4b593785"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.2629768605378361,
+          "ink_mass_ratio": 0.294914051011612,
+          "retained_factor_count": 4
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.5259537210756722,
+          "ink_mass_ratio": 0.5059834693981036,
+          "retained_factor_count": 9
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.7889305816135084,
+          "ink_mass_ratio": 0.7889305816135084,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 0.8846153846153846,
+          "retained_factor_count": 23,
+          "stimulus_sha256": "ecd2486ace4a5478a62551ff25198367e48c7bbccfc4fa88a726aaf056320041",
+          "visual_sha256": "cef3721d9cfcd624f7189496a0fa60db1e98108d3d87b65cd22c28dc4b593785",
+          "factor_ids_sha256": "69f340c14d05c8ec4980ea84465c1d64a6b0b5c13293691126e55ffd86e9f024",
+          "equivalent_condition_id": "D4_derived",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.8592870544090055,
+          "ink_mass_ratio": 0.8459763703666142,
+          "retained_factor_count": 20
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.9296435272045027,
+          "ink_mass_ratio": 0.9178540641955276,
+          "retained_factor_count": 23
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 26
+        }
+      }
+    },
+    {
+      "doc_id": "P4_DOC_B",
+      "file": "stimuli/P4_DOC_B.json",
+      "source_document_id": "e358f75d-35ef-4240-bdd9-576597bf3943",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "5e10b95d0ea40866bf9e711b49b8ce2f65b7911210362d84790c372d2616e8f5",
+        "D1_derived": "d6e9aaeee3821ffe8cd9f96e1ba03a805925f10784bf377f67b595476a87272d",
+        "D2_derived": "dae880252ddbbcd4722020592398bdd2485ab30e84e295b32df35b23c3fa4853",
+        "W_writer_optimal": "2b435328d6f227127f158c79cad0594346e900ac2e5adae77a1c33eb652d1e46",
+        "M_model_optimal": "59fb3ca716afd7d0aad46b9b605f9f969cbfdd96f6a65af2596fae7ad7ec7cc1",
+        "D3_derived": "531f7e897c7d7ee3cb3c28569068c51af05020aca0aeb67899ca7bcb7496a337",
+        "D4_derived": "d831c2ce9fa60f1791fbab2e88b5caf3895b2e4c06cb6421c38984d1b25de0b7",
+        "D5_maximal": "819616197063b8e26daf3f3dff37b871005134168f7dff303e982950930c98ec"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "153db4b10f44d2b35c9dff759ea30d1ef68df3dc21419ee35da39d7c680a65d0",
+        "D1_derived": "1f1a6aefdf690edfbcc0c79c9603f2486865384783ce87585a3d66807d5babdc",
+        "D2_derived": "c75af76b7001f3ea60c18b2ca50460d4a1785fe04f3305bcabb4facf88848e26",
+        "W_writer_optimal": "f8c426a2230795b3aef11d642c834cac1b2ef42534c5eb8ed4d267df3608a3f3",
+        "D3_derived": "f26679af59fbbd4337271ef86c4bac504ad1600c8abbf3d391e51d1a1ab8d5ea",
+        "D4_derived": "1f3ea7dfe51e55d4d5e05f1fd7873acc64ee2335ff64857c9253092a69bc8bea",
+        "D5_maximal": "6ba9424ccedff4f0277db81c59462bd8ab6fe951b336aad4f1e10d0b1ed46565",
+        "M_model_optimal": "6ba9424ccedff4f0277db81c59462bd8ab6fe951b336aad4f1e10d0b1ed46565"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.23150082974632558,
+          "ink_mass_ratio": 0.23295810182287408,
+          "retained_factor_count": 7
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.46300165949265115,
+          "ink_mass_ratio": 0.4565562799117933,
+          "retained_factor_count": 14
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.6945024892389767,
+          "ink_mass_ratio": 0.6945024892389767,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 50,
+          "stimulus_sha256": "59fb3ca716afd7d0aad46b9b605f9f969cbfdd96f6a65af2596fae7ad7ec7cc1",
+          "visual_sha256": "6ba9424ccedff4f0277db81c59462bd8ab6fe951b336aad4f1e10d0b1ed46565",
+          "factor_ids_sha256": "9f737cd06ea02a1eb358bd022b6f66a1333b482fe02372758d02688b8a980c7d",
+          "equivalent_condition_id": "D5_maximal",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.7963349928259845,
+          "ink_mass_ratio": 0.7993683014434698,
+          "retained_factor_count": 33
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.8981674964129922,
+          "ink_mass_ratio": 0.9025007944379713,
+          "retained_factor_count": 42
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 50
+        }
+      }
+    },
+    {
+      "doc_id": "P5_DOC_A",
+      "file": "stimuli/P5_DOC_A.json",
+      "source_document_id": "10691985-b2d9-4548-92e0-419f718923d7",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "1c922b3d2861362c2041e5ac40d6140ad1fe268c1ff1fb7666fc62baae84c719",
+        "D1_derived": "6b84d9bffb6ef55321e715da6ea428824c0c3070243a92d4c0ee6c444220574d",
+        "D2_derived": "5b24e38c2de6036936051512c3618e44ee3742f399e7848077e052dfc350972a",
+        "W_writer_optimal": "39059929163da76e189d47b97ce8e87c4779b2f8537b14c62d23ec7fb877b284",
+        "M_model_optimal": "93a79f071f72d7454b7aa552445ba89bb31210702181dec5fc1715c4bf6a2f23",
+        "D3_derived": "fa5ae6c4471f5aaf9a3f3c7b7b6a28175df088e3a47f139dbb120df2f56a9ab9",
+        "D4_derived": "c349ee9bf1f6c2edbaed0a0f130f55dff4010ebfab466c9d2c010e32e8901abf",
+        "D5_maximal": "e3239ddb48b732cc49d4707dcda4d858389569c0310c775acb24b258bc49a5c1"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "8e4a4e5a37fbbe22a429117a8636a7e442bb7ff3b704d9b7397bcc587fbb7a82",
+        "D1_derived": "84dd64d0ac1d6cbc473b92b18cfb4dfda09f705c2db1f24848d9e185f305f803",
+        "D2_derived": "5a49c6f6f712700395614257387feea1bf2884c40929358bbe475515facbf2f3",
+        "W_writer_optimal": "4ef1994592347480086acb4ef16652ef6cbb5698fcfb384de1d7055cc42c87a8",
+        "D3_derived": "fd78de2fc49b56d0789ffb96b130f77a39c049251832d9091f6cdf6445f76b88",
+        "D4_derived": "36cbab5462f13ff86e908f9c5dc3c5bdd9e804819e156b69a387abe54905a8ec",
+        "D5_maximal": "b71e5612ca70631cffbebe3d1288e9021f391a8049c54e43abfd39d660e0c180",
+        "M_model_optimal": "b71e5612ca70631cffbebe3d1288e9021f391a8049c54e43abfd39d660e0c180"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.12431655171819973,
+          "ink_mass_ratio": 0.15175780745486012,
+          "retained_factor_count": 2
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.24863310343639947,
+          "ink_mass_ratio": 0.22946641524380268,
+          "retained_factor_count": 3
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.3729496551545992,
+          "ink_mass_ratio": 0.3729496551545992,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 68,
+          "stimulus_sha256": "93a79f071f72d7454b7aa552445ba89bb31210702181dec5fc1715c4bf6a2f23",
+          "visual_sha256": "b71e5612ca70631cffbebe3d1288e9021f391a8049c54e43abfd39d660e0c180",
+          "factor_ids_sha256": "a2c3cbac041523663fe2caf6c32109ce8e67e2f1c5bdd2008ff61edf6f99363a",
+          "equivalent_condition_id": "D5_maximal",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.5819664367697328,
+          "ink_mass_ratio": 0.6229245415694412,
+          "retained_factor_count": 23
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.7909832183848664,
+          "ink_mass_ratio": 0.7911496855779138,
+          "retained_factor_count": 41
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 68
+        }
+      }
+    },
+    {
+      "doc_id": "P5_DOC_B",
+      "file": "stimuli/P5_DOC_B.json",
+      "source_document_id": "36f78c2a-3a51-4dfa-ba5e-65d552d89009",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "d47f131816233d8395ec5efd005f35e2bcda4607d90c82f715bba95661e06a81",
+        "D1_derived": "220227fca177822c0a8a0038e00288d95c7cb8077699b3d5cd1ec39dfa39977b",
+        "D2_derived": "cb590e9de2f20db3c9324ef991f16daa50bd31dcc9761703c4454d8aeac4724d",
+        "W_writer_optimal": "ff1f260b735587d1744202ea801f009250f9254916fc816ca0171830c974e221",
+        "M_model_optimal": "92dbedafa92a928ee379c98b08bce5aeb81393a9a6d06d7810d6a012daf0442c",
+        "D3_derived": "061635ba469d7ef9b78463dee920be4291435e28170127acaad0149896a3c187",
+        "D4_derived": "1802e405f72911524b961d56600ce10e54785f055180f46fdc56600cbccdec99",
+        "D5_maximal": "ec1677c5f64af6856164cfed7bb7bf31bd122f5223717bcb51211fae1fa61752"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "bd4492003df470468b7d2959b915e9cf5563b09a4635fec4732677f4adf6ee76",
+        "D1_derived": "2d517806a32363b891a561a1392e504b110c3df1da0c6d89d2c009940c7f8cf7",
+        "D2_derived": "a5be1b5c7c06d50cebdc56dce3f7cf78bf0f3a1b817d5a8448816de9573a471c",
+        "W_writer_optimal": "156f1f810395c3a49d81a046c7be98ade78b543b5dc95d16a076bd599a874986",
+        "D3_derived": "d8537afe4364af3a4d950e9d32daaa6fffae645e1b57572a0366cece0ceee1c5",
+        "D4_derived": "a85e8aedb050c7d62b41f7e940111b2396e9389c01d5c340739c81e9ea91214b",
+        "D5_maximal": "3d33c17d4f0af5251dd5ed7d0f00453f277883d2239e14b67d2d5191f444b0d8",
+        "M_model_optimal": "63ec62025c5ffaae72c031b8a516a01f05fc3ac36a8e6cd1a2cf0e5c50381ef4"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.12058860207008357,
+          "ink_mass_ratio": 0.12158623269734382,
+          "retained_factor_count": 1
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.24117720414016713,
+          "ink_mass_ratio": 0.2553726566072246,
+          "retained_factor_count": 5
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.36176580621025073,
+          "ink_mass_ratio": 0.36176580621025073,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 0.234375,
+          "retained_factor_count": 15,
+          "stimulus_sha256": "92dbedafa92a928ee379c98b08bce5aeb81393a9a6d06d7810d6a012daf0442c",
+          "visual_sha256": "63ec62025c5ffaae72c031b8a516a01f05fc3ac36a8e6cd1a2cf0e5c50381ef4",
+          "factor_ids_sha256": "7fbdb06278b499b5edcf151037fec3e36965e7df9c42bd53e7890794c86e53bf",
+          "equivalent_condition_id": null,
+          "is_novel_prefix": true
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.5745105374735004,
+          "ink_mass_ratio": 0.5677557467680926,
+          "retained_factor_count": 16
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.7872552687367502,
+          "ink_mass_ratio": 0.7895622895622897,
+          "retained_factor_count": 37
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 64
+        }
+      }
+    },
+    {
+      "doc_id": "P6_DOC_A",
+      "file": "stimuli/P6_DOC_A.json",
+      "source_document_id": "690ba15c-3fec-4483-b463-bdbb44c92c83",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "warning",
+      "source_html_sha256": {
+        "D0_plain": "c368edd6ac6a32211f6b85af8cbe99394cd06de1945835837ee5cd86d1e9d7c6",
+        "D1_derived": "e9b67608e70b234109b401a7d1e0cdfd52e48e0592bdd4d930eadd41e6722c2a",
+        "D2_derived": "308781d7fb6ba217dbe82badde9b291996707e1f9166f19b184d242d931d6193",
+        "W_writer_optimal": "7869056f130c3f85a9dbacc369719efd884bd55ccac58a9ea412e5963880f3bf",
+        "M_model_optimal": "76ef98bb37c287d110814b9860edd1f5977836f474f79c8a5d4acb04f8a257a2",
+        "D3_derived": "00e098cd6b4bce9bccb2d708ac887bbc4fe3122e702d4a2491e9829fd3275681",
+        "D4_derived": "455a82b09ccfc1beeecac012b47d5aa0effa804c3b1d2c4187bdc462e0808f9c",
+        "D5_maximal": "b9ad45ab6cb449c0ce7fa2f587e0fe9c8484b9738670e9e440a2fa9487110b86"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "c3610ee01ed5864983cd65124d1dce265e38c8d5dcbc9e69d9f67a85353b50b4",
+        "D1_derived": "41578946145ff6a4ddb9e9cc83854e48818a783567c719981489b38588270a12",
+        "D2_derived": "535f44780b283d01346cad3e49af3101181ac6478d80673ee7920d2b0212f73c",
+        "W_writer_optimal": "7148733f98ab24aa50095aaf878f3845b853a3d4c67659c731aeb53207e1b262",
+        "D3_derived": "5706a3fb0e0bdfbca3c1e6d261024b4f054f4d233050830d32c3836e62e131c5",
+        "D4_derived": "95d9105b7bde7d0a689444899c01f860cc51be512bf4c16fd9096fe5d63e378f",
+        "D5_maximal": "e345845d1b8f1079b0434fe02a612ae28f7efcc361a3da442d7d784957f36e5c",
+        "M_model_optimal": "95d9105b7bde7d0a689444899c01f860cc51be512bf4c16fd9096fe5d63e378f"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.2933506085345738,
+          "ink_mass_ratio": 0.37328483788888706,
+          "retained_factor_count": 4
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.5867012170691476,
+          "ink_mass_ratio": 0.5873074101247249,
+          "retained_factor_count": 36
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.8800518256037214,
+          "ink_mass_ratio": 0.8800518256037214,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 0.9634146341463414,
+          "retained_factor_count": 79,
+          "stimulus_sha256": "76ef98bb37c287d110814b9860edd1f5977836f474f79c8a5d4acb04f8a257a2",
+          "visual_sha256": "95d9105b7bde7d0a689444899c01f860cc51be512bf4c16fd9096fe5d63e378f",
+          "factor_ids_sha256": "dd7fa57a190fd0543c638ab68ecd18ce0c4dd65313d7dc13d47e4b15ab01249e",
+          "equivalent_condition_id": "D4_derived",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.9200345504024809,
+          "ink_mass_ratio": 0.9181639374970731,
+          "retained_factor_count": 77
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.9600172752012405,
+          "ink_mass_ratio": 0.956096532991992,
+          "retained_factor_count": 79
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 82
+        }
+      }
+    },
+    {
+      "doc_id": "P6_DOC_B",
+      "file": "stimuli/P6_DOC_B.json",
+      "source_document_id": "8fbb3db5-313a-4d21-bfb3-6b6a5ddc5a62",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "f1a641bc1e46fa14b86f67ac5d158fa52e0eae2bd8e1e20e6f00e03cbd959996",
+        "D1_derived": "3f09fbf746682d38cfcea5920060ac76dae8f58703a374b0680b3e8d15fe99ea",
+        "D2_derived": "4c71ed82b52030fca49fac4ce6f9b658c97b11ef05b24dd8058fb9d728c1ae65",
+        "W_writer_optimal": "d8195f4b571597655e8d3af6601530bc337a4d6063687eb774eaf41405cd3a59",
+        "M_model_optimal": "db93235dba5774c4663779cf44d79412a13e74636aaebb4a50a32e47896ac090",
+        "D3_derived": "597f0e668efdc2bdfc3ca1d3824965441fba09a76ec9f664dcd0ff3c05c838b3",
+        "D4_derived": "dcb9de308e9d1a82e6a787d0a0c2b37eee21e38dfa0cbe5724e3689f2b7a6402",
+        "D5_maximal": "79e2e68212d1add74a703781f5ef278afc8b8a3b74700c71be9924c57bb2f13a"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "ed5d14d3330158d559363597b913ee8e2d4685ad8266530a1d1134891488cc2a",
+        "D1_derived": "0ada76484a1e3184e345fc1a9f2c4ee9645fa966b4505208c8b50942602bf81d",
+        "D2_derived": "1a882ac5ca2323fada39ef72a36c6c7d63f5c7868dae637de5741138df3c64ff",
+        "W_writer_optimal": "810b5a6853595f4b369af22b44f7aa08cb9f03abc479bfad315634ca898ae136",
+        "D3_derived": "5c2a1125058af0cb090b4c7b2b2a0e1f3a24208d381d6bad789ac2721fc242c8",
+        "D4_derived": "20c7ce9814813e7e30265ba9c8b34749054c90920a0c015ab176584231fdef77",
+        "D5_maximal": "0028ce73f15aaef1ffd9864986e594462430699e57776be9e384ad6e33819dd1",
+        "M_model_optimal": "5c2a1125058af0cb090b4c7b2b2a0e1f3a24208d381d6bad789ac2721fc242c8"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.2780438732575456,
+          "ink_mass_ratio": 0.28205084731394275,
+          "retained_factor_count": 10
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.5560877465150912,
+          "ink_mass_ratio": 0.573884588974322,
+          "retained_factor_count": 33
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.8341316197726368,
+          "ink_mass_ratio": 0.8341316197726368,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 0.8082191780821918,
+          "retained_factor_count": 59,
+          "stimulus_sha256": "db93235dba5774c4663779cf44d79412a13e74636aaebb4a50a32e47896ac090",
+          "visual_sha256": "5c2a1125058af0cb090b4c7b2b2a0e1f3a24208d381d6bad789ac2721fc242c8",
+          "factor_ids_sha256": "9a7de20fb554b94fec7e9e4dbfd11ac7195304c84eac8ef21bb5a5d20dd6427b",
+          "equivalent_condition_id": "D3_derived",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.8894210798484246,
+          "ink_mass_ratio": 0.8966183738693296,
+          "retained_factor_count": 59
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.9447105399242123,
+          "ink_mass_ratio": 0.947355481896559,
+          "retained_factor_count": 63
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 73
+        }
+      }
+    },
+    {
+      "doc_id": "P7_DOC_A",
+      "file": "stimuli/P7_DOC_A.json",
+      "source_document_id": "35300d3b-071f-4eb2-aa02-21b610737c2e",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "a6893b7a732ecfb3f4e5728d3e3b1e6c5778e9d23a3cd2ad0e1481d17e6abf78",
+        "D1_derived": "af8070ec6146b38889f3487125055263c67aa9e9ab4a636014a6bc4ab9eadf12",
+        "D2_derived": "6ee4a904e3223d691f048cbd352503ea282d628518b4678e494cb246018402ae",
+        "W_writer_optimal": "965392fe7bf1cf3a12bdcaa6fb8851491f3cf958afafbde0c81b5543ed26e218",
+        "M_model_optimal": "b44c41d0560224c9e160b6bcaac110f622400ead2d842c178f37f160e1238c86",
+        "D3_derived": "6f753a02d266a99bbbe7822a5e7151b9ba648f976df20b645f471426dd90f8e5",
+        "D4_derived": "5d4d579c43c7687c063833a7bb8e866c9908f52532113406bfd5525cf9d34f51",
+        "D5_maximal": "d28bdaa1fbe27cf62915c8c08fc4c20ef38bc6028c011de65041558a93dd55b9"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "6a6d928a3ff6e8cd5436eac6927830459d8795fb52bc21093c852f64b1b3ae73",
+        "D1_derived": "2dd3ad0ede8a4e6e61c00f4fe1252dc77af1eedc43935f06579918561bd0b64c",
+        "D2_derived": "74e90053bb68fd4188bdbaa3e52e9734872318ff9e011ded15483f97b1d43d41",
+        "W_writer_optimal": "a3400155b5d55e7a000204e3fb1af143e852bab2275020c2292a9e9659dff8dc",
+        "D3_derived": "53530bb0b9d1a7dd157991ada7333442fd02707290fb89ef75f977163a485c2c",
+        "D4_derived": "eb6897eb6adb5571c9e5cafd4136681312cb82a19bd557c85ed86c5774993cf9",
+        "D5_maximal": "e188724b8b8aa4fbf432786f3879c7e48a12f926ecf0fb401824149aadbb14a7",
+        "M_model_optimal": "1e6afa0ee7809ac3c36cd2b7acd349ff1111a123307ccd54771400f962bbde66"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.24130691858997355,
+          "ink_mass_ratio": 0.2328696137441703,
+          "retained_factor_count": 14
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.4826138371799471,
+          "ink_mass_ratio": 0.4620719894766214,
+          "retained_factor_count": 18
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.7239207557699207,
+          "ink_mass_ratio": 0.7239207557699207,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 0.3076923076923077,
+          "retained_factor_count": 24,
+          "stimulus_sha256": "b44c41d0560224c9e160b6bcaac110f622400ead2d842c178f37f160e1238c86",
+          "visual_sha256": "1e6afa0ee7809ac3c36cd2b7acd349ff1111a123307ccd54771400f962bbde66",
+          "factor_ids_sha256": "5ef8e71307c7c713a2034935ff9eab60f59fc12894cc39700626e38d900f9c44",
+          "equivalent_condition_id": null,
+          "is_novel_prefix": true
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.8159471705132805,
+          "ink_mass_ratio": 0.8146450352772353,
+          "retained_factor_count": 49
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.9079735852566402,
+          "ink_mass_ratio": 0.9073225176386176,
+          "retained_factor_count": 60
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 78
+        }
+      }
+    },
+    {
+      "doc_id": "P7_DOC_B",
+      "file": "stimuli/P7_DOC_B.json",
+      "source_document_id": "bb41eb01-c1f6-4c40-a764-79a79f9beb69",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "7a616da733c50b0c091b0207411b8752cd0b05d85270f09d5e4d480ecb68b539",
+        "D1_derived": "a1b91a58ac825c73fddab735b6af583b55d44514bbdd53ad45c6c731364403f8",
+        "D2_derived": "90a250791e044f9a1c0fef6ef57eca04bb5a7fd7d30b6167023ed2894a9486fc",
+        "W_writer_optimal": "53e05b6bd5924969b19fb45c660a90cec6ef80944328601febd62755f66a877e",
+        "M_model_optimal": "c2fe0870a6d7cc05b22f34dcb517ce81556981adab3ed9a82aaeeb4286d076a9",
+        "D3_derived": "91aa754380ce1c6c9ef927bb2f55f2f4302776e47595543b155c91b230a36358",
+        "D4_derived": "226f5db8a35b3860b2a7d6a930533f9933b9810d3fb89eae4899956bbc77b437",
+        "D5_maximal": "ee7b219c995ccdafb6175a11750c334db4558dddd7e39b87fca22b00dd12e31e"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "4e1215a74905b661643dd0ba7e6837e9928eaaa88ae52ae37c9a8fea3c9c520a",
+        "D1_derived": "eba8def7f06a4974dc432c46ad45dd8c0604498548ba11ea1a6f621adf26bb17",
+        "D2_derived": "0318f64188e0d20e1cad3076aa0f021db5923cf326123af007f0a0594b48e982",
+        "W_writer_optimal": "ed1f3fe2cc26aeff12c7de8635332bbcec0c7ae16befe0a42b22aa4e8c6f3a81",
+        "D3_derived": "2eafd63cd620becddf1e6203eae39a7dbbdad71dab325b698ff8599368de7526",
+        "D4_derived": "1be4559632f4161e54553e9e3cdbd4e018183dfde5c5373df67163745730cf16",
+        "D5_maximal": "43c63f430c7c1efffd62d6e50d05858f5380f730bc51b9f7c18f4e0ab422871a",
+        "M_model_optimal": "1611f04c4c1a71a8ec7c00f25759c8608bbe30acd2c725617a45ddcbc81bd913"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.15393576302213346,
+          "ink_mass_ratio": 0.16475287069395905,
+          "retained_factor_count": 3
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.30787152604426693,
+          "ink_mass_ratio": 0.3145282076884673,
+          "retained_factor_count": 9
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.4618072890664004,
+          "ink_mass_ratio": 0.4618072890664004,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 0.34146341463414637,
+          "retained_factor_count": 14,
+          "stimulus_sha256": "c2fe0870a6d7cc05b22f34dcb517ce81556981adab3ed9a82aaeeb4286d076a9",
+          "visual_sha256": "1611f04c4c1a71a8ec7c00f25759c8608bbe30acd2c725617a45ddcbc81bd913",
+          "factor_ids_sha256": "a276eec96aa00be48a7ec1439ebc578b0cd112ab5004344ce34c779be8b99f53",
+          "equivalent_condition_id": null,
+          "is_novel_prefix": true
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.6412048593776003,
+          "ink_mass_ratio": 0.6542685971043435,
+          "retained_factor_count": 27
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.8206024296888002,
+          "ink_mass_ratio": 0.8127808287568647,
+          "retained_factor_count": 35
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 41
+        }
+      }
+    },
+    {
+      "doc_id": "P8_DOC_A",
+      "file": "stimuli/P8_DOC_A.json",
+      "source_document_id": "b94fa865-36cd-441b-b3a2-7740529af102",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "3706916957b8a2be34f9d0b151c4bb7580ddfa8907cb66436851323c7599a4d5",
+        "D1_derived": "d82d541429e3d2ef949c5625a225d47e3d2af23134df1a225351c025708f5087",
+        "D2_derived": "f65863f0568a2cfc5e0153418d808af7d31bcaa1453ef9c2cd02e98aff923ddb",
+        "W_writer_optimal": "91f6fbe6ea6d3ea496ce87bd52fd9073a90f57daa9ba46f19acc3ba0a3579d96",
+        "M_model_optimal": "65dcd498e626de51494d6de54b2f0ae9830456bbd60cd4dcb875dcffc655a701",
+        "D3_derived": "a177bea8db4a9b7dd9a92b67831ebec90926b6c2975fce741ef8239d69bf8d06",
+        "D4_derived": "41157f2dc8667f5fa0b53ab53a0d5ef4c09870816b61116a8762bb55d9065f3f",
+        "D5_maximal": "9573c5a99f16082b466cc3ea3351d28294ff69953081840b13f324d18a46da89"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "98c64318b46e20e1445fd06987fd209e868993b3d0d98a16c79b82f073efb236",
+        "D1_derived": "6c1893707987b0c438dad0265dc5b8184b00aa9fa86a846cf2777b477e523de7",
+        "D2_derived": "6f8930aa32d0104403422c7a5839e295ef9c0f4da2bbc2cfef1e2fcc2c84c1ce",
+        "W_writer_optimal": "508de1f2fc0e8f9d1d78c6f64b6590822ec8a6ee9f989963134a45777b336173",
+        "D3_derived": "3fbd04cf9e7979d8f6a668be8456f9e7b68875e8323baa9dda8c428736729ba1",
+        "D4_derived": "7c5ff07a5dbb669b45caafe38d91cde65f9f189c36fd9ee47d2b5b37d534a390",
+        "D5_maximal": "9754624ea6b1d8c5712fcc3f7e8ef4c66fb61e3c50478398f56b8963bd71a318",
+        "M_model_optimal": "7c5ff07a5dbb669b45caafe38d91cde65f9f189c36fd9ee47d2b5b37d534a390"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.06842627747030762,
+          "ink_mass_ratio": 0.07982943276477589,
+          "retained_factor_count": 2
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.13685255494061524,
+          "ink_mass_ratio": 0.13082960276534256,
+          "retained_factor_count": 4
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.20527883241092287,
+          "ink_mass_ratio": 0.20527883241092287,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 0.49230769230769234,
+          "retained_factor_count": 32,
+          "stimulus_sha256": "65dcd498e626de51494d6de54b2f0ae9830456bbd60cd4dcb875dcffc655a701",
+          "visual_sha256": "7c5ff07a5dbb669b45caafe38d91cde65f9f189c36fd9ee47d2b5b37d534a390",
+          "factor_ids_sha256": "2722c2be25daecc19fff716455997c9c865b4f81c7ee5a78956f76af9e9cd229",
+          "equivalent_condition_id": "D4_derived",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.4701858882739485,
+          "ink_mass_ratio": 0.42467873041058285,
+          "retained_factor_count": 15
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.7350929441369742,
+          "ink_mass_ratio": 0.7368816229387433,
+          "retained_factor_count": 32
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 65
+        }
+      }
+    },
+    {
+      "doc_id": "P8_DOC_B",
+      "file": "stimuli/P8_DOC_B.json",
+      "source_document_id": "8cd8424f-7f8e-4ef7-9cba-86918b64de22",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "5f75ac681924d89bd9387fa84aa2f975f1c03e418b14921dcead6ba0af3cc5c2",
+        "D1_derived": "7f58705ad2072c7cfcc80c04cfd6555cb95414b8131b7024d4ee0c7b3c9777b9",
+        "D2_derived": "b89142e387801b0fd6ac8c1b83ab681a61ee7b1974f20814990da5ce03b07587",
+        "W_writer_optimal": "0ae822ee533ce51d099fc01b5063d704a69e3ca9c19d8a4ce9294b1ef2b55749",
+        "M_model_optimal": "2d8424cd89e9f67992f6e3284938f42b3eef3801c7368000dfcda26498699e50",
+        "D3_derived": "e8e2acf19b55c42c908e0af8956e3e14b6d61edd2ac0a66b9abdfea248bb3dc5",
+        "D4_derived": "11618313a378408ab27c6f81b3d115fc13116c484580a2fc479c661b0eeeac10",
+        "D5_maximal": "dfd54a2ef5ec63fb222f767e8e2659439b1b063765910f729a2d2adbba2afba8"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "5263887b567306c1af358c374a5fde40ae9de4de9bdc33bac8c07ba2f9bfdd61",
+        "D1_derived": "d9f7ba0158c52cdbfab2fc70589e6ca5efed7001adff48930871bcaf02105937",
+        "D2_derived": "daeb6bbd987cffbc202e2dc529472092978868d7829affa09d6649f7b206fcd1",
+        "W_writer_optimal": "ab5f62167196c3e61c84f4784f157c99ee7cfac69bc800ea01337ee56c288725",
+        "D3_derived": "ff3a8b850c2c8440f5c7b2b94740e7b33102408a4dc9df90c04d6ea2a65913ec",
+        "D4_derived": "42b1db9461edf109a656032f9ed6ae414eef0c9dc0e53c56259e9a539f352fd7",
+        "D5_maximal": "e93807ef2905157b89945920a040d85badd9ab4c2a691253ad11911044261d53",
+        "M_model_optimal": "e93807ef2905157b89945920a040d85badd9ab4c2a691253ad11911044261d53"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.05721220527045771,
+          "ink_mass_ratio": 0.061309405870531304,
+          "retained_factor_count": 1
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.11442441054091541,
+          "ink_mass_ratio": 0.11429703642899605,
+          "retained_factor_count": 2
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.17163661581137313,
+          "ink_mass_ratio": 0.17163661581137313,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 49,
+          "stimulus_sha256": "2d8424cd89e9f67992f6e3284938f42b3eef3801c7368000dfcda26498699e50",
+          "visual_sha256": "e93807ef2905157b89945920a040d85badd9ab4c2a691253ad11911044261d53",
+          "factor_ids_sha256": "e799786008613f7411f56dca375b2d204117a58ee914f5c2373959a1a7aed780",
+          "equivalent_condition_id": "D5_maximal",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.4477577438742487,
+          "ink_mass_ratio": 0.4008321775312067,
+          "retained_factor_count": 13
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.7238788719371243,
+          "ink_mass_ratio": 0.722055535112797,
+          "retained_factor_count": 23
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 49
+        }
+      }
+    },
+    {
+      "doc_id": "P9_DOC_A",
+      "file": "stimuli/P9_DOC_A.json",
+      "source_document_id": "b1e8c8c6-c5ca-41e0-848a-611e20bc7cde",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "32d382fc20eb873790e0afbca13da3d387e4ec1625516da646f72b0d29b9cddc",
+        "D1_derived": "4ac4df2309ebdbfd9caf4804678f05ead10d2ad946a54aeb573d4b30c0bd1c70",
+        "D2_derived": "811a6f63afb126e4047baafb5ad608230d5b9e055b8176d1cf3ed85c1e26e5a2",
+        "W_writer_optimal": "59ad5c167c0e8ba3e918f9d4902c387fc312628225098b067e4f3073bdc21cef",
+        "M_model_optimal": "671f68cd2739bd9a0d8445fe87125da0cd9168ca32677f878f0ab0de24081cd6",
+        "D3_derived": "7eafb23c5713fa330641651d783a4eb0324a8945a047b123f0e528bf7575bcb3",
+        "D4_derived": "ffb8e27e4fc7920019bf391aa1068a60711c7240a87acaccc38644383bd812c3",
+        "D5_maximal": "a2aa22a3ac1d7a92edfdc9e28411a987f44537e713c22ab6f0756f31780155d8"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "4baf2c3dd903045c22e2a236a756780f6bcb87a51166ab7bdfea57259ed5fbbf",
+        "D1_derived": "c5845aa379e0f2578ba027f5c36c589fa0b48164f62a225bf10fb5bce843c785",
+        "D2_derived": "a85ad5103c4090efeba072927411e9d2689987c1e8aab62ee5eea3aa67c3517a",
+        "W_writer_optimal": "806fcd2e89bb623a1811471188305a9d2cda31564ec20f4a6a45ec9c606dca87",
+        "D3_derived": "37743f7cc34c8fd6b7d0e46682f69206fb87bcbdda29721e4283ec325eda659d",
+        "D4_derived": "2e70ae2fe0d4e58592e7618a63d4827875634736ea51d9e343c7ed2a76a0f3ee",
+        "D5_maximal": "e70520f84e4fe1cf2ba60c82220d7c2c4ee00253980090048aef4422d92a2bb7",
+        "M_model_optimal": "37743f7cc34c8fd6b7d0e46682f69206fb87bcbdda29721e4283ec325eda659d"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.18788274633931215,
+          "ink_mass_ratio": 0.19820468590376983,
+          "retained_factor_count": 2
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.3757654926786243,
+          "ink_mass_ratio": 0.35685217129172175,
+          "retained_factor_count": 10
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.5636482390179365,
+          "ink_mass_ratio": 0.5636482390179365,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 0.5652173913043478,
+          "retained_factor_count": 26,
+          "stimulus_sha256": "671f68cd2739bd9a0d8445fe87125da0cd9168ca32677f878f0ab0de24081cd6",
+          "visual_sha256": "37743f7cc34c8fd6b7d0e46682f69206fb87bcbdda29721e4283ec325eda659d",
+          "factor_ids_sha256": "d640e2f8ca5d542e0c85f72832da2187dc26f8b42d243142c2c859aad72391de",
+          "equivalent_condition_id": "D3_derived",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.7090988260119576,
+          "ink_mass_ratio": 0.7204786387767748,
+          "retained_factor_count": 26
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.8545494130059788,
+          "ink_mass_ratio": 0.8617088978580161,
+          "retained_factor_count": 30
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 46
+        }
+      }
+    },
+    {
+      "doc_id": "P9_DOC_B",
+      "file": "stimuli/P9_DOC_B.json",
+      "source_document_id": "134b65e5-8805-40bf-bc7d-01644a8b0612",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "5b07b8a98b46ebd917e04ace0471a7f93c9e1c4ae4cded17d41427cbfde9bc46",
+        "D1_derived": "cd5dcd0e5c96d76b402badfe9db3a8f82b3a3454bd5d726f73b32761f03916d8",
+        "D2_derived": "f1d25d7a43e41500e2ebcc06bad076fc6220cd37e02d0caa4ae3716a4cfb278e",
+        "W_writer_optimal": "1c88288c7d9f47114367ef4ce6a3673163d6b28e5adfd159ff6ff26b9b988567",
+        "M_model_optimal": "ab3a69bdb9442f7fe08e8465790190d6da3e52da67475e576016c47003bc9be1",
+        "D3_derived": "6ace7cf3737a585a5e3340e208cfff6be16b8adfed765180d41ab2f94e4ab2eb",
+        "D4_derived": "b417b4493efd1ee99ee8e399d35df00a3ed102da6096562666557f5bc1c52486",
+        "D5_maximal": "93506133f8cc405390ea293e80d4363c20db97084fca1e86339d0d79cf73c95d"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "c3e422c41afa1a956df8dc4050bfc4ffcfc529e9ea4187c92705677196602f33",
+        "D1_derived": "b9ef40f0c6bc2ce0e5dc242b609bfb3f60bbda46d45dc8458e696914f5f938ec",
+        "D2_derived": "f11e5ad6c2adde237db26e796034f8f6fba911f3ddb94e8a563351b1f3412cfa",
+        "W_writer_optimal": "db487da7b79889749fff784027ddf05956db3aae2b56140babe60985b4f9d921",
+        "D3_derived": "5c11a5f77c2bbf4767563a71d7c72df402a051c5b13e0f656233f5db4c5c1602",
+        "D4_derived": "9c266d0780be56e0e21443a9d2efa7a4ac53ca23a770a7b05f739063d78aeeb4",
+        "D5_maximal": "9c97625558e3b94d98fc5a8b0acc7f031e3ee9a7f134693848e243e7e2accea7",
+        "M_model_optimal": "15cea60b2fbb22ec57a638329262d354f4e65f9e65e5718ce2131782420a4896"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.16916899860848061,
+          "ink_mass_ratio": 0.18259923586581123,
+          "retained_factor_count": 3
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.33833799721696123,
+          "ink_mass_ratio": 0.3323328374543715,
+          "retained_factor_count": 9
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.5075069958254419,
+          "ink_mass_ratio": 0.5075069958254419,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 0.5555555555555556,
+          "retained_factor_count": 30,
+          "stimulus_sha256": "ab3a69bdb9442f7fe08e8465790190d6da3e52da67475e576016c47003bc9be1",
+          "visual_sha256": "15cea60b2fbb22ec57a638329262d354f4e65f9e65e5718ce2131782420a4896",
+          "factor_ids_sha256": "e945c551f38f25b471ff707770d847a13442d20f9e37236736def4d85c514b41",
+          "equivalent_condition_id": null,
+          "is_novel_prefix": true
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.6716713305502946,
+          "ink_mass_ratio": 0.6764881283955148,
+          "retained_factor_count": 28
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.8358356652751473,
+          "ink_mass_ratio": 0.8383915171930193,
+          "retained_factor_count": 35
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 54
+        }
+      }
+    },
+    {
+      "doc_id": "P10_DOC_A",
+      "file": "stimuli/P10_DOC_A.json",
+      "source_document_id": "f746ea11-45b1-4c00-b018-f9b7c67dea25",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "b4381f90f05ac8f176ea42f092e561fd70bfaa31378c49ad4b5cbdb20981531d",
+        "D1_derived": "bda3db4e6a3441bfae964a447d75fac2c625a830789a38cd4335be9970039366",
+        "D2_derived": "f6ef8d0349c87ae6b3aac114b079a6dd8accc858bf0bd587bbfeb964b0873542",
+        "W_writer_optimal": "e2d18d8335f49cb4b626d425015804a98178387d6cddca44ed765b4084f1d4e9",
+        "M_model_optimal": "5a89001b6b9083a97910ab729826c0f9236e71c6202c58066317227751b0b6db",
+        "D3_derived": "e96afd52e5c84fbfb492ee7698ea947eb218c287f7797b34127ea2bfe28289bc",
+        "D4_derived": "2b33b37306ddd5d58612c7f2db2673e56c45b413bc95c386956356259da9f11d",
+        "D5_maximal": "876743258e12dde2596a32f58f583687a9bdc92ad2b948b283994123579d92b3"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "4f1314e4cfa9a16a2b6b3a99f117d8af410ef2e6367fb8c98fc999eaacb1789b",
+        "D1_derived": "07293794e6ae572b39ccd66690e332690d9a1dfb84940a5d3895ba9e20409590",
+        "D2_derived": "089fe4ade6cee77d120f72adbe1cd30e7d8403d414bd5a8a16ba22ac39abeeab",
+        "W_writer_optimal": "87df41d05243992564298da7d67834e5ddeb472e026bf107da7097b73a39a96f",
+        "D3_derived": "fbc81180779f54f23e3cd84d84d0fb0c926f9ab4dbdeb33eda7ac4c7ad42d5ed",
+        "D4_derived": "7d83be24ba57164bbcb8a8184d41d344cece9cc2738cc9817b4a6bc22725f802",
+        "D5_maximal": "949158b72cd7d71e8cda61e73428bb08506b4140ddd76fb80b04cd03aabaa7f4",
+        "M_model_optimal": "09134ab3832c350ba18b167ac77cc2bb2fe22106bd32b02d2f51f8528a565cbc"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.25546002366637244,
+          "ink_mass_ratio": 0.30089467096218164,
+          "retained_factor_count": 5
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.5109200473327449,
+          "ink_mass_ratio": 0.5146615229926332,
+          "retained_factor_count": 13
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.7663800709991174,
+          "ink_mass_ratio": 0.7663800709991174,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 0.6,
+          "retained_factor_count": 36,
+          "stimulus_sha256": "5a89001b6b9083a97910ab729826c0f9236e71c6202c58066317227751b0b6db",
+          "visual_sha256": "09134ab3832c350ba18b167ac77cc2bb2fe22106bd32b02d2f51f8528a565cbc",
+          "factor_ids_sha256": "23af43ae274f4cab9434f187c7677cbe5d5f675dc8a226a1e3e4dfd2a9465eec",
+          "equivalent_condition_id": null,
+          "is_novel_prefix": true
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.8442533806660782,
+          "ink_mass_ratio": 0.8341575523772391,
+          "retained_factor_count": 38
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.9221266903330392,
+          "ink_mass_ratio": 0.9210493915827057,
+          "retained_factor_count": 48
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 60
+        }
+      }
+    },
+    {
+      "doc_id": "P10_DOC_B",
+      "file": "stimuli/P10_DOC_B.json",
+      "source_document_id": "442d239a-1ffa-468c-97a3-9f93c63589a4",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "fcc0f5d7ea1d8a0976849fcb49f5fc1ed843c447cbecccd924015ea119632783",
+        "D1_derived": "76896b50bfb72175e8d28df7c96cc92a903ecc8093d35443c5ea9ce841361562",
+        "D2_derived": "96ffba59a70728de0e7a7eed0ee2068df554434179050ee282d848451a9a38a0",
+        "W_writer_optimal": "c96d3505c97cbb50dda6f156cfe5081adfdef8b3050fa20304cd6baf4cd6ba0c",
+        "M_model_optimal": "8511ec9c2223bf915b70a3e792655e0518140a5ced2c5d07b9b24cb6590bb280",
+        "D3_derived": "afe2594e88738326289ff598504cd37654b50f80d39af46acd7caf9f716354dd",
+        "D4_derived": "a8b0414277c22413be1c9f939d70e03e12ad1ebd68737d510c75da652b3f3651",
+        "D5_maximal": "3ffa8940dcd7d806154410441943bfb24bc1c0629918df7060164c54ce20c843"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "7fdd8fd5a0b3076371c98a1d35d62065e59e6dc26725f9ecdfabeca417e91224",
+        "D1_derived": "0be53fa3ba8064561bd7d28a83da7b4314e250ea015b4f333faa0a7db9e3c824",
+        "D2_derived": "64d0cf22afb7a81155554388f1b0699491a384b67675a77b1a65701433d06389",
+        "W_writer_optimal": "083678fc5c9a6bbb8753b57df9948a296d5585afff66da614d312f4f9be957a5",
+        "D3_derived": "0a0e61f0f38d257d782aa45ce9bd31f34642a58b5a0aa0bcca8d7c58fb3ca0fa",
+        "D4_derived": "981f892100280ca956f126d46c24e12adf79c1547ffbc479b2b58ece89108c38",
+        "D5_maximal": "b0fb61f20154e7adaea8cbae3a16b5f82a76325d3aab9e0bc44a80c787dc2bbe",
+        "M_model_optimal": "b0fb61f20154e7adaea8cbae3a16b5f82a76325d3aab9e0bc44a80c787dc2bbe"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.25512415629450735,
+          "ink_mass_ratio": 0.30373397733605795,
+          "retained_factor_count": 1
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.5102483125890147,
+          "ink_mass_ratio": 0.5155117963960616,
+          "retained_factor_count": 5
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.7653724688835222,
+          "ink_mass_ratio": 0.7653724688835222,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 45,
+          "stimulus_sha256": "8511ec9c2223bf915b70a3e792655e0518140a5ced2c5d07b9b24cb6590bb280",
+          "visual_sha256": "b0fb61f20154e7adaea8cbae3a16b5f82a76325d3aab9e0bc44a80c787dc2bbe",
+          "factor_ids_sha256": "bd42e14c945cf6d668360a96da0e854a7a447304ee57ae1f39a5c7b4ee3bf521",
+          "equivalent_condition_id": "D5_maximal",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.8435816459223481,
+          "ink_mass_ratio": 0.8411666357049973,
+          "retained_factor_count": 27
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.921790822961174,
+          "ink_mass_ratio": 0.9214192829277355,
+          "retained_factor_count": 35
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 45
+        }
+      }
+    },
+    {
+      "doc_id": "P11_DOC_A",
+      "file": "stimuli/P11_DOC_A.json",
+      "source_document_id": "aee315e5-1340-4098-9574-3f160765751a",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "ed81f5e38be5617a91e386696175e6e15baa488e60042ab375cedb180082e442",
+        "D1_derived": "919aa4ee892d9b43e37a39ed8175aa0073b04c9b68b02625c24729dca98ca9ef",
+        "D2_derived": "394802f6fdec59d72188725ba96ec555daf2f7ddb8f6ff0119e46ab14a2f98d4",
+        "W_writer_optimal": "26e221633dc2794ce00cb2e1ac1dcd69c033b6e11e68f746f5e5d8dffb9f4c94",
+        "M_model_optimal": "e894c7361037bf5c794bd2cf5ed6350f5dcb976680dcae45f682fb5b9ca84d73",
+        "D3_derived": "d2a8029a8d36954bd360f6151d258c0af0fbb548cf1e0da8f6b0a5da19b132e0",
+        "D4_derived": "b537901b40e8d57fca7b75ad69bf94e5a89b44bfcdb4cbc98d957f5fbaa5e94e",
+        "D5_maximal": "32ac8a5e65c3d23276c90763cfc008aa173bccf20cde9def11346d428c92b51b"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "a4f2a4ceeb05c5f47feb0eb6c5289d9ed80b118ad4233bdba49a1c0a07e63a1e",
+        "D1_derived": "145e7e8f8864bf3416897de82c57130b807ce0ebb3617cf977aeaa692ca1d5c3",
+        "D2_derived": "733bbc7d673f5912a7ef8cc7d71d6f2e13fa23b5a2848bece403b3b62b9fcd67",
+        "W_writer_optimal": "ae241ad9a1a5bad0ced401d952e779ca60019e50d482587330008b8b662a27c5",
+        "D3_derived": "04d7813c81b5c3b06eafe3b7f05c6dc1c8716bbeb2aba17b15c97bfa9649f484",
+        "D4_derived": "0bb835fbc14127fe6054b7916ac9c5a12c619d03a1b590b461467734281b1c3c",
+        "D5_maximal": "985add12c55f8d209d01bce62240019a05b1f73243e075f03751a9a9f4e332db",
+        "M_model_optimal": "0bb835fbc14127fe6054b7916ac9c5a12c619d03a1b590b461467734281b1c3c"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.28001429417461876,
+          "ink_mass_ratio": 0.31536838436681985,
+          "retained_factor_count": 5
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.5600285883492375,
+          "ink_mass_ratio": 0.601226622016312,
+          "retained_factor_count": 10
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.8400428825238564,
+          "ink_mass_ratio": 0.8400428825238564,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 0.7,
+          "retained_factor_count": 35,
+          "stimulus_sha256": "e894c7361037bf5c794bd2cf5ed6350f5dcb976680dcae45f682fb5b9ca84d73",
+          "visual_sha256": "0bb835fbc14127fe6054b7916ac9c5a12c619d03a1b590b461467734281b1c3c",
+          "factor_ids_sha256": "6e802aaea85b606bf4f450013c8cf6464f1ad7e0e83c14365f04e4ede55e0dd1",
+          "equivalent_condition_id": "D4_derived",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.8933619216825709,
+          "ink_mass_ratio": 0.8981274883796695,
+          "retained_factor_count": 30
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.9466809608412855,
+          "ink_mass_ratio": 0.9467112665118552,
+          "retained_factor_count": 35
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 50
+        }
+      }
+    },
+    {
+      "doc_id": "P11_DOC_B",
+      "file": "stimuli/P11_DOC_B.json",
+      "source_document_id": "39aa6297-7c9c-4f37-b0ac-2be236c987f0",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "1034dd1533009c387eba45c8f14fa0f78e88da4affdbf845206784323468e7b9",
+        "D1_derived": "30d0ecab31be6d901bbb09db3c2b606e1980596199f152d9dcc1d52ea72faf38",
+        "D2_derived": "56b0b65dc479fcd849657bc14f9c6f42ac7185d03608f9c28cca574ea8f32c9d",
+        "W_writer_optimal": "7143bf22ec75fbec0971c94c5a4b816f946aa76e8a9fa6a0a3347666f9d700c0",
+        "M_model_optimal": "b111e0fda34b4ac0459c8d8df41db46d51102c75860b257314383d646e48f7e9",
+        "D3_derived": "819fc813c59e6f62d92b1b8dc95fffc515dad8a98c0d8cbda714ac5165b6f3aa",
+        "D4_derived": "2ada4b105a501a8d517d4f61b9db87f073b89889daf0cd36707747920ea08ea4",
+        "D5_maximal": "af6258e8525e1b8211f5a385f516d2be5b5718e0118f88a960cfbd77dc1251c5"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "97108a62e63db443ae37d6b92583bf43e8e62ce5c3ea01542bb86fa8c8d114a5",
+        "D1_derived": "698358695fe4e872b7a6e88c07f4fe9ddf4375aed994407a7f183a599981c427",
+        "D2_derived": "9d744f7dcadd1b7bd88077f5fc420e0b685fb7593dae11799bb29667bbfac077",
+        "W_writer_optimal": "0e6ff80900f81647884502bba7e297853c7f3ba88197f09d19d35a7149a13a76",
+        "D3_derived": "61ea32779bbb8e8d9e41926530e72ff2ec22a13abf0b8411084253335c5fccca",
+        "D4_derived": "75dde4b6681af7f30e2040dca82cfb3e9369306bd3c333a309e64e8f827aacd3",
+        "D5_maximal": "5912b4cc94e0c6d0a82958893c8ce98d7d32a9d5287579c7f45bd645522a2222",
+        "M_model_optimal": "75dde4b6681af7f30e2040dca82cfb3e9369306bd3c333a309e64e8f827aacd3"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.17522945260171535,
+          "ink_mass_ratio": 0.13888340895640164,
+          "retained_factor_count": 2
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.3504589052034307,
+          "ink_mass_ratio": 0.3785756559479187,
+          "retained_factor_count": 5
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.5256883578051461,
+          "ink_mass_ratio": 0.5256883578051461,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 0.8095238095238095,
+          "retained_factor_count": 17,
+          "stimulus_sha256": "b111e0fda34b4ac0459c8d8df41db46d51102c75860b257314383d646e48f7e9",
+          "visual_sha256": "75dde4b6681af7f30e2040dca82cfb3e9369306bd3c333a309e64e8f827aacd3",
+          "factor_ids_sha256": "8ed3abf9449cfc0bc6466048052ec78566f09c28f6d2a8568f9f40853f4ada07",
+          "equivalent_condition_id": "D4_derived",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.6837922385367641,
+          "ink_mass_ratio": 0.700701744497365,
+          "retained_factor_count": 12
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.841896119268382,
+          "ink_mass_ratio": 0.8364005298311867,
+          "retained_factor_count": 17
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 21
+        }
+      }
+    },
+    {
+      "doc_id": "P12_DOC_A",
+      "file": "stimuli/P12_DOC_A.json",
+      "source_document_id": "9dadee66-4e95-4ea0-938d-92d7711e1fdf",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "a5f98f2bec91de01abee8e5a4d10f6b6fb3f51739fa4dac44283a9c30132d1be",
+        "D1_derived": "9460e38a64d525c376467412cb6ea50fb9fdd261f42967129ff555c65567c4f6",
+        "D2_derived": "9d0d6e89010fdda744890dd85b7ff8e388727e5c30216612d19c49c7e6fa9a87",
+        "W_writer_optimal": "f94849fbf9c956dc4b09214d6ba46cb0c4229671e7317649b5d6177bc1d54bdb",
+        "M_model_optimal": "77c563713bc21b13a657290238375fafe09f7df2032180479085eb47d04a7618",
+        "D3_derived": "de5b2072790a23ef20a360a2d4279df54d2280c5123e570180f4b1703acc4151",
+        "D4_derived": "fbf57fe5837031b63fb2f5250ab917100b79cb18387f0d18c1c8ad4d90fab78f",
+        "D5_maximal": "752590c36d23c98ea9e49449b67efff98faed1ddbe5399328fe45834e1fb5ce4"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "4d8266968fd640b054f103e800a2502c64e82f09a9556efd7e2799ba6d1500f5",
+        "D1_derived": "83e54e7769b0c40e6fbdc6ce85697bbd6b1aefcfbb067c08ab9a8fbd1dbb3f3b",
+        "D2_derived": "d99fa8969b0307ebf492139bd7fa2ef9e7419d538032c78e168948bdd3228bc2",
+        "W_writer_optimal": "24005a48630e5ea05cf8c77c24043597149f88e8057504ff8dca7fab8184f413",
+        "D3_derived": "ebeb6e33abd9738ded20a3e20df11f96f47bf210ec4e2e741e151ac61b1a9408",
+        "D4_derived": "a8cade3d6df5568714f67764e213324aebc45a381d95331ae60e2131afb41575",
+        "D5_maximal": "7d0c6821f7dbc49d29bfdc0036daf8649baeda5279a1a77620bd498dd816e9cd",
+        "M_model_optimal": "7d0c6821f7dbc49d29bfdc0036daf8649baeda5279a1a77620bd498dd816e9cd"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.2555282861157054,
+          "ink_mass_ratio": 0.2754041508829963,
+          "retained_factor_count": 5
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.5110565722314108,
+          "ink_mass_ratio": 0.5083017659926372,
+          "retained_factor_count": 14
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.7665848583471162,
+          "ink_mass_ratio": 0.7665848583471162,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 57,
+          "stimulus_sha256": "77c563713bc21b13a657290238375fafe09f7df2032180479085eb47d04a7618",
+          "visual_sha256": "7d0c6821f7dbc49d29bfdc0036daf8649baeda5279a1a77620bd498dd816e9cd",
+          "factor_ids_sha256": "0a43436a607af61b0e70598506f6f90f3472d10d7d08bed65be8fdcc5bdfc08f",
+          "equivalent_condition_id": "D5_maximal",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.8443899055647441,
+          "ink_mass_ratio": 0.8462465987301925,
+          "retained_factor_count": 33
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.9221949527823721,
+          "ink_mass_ratio": 0.9247559088726457,
+          "retained_factor_count": 36
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 57
+        }
+      }
+    },
+    {
+      "doc_id": "P12_DOC_B",
+      "file": "stimuli/P12_DOC_B.json",
+      "source_document_id": "b72ad186-0a2b-42d1-b898-45a7c794fcf3",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "72eca6eced94ccc529b4cd2c8fcaccacde1c60a95225f55c36162a76bc4b275c",
+        "D1_derived": "16456941f904e08af758315c300583f628843add09d1d0248188b46aa84ca301",
+        "D2_derived": "63300e51479745992d230cf5674471ed730a0393e35f2b1a1e7a5e5e65a52c47",
+        "W_writer_optimal": "f12c4028fd93c99d0113af3813ba045d1215f4396db4bfdd2b48abe4dbb559cd",
+        "M_model_optimal": "f734eb53960554d73fb8d63c3db58cd14f6ecda7c7fc779e2c4c2af9870d960b",
+        "D3_derived": "35b8797e52ffc6bea729dd3850570510488e8d41f14c1594a9e6fa3a9f203dc6",
+        "D4_derived": "44f3b9e4e39193123b0a5943092fa1c6d77dc75bfc5c0d78ab4513108859efcc",
+        "D5_maximal": "9d775a776c9fedcc248828b4cf1f78eff1a4e295cbfe897fbdbb4adcc544e385"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "0f6f6b596390b395a2e7616c194d3b94f0c0452394d1a30e1be8a98e889332cd",
+        "D1_derived": "f3f4a746e0358f700be393664bb17fa793e01bd7805ffec8b45e83ae42522966",
+        "D2_derived": "f096564b9d39238ddf10ca86d130c9a1e5791ae7618caca672aaf382e4b071ba",
+        "W_writer_optimal": "0b910318b212ae14ca0ee380406252a5192d6cc65ea77f1bf21494264ed9c351",
+        "D3_derived": "eaa956037aa9a44ba5f36232cfdadbcd101bf62618818821a4a09fd89e4ea573",
+        "D4_derived": "c80322fb597583d4e35edabe5ca63ed04e21efd1235a0d7fe19b69b7b858d81e",
+        "D5_maximal": "d4271890c3daa98e502b713b836fbac54ae358123327dad3f318ada6eb62d56a",
+        "M_model_optimal": "1b5f872fc61272cfdd639a1d1aff3e9143f53a9a6496f5141cf0b46484ca0c9d"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.24367621124618014,
+          "ink_mass_ratio": 0.19716489640967652,
+          "retained_factor_count": 5
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.48735242249236027,
+          "ink_mass_ratio": 0.47358749646621706,
+          "retained_factor_count": 11
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.7310286337385404,
+          "ink_mass_ratio": 0.7310286337385404,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 0.7674418604651163,
+          "retained_factor_count": 33,
+          "stimulus_sha256": "f734eb53960554d73fb8d63c3db58cd14f6ecda7c7fc779e2c4c2af9870d960b",
+          "visual_sha256": "1b5f872fc61272cfdd639a1d1aff3e9143f53a9a6496f5141cf0b46484ca0c9d",
+          "factor_ids_sha256": "7bb3b42abbef8e02cd7c2d029fa0f13fc560a9aebe5d3d0d25e6e13f2be6fb68",
+          "equivalent_condition_id": null,
+          "is_novel_prefix": true
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.8206857558256936,
+          "ink_mass_ratio": 0.8226579432710042,
+          "retained_factor_count": 23
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.9103428779128468,
+          "ink_mass_ratio": 0.9145699554406796,
+          "retained_factor_count": 30
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 43
+        }
+      }
+    },
+    {
+      "doc_id": "P13_DOC_A",
+      "file": "stimuli/P13_DOC_A.json",
+      "source_document_id": "2a894e00-f61f-4b9d-b280-047eb79f8d64",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "warning",
+      "source_html_sha256": {
+        "D0_plain": "288aac5fc49379bc84ae2395664b0592a789020d29e79b72165d39805d7affe2",
+        "D1_derived": "743ff8e3f40f2ea21b41ef5b067e161af65e5a8ae46e5d5274d00cdcba745364",
+        "D2_derived": "a46ac87d12c6f2ea808d305cb34711b02f9f4a8d0860d0fa439ac9181316427d",
+        "W_writer_optimal": "ea0901bb9fe921ad6c84a2c8fd5147b4786b5466012c50199032a181aa6c74ff",
+        "M_model_optimal": "c241748cec759e34586c3f912cb20dbea92c111ce1bc6c1ea0117188fef61b75",
+        "D3_derived": "7302a528a08dc7b7b9afffa17da0ed4255b644fc935bcfa1018fde976531ecb1",
+        "D4_derived": "4d8704a0be5fceb9010d53ca8bd247ba5afdd0238cf5ea1c4b16b8289aa560f7",
+        "D5_maximal": "f2b05bb8d635def18da6f73650836e92a9fd18f5f85cb1eca791cc4abf8e2ebd"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "b0629e101dcfc3cbbe68ecd8ea0dee1680b1aa286c4a531ff117c42b80b3be8d",
+        "D1_derived": "3102b6ba1725fb953bd0a315959f75fba8d8f2585f8e5c27a6f0a73790e0351b",
+        "D2_derived": "72963eba67c5dc2cc0c37cb423157a384ee20968c7825d7726196df927cfc05d",
+        "W_writer_optimal": "721733a51fe9ab79b23669d6c2a5c8d7bffdec4952d6c8123340c659f9d21069",
+        "D3_derived": "12c965efa305a19017508092ca4414e340e8b1c7656308bcf32defcca2c1f472",
+        "D4_derived": "21b524017aaf476eacf9905320a43a025ed1c4967cdab181b8a6328f801ef8ac",
+        "D5_maximal": "b6eac6c90a23c167d4a11b848851f0cb493bf7a7c392de9e31cf21f3a133fe27",
+        "M_model_optimal": "6566a03887793509ce32c6001258580faeb03e585d026651e44609c733b1bc88"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.2687895267647672,
+          "ink_mass_ratio": 0.26843901400545767,
+          "retained_factor_count": 10
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.5375790535295344,
+          "ink_mass_ratio": 0.5059060324751147,
+          "retained_factor_count": 25
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.8063685802943017,
+          "ink_mass_ratio": 0.8063685802943017,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 0.26506024096385544,
+          "retained_factor_count": 22,
+          "stimulus_sha256": "c241748cec759e34586c3f912cb20dbea92c111ce1bc6c1ea0117188fef61b75",
+          "visual_sha256": "6566a03887793509ce32c6001258580faeb03e585d026651e44609c733b1bc88",
+          "factor_ids_sha256": "dfd3495c7871b1ec8b4fc4ea52faba08b45f79d12d8b3d39f352f558db24d297",
+          "equivalent_condition_id": null,
+          "is_novel_prefix": true
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.8709123868628678,
+          "ink_mass_ratio": 0.8737186393223707,
+          "retained_factor_count": 40
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.9354561934314338,
+          "ink_mass_ratio": 0.9343917528433466,
+          "retained_factor_count": 56
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 83
+        }
+      }
+    },
+    {
+      "doc_id": "P13_DOC_B",
+      "file": "stimuli/P13_DOC_B.json",
+      "source_document_id": "9f94e44d-467e-4d5d-92e8-52640706f80a",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "warning",
+      "source_html_sha256": {
+        "D0_plain": "0d336fc27a69526b1cbf58bae9de1d9a0e2cc31b9f794e0e228f0198767faa8e",
+        "D1_derived": "218f0485cbea75a7a709dfe16b8c5aff37e7cd50ce59ebf9890e93d25f9109ee",
+        "D2_derived": "0c19ce79c48adfd293b1caf7e6fda79c8f901b1d96bea9c441114ed262e762e8",
+        "W_writer_optimal": "4b8fb4da937be68417668ee80fc2be1a6c51d911736d66908718a350db321c97",
+        "M_model_optimal": "49282ace74f655883631a43fd7aa287600b573af95feed58cf7a6152c81ec0fe",
+        "D3_derived": "46ab4a751918c00d1c4750bb3ee1631c11d71bc29e1cff9f8b57ea97d1ef743e",
+        "D4_derived": "6b9c30ead76d7befe23201caa29abfe522fdb79c2fb6a483cbde776a202985a8",
+        "D5_maximal": "128bbf5affb96d4ebc18b54833a29616e6d1d553a4a6a8f015c11163190da583"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "cd01677cd856a21d92ac4c456c03759c735001eb9901635ce7474e3c85439c4b",
+        "D1_derived": "48f0f85dbb378afadb8ee50ea0618a078461fad2ceb22f980bcca27ea0f2aa44",
+        "D2_derived": "38224cda44d907a9c50b5da2c5115f3bb4d1cba36dc1716f60ac6b670d846f74",
+        "W_writer_optimal": "dd42d1ba2d2a91cfc78a717c064b06ea527cf5d24016e4608c20c227921c3f81",
+        "D3_derived": "9bd8286c7032a3cf613843bbb26728866b6a016948996f1b48e4326d71aec86e",
+        "D4_derived": "0950be32798ccbbb9ed1fa4f08e0f64473d88d90982b23c97f8670165f92990a",
+        "D5_maximal": "b016853b5918f5cb0f95c695c2fcf39dec0420b440edfc97f9b78312c6bc124f",
+        "M_model_optimal": "9bd8286c7032a3cf613843bbb26728866b6a016948996f1b48e4326d71aec86e"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.09014500128213349,
+          "ink_mass_ratio": 0.04515012981601385,
+          "retained_factor_count": 2
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.18029000256426697,
+          "ink_mass_ratio": 0.05596813096993398,
+          "retained_factor_count": 3
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.27043500384640046,
+          "ink_mass_ratio": 0.27043500384640046,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 0.1827956989247312,
+          "retained_factor_count": 17,
+          "stimulus_sha256": "49282ace74f655883631a43fd7aa287600b573af95feed58cf7a6152c81ec0fe",
+          "visual_sha256": "9bd8286c7032a3cf613843bbb26728866b6a016948996f1b48e4326d71aec86e",
+          "factor_ids_sha256": "93b0d8d449b6360cd45adc26f82f684831450ba5b6f23de433e2616c58da93e8",
+          "equivalent_condition_id": "D3_derived",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.5136233358976003,
+          "ink_mass_ratio": 0.5105495544586192,
+          "retained_factor_count": 17
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.7568116679488002,
+          "ink_mass_ratio": 0.7576958058208859,
+          "retained_factor_count": 40
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 93
+        }
+      }
+    },
+    {
+      "doc_id": "P14_DOC_A",
+      "file": "stimuli/P14_DOC_A.json",
+      "source_document_id": "effb505d-65e3-43a4-b921-5c566846ed30",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "beaa2eb24c06e96861227965954010b9deb72e30005c961ff6ffdf43c896edb7",
+        "D1_derived": "d10e2544e65482ebe4570651f9ddc5787bc81bfdc1a5e451f7654db65b85a72d",
+        "D2_derived": "da5faa242c1e5a795c60a3ab0e3e22fe8fa1918566e72e71ab36acda41d55c89",
+        "W_writer_optimal": "cdbae7c998748bf64744cfe115c71cdbd182025500a6d6d1d036225853d73bef",
+        "M_model_optimal": "eaa9d4c4192d215fc64cefae40fcd5d96210c0bd2d2917e05ee600b65e4ca69d",
+        "D3_derived": "d49e03e84e443a26167916b501295aa9b3b4474fcf59012c9a1929af736f0ac8",
+        "D4_derived": "ed843a47e47d402743abd0f5e81f2664a0ea87032a5ff6e9119a848ed187806a",
+        "D5_maximal": "9f2f99b58a142c691f73214cc1655608449bcfd52190c5494e1d600eab049747"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "e5d09532d977337e24dfcfa82a48182aece7a78e0877ef3ea9a53fa8d32ff909",
+        "D1_derived": "0c91829883e5f6fe5fddf3ee65b6e75cec24692e2786b03bb0ea565497c611bc",
+        "D2_derived": "d0e64a54c11e6903ecf0ddde72fdd451356fd57f5bf0f51fe68e985e18656606",
+        "W_writer_optimal": "c07ea3487a8b178c05e3e25a010e99892128acd3c6a59c43f7f5113e3bd12b95",
+        "D3_derived": "2c3fec08bbdc9fd6bc323be717184a13bfb2b49081331e9e33499fb003559fdd",
+        "D4_derived": "c85e993b897dde2593198ad434166b1bf07f9b814cdbc365093ab2085438ed61",
+        "D5_maximal": "84fb34960e6a8763a70729f2057c5bdb45623216dd5dd80e765d206b52c0daf6",
+        "M_model_optimal": "84fb34960e6a8763a70729f2057c5bdb45623216dd5dd80e765d206b52c0daf6"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.2763366081613129,
+          "ink_mass_ratio": 0.33381167899326636,
+          "retained_factor_count": 4
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.5526732163226258,
+          "ink_mass_ratio": 0.5457556021635942,
+          "retained_factor_count": 7
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.8290098244839387,
+          "ink_mass_ratio": 0.8290098244839387,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 30,
+          "stimulus_sha256": "eaa9d4c4192d215fc64cefae40fcd5d96210c0bd2d2917e05ee600b65e4ca69d",
+          "visual_sha256": "84fb34960e6a8763a70729f2057c5bdb45623216dd5dd80e765d206b52c0daf6",
+          "factor_ids_sha256": "f20311e2fe7d8c550b104e1d1f3981c6d265d46dd10619c946cccadfc11ea4f7",
+          "equivalent_condition_id": "D5_maximal",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.8860065496559592,
+          "ink_mass_ratio": 0.8664311734186997,
+          "retained_factor_count": 13
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.9430032748279795,
+          "ink_mass_ratio": 0.9420465835081134,
+          "retained_factor_count": 20
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 30
+        }
+      }
+    },
+    {
+      "doc_id": "P14_DOC_B",
+      "file": "stimuli/P14_DOC_B.json",
+      "source_document_id": "86367a67-ae0c-4b37-bbe6-2b8c7c1b9248",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "9ebc23ada9b69f2afa9c20d228a5240aeed2114e64b1e5325091f4818e30918c",
+        "D1_derived": "ceddba0301377ce300a094c26f9fefb725ccc761a7ee567781e662ba173ea7ba",
+        "D2_derived": "da5f6ce13bb4e5cc286c1bcf759ad757a37eae1aa7e035c24d3bf5c1b7374fcc",
+        "W_writer_optimal": "e5715689e4b50bf991a853fe3f700691f7092ba34b0b1fb5224cb48c6e325ff2",
+        "M_model_optimal": "2d162280edd1259a013f3ca45ee95055bf0102822ae656de2172a3d7c6c14a4b",
+        "D3_derived": "fc159a38cc64fba16d9069bafa873b75c9acf7b5b2b7a2beb1c8cccdf68fcf42",
+        "D4_derived": "c02bf89e492dfcfebd87cf488490ffee60b3b324b0957944c3fcd57aa6c3f00b",
+        "D5_maximal": "3baaaf10a3c87d5a3fbf5e5e1aca1762aa10c9b467dbb8e9fe256593499284b7"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "65a6e16119e6d33a4b915226ced392e64cfc6bc64d4b048ea0d79990d4e72e5e",
+        "D1_derived": "f8beb204cd52ef18ddfb49e178a99a000f9b7c89f73bc7d7431dd0b657540c55",
+        "D2_derived": "786081cd027870cf2fb7ecc536a5fecacf19eb09a9fe19723fb0b0c21a90d088",
+        "W_writer_optimal": "5603cf2d669e21f59eca3140fe376a7619c452332b41081fb65a9dce4cd1166b",
+        "D3_derived": "752ff088e9492c62bace0b1508a67e81991329954953d2df8c4a25dd20ba11dc",
+        "D4_derived": "2bf64951ea5dc0b9a2e9b86eb970df338a8c034e027256292a21b2dd777184e7",
+        "D5_maximal": "4ba5c7250cce5cd36a1d2a8cbe52e346d3964e26cf5c689a38c115ddf4701c0e",
+        "M_model_optimal": "a26d56ae11d0981d2b115f463c027d664a538d04d4eb729ed31adec0d1dc85a3"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.2117984432609586,
+          "ink_mass_ratio": 0.21138877509217532,
+          "retained_factor_count": 1
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.4235968865219172,
+          "ink_mass_ratio": 0.4633346988938959,
+          "retained_factor_count": 4
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.6353953297828758,
+          "ink_mass_ratio": 0.6353953297828758,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 0.9393939393939394,
+          "retained_factor_count": 31,
+          "stimulus_sha256": "2d162280edd1259a013f3ca45ee95055bf0102822ae656de2172a3d7c6c14a4b",
+          "visual_sha256": "a26d56ae11d0981d2b115f463c027d664a538d04d4eb729ed31adec0d1dc85a3",
+          "factor_ids_sha256": "235a1d59b0ea052a837d973e8518f672e136c07e070500b09229df18f74948d9",
+          "equivalent_condition_id": null,
+          "is_novel_prefix": true
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.7569302198552506,
+          "ink_mass_ratio": 0.7787791888570258,
+          "retained_factor_count": 16
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.8784651099276253,
+          "ink_mass_ratio": 0.8914379352724293,
+          "retained_factor_count": 20
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 33
+        }
+      }
+    },
+    {
+      "doc_id": "P15_DOC_A",
+      "file": "stimuli/P15_DOC_A.json",
+      "source_document_id": "841840f6-0332-4841-bde4-71335901768a",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "5fa4180ead245fc53353057eb4635f75aa058af3212d6da2a0081d7e552482c4",
+        "D1_derived": "2ae856fdcca952d68c5f42120cf4ae538bfed03e5c61336f0a7ffec9e5ab38dd",
+        "D2_derived": "ff9fd2a31e572c2681630f95f17d14532000d998d561dbfc7617cfeef2cd6665",
+        "W_writer_optimal": "691d1fcd1e53de3223eb2f7f3ccba08ec5cc67dfa5bde23d87a2e8782db7bc9c",
+        "M_model_optimal": "b974e794fd165b32e44504710477df68c7207e03beacdb1a89d1f342612092c6",
+        "D3_derived": "641fd3a130b7443171dde7f8c793211c2e6889f4a48004cd153a484a41ddde20",
+        "D4_derived": "9030374e804a02405dbd11a0a0f27025a4055aa5a54c98d9720e87b98f695453",
+        "D5_maximal": "c1e13dfe8119581075888fbc4b7ce75b6aa5adeceb4c574c0b4483bc9824506e"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "e80e38eeb98d0ad7c40da7b7726d9ef26bfac7aadbef3d8ac997b58a44dd6bb3",
+        "D1_derived": "cef2aef488537da225cd4c7a1605b45e0ae4d91dd3f14124190bb35bc74655a2",
+        "D2_derived": "3cec05a3306aa309190a919be3bce0990829113a1b73dbd2fffda04c774853f6",
+        "W_writer_optimal": "b22f4c0f1e8769a1e14c095371c65559c8f7303b1925dba5d408ba984ff7c37f",
+        "D3_derived": "706d0ff2ddb2ae853dc796800ff0cfc8a38615d4840bfecfefacf56ed61504e2",
+        "D4_derived": "499bc23c5e50c5d4f63590b78f99f4a4b19f7d87936592c4a08c3cf63555e603",
+        "D5_maximal": "e0ae03ed3bdcc71edb09ad7542ce191f536bd721cc53d62239325f94fb73dec3",
+        "M_model_optimal": "499bc23c5e50c5d4f63590b78f99f4a4b19f7d87936592c4a08c3cf63555e603"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.1799548615908986,
+          "ink_mass_ratio": 0.16028741191101284,
+          "retained_factor_count": 5
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.3599097231817972,
+          "ink_mass_ratio": 0.3606466767997789,
+          "retained_factor_count": 9
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.5398645847726958,
+          "ink_mass_ratio": 0.5398645847726958,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 0.7857142857142857,
+          "retained_factor_count": 22,
+          "stimulus_sha256": "b974e794fd165b32e44504710477df68c7207e03beacdb1a89d1f342612092c6",
+          "visual_sha256": "499bc23c5e50c5d4f63590b78f99f4a4b19f7d87936592c4a08c3cf63555e603",
+          "factor_ids_sha256": "2eb7b4f5cae037e12e255d3d35ebd2e41076d13855b9202769894696dad45095",
+          "equivalent_condition_id": "D4_derived",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.6932430565151305,
+          "ink_mass_ratio": 0.7185297775321265,
+          "retained_factor_count": 15
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.8466215282575653,
+          "ink_mass_ratio": 0.8480033162912809,
+          "retained_factor_count": 22
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 28
+        }
+      }
+    },
+    {
+      "doc_id": "P15_DOC_B",
+      "file": "stimuli/P15_DOC_B.json",
+      "source_document_id": "7d89abf3-afba-48ea-b8a1-145f16f0a756",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "5d9370732bc124740a8ca0a6b2488f9989e1826b086a101c86d650eb73a730d0",
+        "D1_derived": "96948a21f290d4e71e27907e55796c742d99c15300e7654477c20b6261c7a587",
+        "D2_derived": "06c706301bbbc78b55776e22d4fe1cbb2cf04bf88647a031e7ac00272bec6a71",
+        "W_writer_optimal": "c48ba4271a159346044a1db6f9b0c741c75d068b79dbfcea66a189d5b502dd5c",
+        "M_model_optimal": "d28c38067fafae53f2ea7739f4450bda48338030c20f3534ff956feb74e26503",
+        "D3_derived": "ad785e5e7753001573d824701243be78c5c909020073d075c98f883480c1ccf5",
+        "D4_derived": "bff2169cd5a4cd1a8eafc31dfb1705ea6953ee173863ca4fed6f78bf6281fe8f",
+        "D5_maximal": "cf6524658f66241b621d8df7d96385c22448a224f7484c1458b637d86f0d9dd9"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "25d79917323b55cfbc31265bd9766ca0c34747022fd1efa9234d3ccf64357182",
+        "D1_derived": "9308081e95275d4aa876efc31292fbf6425917805e221b04cfa78a90ed7f5365",
+        "D2_derived": "408854fd1bcef7d14b0e16cbc236b98eeeca712f689468dfc3f3aed509d0add6",
+        "W_writer_optimal": "dff9e4829e30f0178807db79684010b7010e00af9bc61ee2ea1d9fa168d09d24",
+        "D3_derived": "7ca337ef1ac712c473f998f456fd60ff80c4709679e66184f6ab1cbf4b3e6ddd",
+        "D4_derived": "4174e7e1ddbcbe823b58414be8c8910ec40e9bc91237149c6f332e66b98dbb6d",
+        "D5_maximal": "076eb872fd589595798a41c191e414d484ea4453a6ac523b7d101a8518717a50",
+        "M_model_optimal": "4174e7e1ddbcbe823b58414be8c8910ec40e9bc91237149c6f332e66b98dbb6d"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.2748338081671415,
+          "ink_mass_ratio": 0.24615384615384617,
+          "retained_factor_count": 1
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.549667616334283,
+          "ink_mass_ratio": 0.5606837606837607,
+          "retained_factor_count": 4
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.8245014245014245,
+          "ink_mass_ratio": 0.8245014245014245,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 0.8181818181818182,
+          "retained_factor_count": 9,
+          "stimulus_sha256": "d28c38067fafae53f2ea7739f4450bda48338030c20f3534ff956feb74e26503",
+          "visual_sha256": "4174e7e1ddbcbe823b58414be8c8910ec40e9bc91237149c6f332e66b98dbb6d",
+          "factor_ids_sha256": "0bacad0dad062ea2ee9f606a227f6685c86a802eff4967865d49d63e954aaa6c",
+          "equivalent_condition_id": "D4_derived",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.8830009496676163,
+          "ink_mass_ratio": 0.8501424501424502,
+          "retained_factor_count": 7
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.9415004748338082,
+          "ink_mass_ratio": 0.9373219373219374,
+          "retained_factor_count": 9
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 11
+        }
+      }
+    },
+    {
+      "doc_id": "P16_DOC_A",
+      "file": "stimuli/P16_DOC_A.json",
+      "source_document_id": "5e6a4dec-d837-4b62-a71f-bf0ec6186a9d",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "8a33d5dfdfcc8970028eaf7c05d2b4dae3ff676038f8cd012b4ef71fed50f5f8",
+        "D1_derived": "a435e5bea14d2fd518d8d4153a868a3f86c29407795107941e2a13f6e65fcf75",
+        "D2_derived": "9032b3b41c490343b35a93380eaa9c2d3f158c23f77c5b5da1e7cc496129d777",
+        "W_writer_optimal": "70f098fb591343fc319601aeabbb74b6f94590dc07f7ec9b87530ae9845e6e9b",
+        "M_model_optimal": "46c661fba7153891fa7914e0fd5e719ff019d9d48696faecf98bf6b9c6a9dae8",
+        "D3_derived": "ae956d2f84851dfd36643266b89f8e0b425d08791829db502f7fb35e21189d70",
+        "D4_derived": "42aeadccd1d8248895b9c318fdcf4e325897b6ac9963738d311c86965c231967",
+        "D5_maximal": "8d89b877897766320044e099e87250516dd0334e3c0bdcb358d453eb0eaba151"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "dceb026858325d0f85abe90fdfa44157729b90b55094ea78cc569f98806c7d8a",
+        "D1_derived": "ce717904e939008b2a33f4aa0a3de80d181304b8eb68b7546b0cd8ebbf2311d3",
+        "D2_derived": "6a8603dac5138471d81895acfe302216cc57950da76703a16b1326ad58a17553",
+        "W_writer_optimal": "fbc94e52fb9bdd2c8e6b8f6fcdc7400c1efdc1c6f2106745760ac8d8b11addf2",
+        "D3_derived": "9411731746122332e11c821415698cb60c98901064902040c0ccc9fbd699eda5",
+        "D4_derived": "6d0d9845ca12ab4def306e119bbd4e307c2aca61ec5b200f8fe51b7c1cb35926",
+        "D5_maximal": "d1db60d4f813a942e95542cfaae1458ee449bec42729d0fd08b21db0adf36967",
+        "M_model_optimal": "4abe969f2de31341db737f82aa1e4bea5cee6a56179dd0d2723bc061a1ab20ec"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.25878830522047613,
+          "ink_mass_ratio": 0.339255944268717,
+          "retained_factor_count": 1
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.5175766104409523,
+          "ink_mass_ratio": 0.5788121393451109,
+          "retained_factor_count": 4
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.7763649156614285,
+          "ink_mass_ratio": 0.7763649156614285,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 0.07692307692307693,
+          "retained_factor_count": 2,
+          "stimulus_sha256": "46c661fba7153891fa7914e0fd5e719ff019d9d48696faecf98bf6b9c6a9dae8",
+          "visual_sha256": "4abe969f2de31341db737f82aa1e4bea5cee6a56179dd0d2723bc061a1ab20ec",
+          "factor_ids_sha256": "6401956d4e92b67a0c586e77f88bdc81e19ba81022d71d6cd7448848bda306d6",
+          "equivalent_condition_id": null,
+          "is_novel_prefix": true
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.8509099437742856,
+          "ink_mass_ratio": 0.8640609714096151,
+          "retained_factor_count": 6
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.9254549718871428,
+          "ink_mass_ratio": 0.918068083613828,
+          "retained_factor_count": 12
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 26
+        }
+      }
+    },
+    {
+      "doc_id": "P16_DOC_B",
+      "file": "stimuli/P16_DOC_B.json",
+      "source_document_id": "91f4e609-cca8-4ce7-a4cf-074766522fb7",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "4aa0bdbeb1f04a0ec722fbea4ebe305840435aee8f5d31beae0cc6a92e593e06",
+        "D1_derived": "5948e122206a14f2017c0562b4bb8572ed501b01e0a685394ded3d1b1a510224",
+        "D2_derived": "a7b4be083d45de52433f49701f7c773a48c473ea1c9f788ef3525f80161ce07e",
+        "W_writer_optimal": "e5c93267195091777e5fa3a556d34c8ed7cbf5fc0d80f6e05cf990c587192d4a",
+        "M_model_optimal": "df11236bbd2e3eb477eb4225568039fcc9cc5ea929859604cf635cb1a7d945cf",
+        "D3_derived": "5e1707a0f4cea7d6fc9fd12cd5baa4de60217db28b87dbb3ae76a4e52554cee4",
+        "D4_derived": "888b12afc3742b3b21c2f7441c77031bc7594374a6d31b685ca3b08ac1406b1d",
+        "D5_maximal": "04807dbe3ff2f5d0a42cdca23ef769168320afc8f9ce6cc952a88f56236c8fe5"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "9a7664854a3f148fa92a9475f02d3786a91aa89ad3292c35284782fc3c016933",
+        "D1_derived": "a612bd9a2477a379ae1ed4700a8c2fbe4751a3b3431796a926fe037f6d766495",
+        "D2_derived": "2bd87a3e02d684f8e16c2180c0ee26bd64cdc64f4257068a65af715547982477",
+        "W_writer_optimal": "096826d9516a6f7a2a4f2bee2b25f5721152e0ddeeab97dde17792a0a5d837c3",
+        "D3_derived": "787c86da7767f318805b08944b03daac3f6fbf952baf8251bb884a8e3a2a916a",
+        "D4_derived": "2a9cad86574dd22db29d77a047fc2b5ea57b381bd43d00318022bf463834c692",
+        "D5_maximal": "26c91462a7030a80b49690ce724124489fa227035bdff879621c5c448b260832",
+        "M_model_optimal": "26c91462a7030a80b49690ce724124489fa227035bdff879621c5c448b260832"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.16476559757588477,
+          "ink_mass_ratio": 0.13299750245114852,
+          "retained_factor_count": 2
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.32953119515176954,
+          "ink_mass_ratio": 0.3014004833705209,
+          "retained_factor_count": 4
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.4942967927276543,
+          "ink_mass_ratio": 0.4942967927276543,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 43,
+          "stimulus_sha256": "df11236bbd2e3eb477eb4225568039fcc9cc5ea929859604cf635cb1a7d945cf",
+          "visual_sha256": "26c91462a7030a80b49690ce724124489fa227035bdff879621c5c448b260832",
+          "factor_ids_sha256": "21f0f119aeb14376650035fb2e4101f02ad9a41029782b45575d0fce663a9929",
+          "equivalent_condition_id": "D5_maximal",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.6628645284851029,
+          "ink_mass_ratio": 0.6658953450369791,
+          "retained_factor_count": 12
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.8314322642425515,
+          "ink_mass_ratio": 0.8303442098425213,
+          "retained_factor_count": 23
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 43
+        }
+      }
+    },
+    {
+      "doc_id": "P17_DOC_A",
+      "file": "stimuli/P17_DOC_A.json",
+      "source_document_id": "690ea38b-08f2-49f2-a5b5-08230fae7b5b",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "90b73b6e4579e89f16d36792517381d2452802ff7108d414b89e0c5a8f3aeabc",
+        "D1_derived": "8fdd68534e1a97f444d0bc321aaeb9f200a34395374fd0d0806981df78d59175",
+        "D2_derived": "31f497a51074f8cc0cc36ddb2df44aac5d2edbebca9c3b0eee348fd725cecffb",
+        "W_writer_optimal": "8f7cb20550cf9897601fd1eacc890ddc4455f4ab74424b1c1af3fd490f7a344a",
+        "M_model_optimal": "ae044477b39f9bae93b562eb8ae89cb4c15028a23f4dac260b0507c30372ceb5",
+        "D3_derived": "d38b19c364426cbb0045b2d609fc8dcddf24b6f09916e2824eae6a96395fd337",
+        "D4_derived": "6dbeef91fb87d5b99dc3963421b33f8cc9b4da21249a0d46770abfaa90cdb9b6",
+        "D5_maximal": "ef076d0353009e58d1ec3c0945e3e3011f4f7c0fb2c4b1c668b6c904f584e0b7"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "811a03ed3f3ce4a47903dc78c45a2917ac50806a718982d199a64eb5d3909478",
+        "D1_derived": "908cdf7bf49d86fb6faee75141fa938e423e2fe22543a625d21e3a97b4d79656",
+        "D2_derived": "79251a5c688a9c1f1fe421a8225f8b61f7f11e78279684f7cb979a18a2d449a2",
+        "W_writer_optimal": "ba3584d8dbcc7ceb4449c92aea2e285693bab95b181d34dc35645839fe032e98",
+        "D3_derived": "7420ca96a8194d3dc00d34a4cc43f6815e1125fa8cdb338ba73c43ed1303e502",
+        "D4_derived": "6b5df954dd734c4e7c9ff8abc9fe0556e0ff0f8c89093272c849390502b39c71",
+        "D5_maximal": "fadcccfd5ef63bad88579a4247f150369e39dc5ac10dddf4308ad5878a84dec7",
+        "M_model_optimal": "79251a5c688a9c1f1fe421a8225f8b61f7f11e78279684f7cb979a18a2d449a2"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.1747843734145104,
+          "ink_mass_ratio": 0.1541095890410959,
+          "retained_factor_count": 2
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.3495687468290208,
+          "ink_mass_ratio": 0.34110676233963905,
+          "retained_factor_count": 11
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.5243531202435312,
+          "ink_mass_ratio": 0.5243531202435312,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 0.1527777777777778,
+          "retained_factor_count": 11,
+          "stimulus_sha256": "ae044477b39f9bae93b562eb8ae89cb4c15028a23f4dac260b0507c30372ceb5",
+          "visual_sha256": "79251a5c688a9c1f1fe421a8225f8b61f7f11e78279684f7cb979a18a2d449a2",
+          "factor_ids_sha256": "f69579ed40c3353a7999b6711e3e08ea363a00a64bee492760d581df136e2036",
+          "equivalent_condition_id": "D2_derived",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.6829020801623541,
+          "ink_mass_ratio": 0.6683518156120897,
+          "retained_factor_count": 30
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.841451040081177,
+          "ink_mass_ratio": 0.8401282887584258,
+          "retained_factor_count": 44
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 72
+        }
+      }
+    },
+    {
+      "doc_id": "P17_DOC_B",
+      "file": "stimuli/P17_DOC_B.json",
+      "source_document_id": "963e2bf4-9358-4a8c-b852-80ebadbe6bd1",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "d9ea5b632af8079cb41656247cf06151c768f9d938d67c635fbdd007aa37670f",
+        "D1_derived": "4dbf3fbba4c4cb52c9413d4ed73aa995d0919e018c765c1516d4444bd68098be",
+        "D2_derived": "56c38b0f9c2ac0f88323767c64b294e447371f031d6ff42af4c1e2da353b334e",
+        "W_writer_optimal": "30614757b77f877f7d05e17834ee455969d9bc946d0845190d9db10533c7de0d",
+        "M_model_optimal": "76853cc6912e3170a7e7d157e195fef3ccb5595dc02452a65576effe6e1cb360",
+        "D3_derived": "c701a7df9c057f536d316c403be0333a618578dfc7fef993a3b18a0b1067141d",
+        "D4_derived": "0a5c9fa6a1e6d3369cbdac05633a5bb6f4835515c84bf3989d933c18a6c6fe0f",
+        "D5_maximal": "a60eb82c0607c83fe168e0cd8c92c976eacf493a2bd3d87893b64fbfad8ae46a"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "9902ba92a79541f20ad0d9a8b5d5224595511716ef3e877b626183fc14b90523",
+        "D1_derived": "756e8215a700ad96d59d51a722d72baa6eed5b137075d717b6e61648bd50614a",
+        "D2_derived": "dce65286d4f8d037c2b48b6feb0dcfa2c57a1dc16ddcbe0c2d167de1d72b1a6b",
+        "W_writer_optimal": "110dc4eb9103c933bdf9da00b29f398d4be11dda171d9a60416cd2e6800d422f",
+        "D3_derived": "9b5cc5a2ec7d837557789c31b6242b6ee9fa26d5da3f398dc79494b9024c4cf8",
+        "D4_derived": "f8922e25df91b04e1c96bdb5f3c90e466f06ca209db226c9f1a782261ae6386f",
+        "D5_maximal": "8c91cdeaf284f99ce8e21d69c3d5a5ac8663a1e47c99b4cd5fac91a7c539c1ce",
+        "M_model_optimal": "f8922e25df91b04e1c96bdb5f3c90e466f06ca209db226c9f1a782261ae6386f"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.21156382516945474,
+          "ink_mass_ratio": 0.20135480316538118,
+          "retained_factor_count": 16
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.4231276503389095,
+          "ink_mass_ratio": 0.4107733146348793,
+          "retained_factor_count": 18
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.6346914755083642,
+          "ink_mass_ratio": 0.6346914755083642,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 0.7424242424242424,
+          "retained_factor_count": 49,
+          "stimulus_sha256": "76853cc6912e3170a7e7d157e195fef3ccb5595dc02452a65576effe6e1cb360",
+          "visual_sha256": "f8922e25df91b04e1c96bdb5f3c90e466f06ca209db226c9f1a782261ae6386f",
+          "factor_ids_sha256": "0fdbb0e31b4cf73c172f8f73708b5a39d7cbb625725f01c477c4caf71a4c2def",
+          "equivalent_condition_id": "D4_derived",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.7564609836722428,
+          "ink_mass_ratio": 0.7546704397475709,
+          "retained_factor_count": 32
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.8782304918361215,
+          "ink_mass_ratio": 0.8839276770509866,
+          "retained_factor_count": 49
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 66
+        }
+      }
+    },
+    {
+      "doc_id": "P18_DOC_A",
+      "file": "stimuli/P18_DOC_A.json",
+      "source_document_id": "e733dd01-1b24-4799-be59-03fe74f3310d",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "dd1ab222ceb4179e5818ff2e731928f9815baaaa0dde83fb84bbcd272819a5ee",
+        "D1_derived": "872c9522a9b85fea2912e3602587d19598e4e24a48e046c2dd94cd88b6d3dac8",
+        "D2_derived": "6919d3a9f79e97ec4be93790c04e6afc2252cb80bd8db5baa16e720148e40b34",
+        "W_writer_optimal": "c5051d7c94d82d3374e41fc5bb834c625307c9813e5d7a763f0ff4e62fcc2f7b",
+        "M_model_optimal": "7d0165092fa849ed651c3ec3981451b5d141c7e9e8d4d40745ac65f420a4ec47",
+        "D3_derived": "4800e33a66fcca8005932f4a174daba679be7456d34e2f981cfc6214727504d7",
+        "D4_derived": "9ece155028d6aca1e0004f2a1228ade0bdb6d5cb16c8c0a0407006b4ec3e3993",
+        "D5_maximal": "8cb68ae9ff08da407d8960dabc71af5b3b5412cbe968eb47a10d09b30957e1a5"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "ba3ae9ab72276dddf5b11638f321bc886b5b50cb017118a67ef291f1fea69e02",
+        "D1_derived": "4930107fa547a2b40b1679975405daf86249589dc7025d21165dfb89d1f4d7ae",
+        "D2_derived": "7280dc3d9fa3193a4c0d5b253a987b4baf16f875f2058d3f65258248f2477fa8",
+        "W_writer_optimal": "9db4455f48701c60a29a94c82662058c7f90cf1f64d7bcf4b7b6a1085ca422ac",
+        "D3_derived": "9d97bb86ec8f18493908eea27cabc0c0d13e688ede99066b0e9f1502f5997a85",
+        "D4_derived": "bcc8c9190e9bfff169fb23f2d4b533446cf44cb804e290802738b55b405ec4d1",
+        "D5_maximal": "e30758665100ca28b21557d3af9e6badcc78380cd4126d24b14688dd12c108e5",
+        "M_model_optimal": "e30758665100ca28b21557d3af9e6badcc78380cd4126d24b14688dd12c108e5"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.21014402069059016,
+          "ink_mass_ratio": 0.2053155210712386,
+          "retained_factor_count": 2
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.4202880413811803,
+          "ink_mass_ratio": 0.4086912993148328,
+          "retained_factor_count": 7
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.6304320620717705,
+          "ink_mass_ratio": 0.6304320620717705,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 42,
+          "stimulus_sha256": "7d0165092fa849ed651c3ec3981451b5d141c7e9e8d4d40745ac65f420a4ec47",
+          "visual_sha256": "e30758665100ca28b21557d3af9e6badcc78380cd4126d24b14688dd12c108e5",
+          "factor_ids_sha256": "c4bf9f99dd2fb230d949883909dcf13179dbd8fdcb1f8ff751462a06973e16f8",
+          "equivalent_condition_id": "D5_maximal",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.7536213747145136,
+          "ink_mass_ratio": 0.7585489472202234,
+          "retained_factor_count": 29
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.8768106873572568,
+          "ink_mass_ratio": 0.8662516034164502,
+          "retained_factor_count": 33
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 42
+        }
+      }
+    },
+    {
+      "doc_id": "P18_DOC_B",
+      "file": "stimuli/P18_DOC_B.json",
+      "source_document_id": "b630f42e-1f3c-478f-999c-f64016af3222",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "56575d186b55c4288e82e93087657198ea860848c1e7c49dc0d9cbf835e7a80d",
+        "D1_derived": "dcc0b0fcf31fa591252cabad449e9f0f866bd38bbc5b8d31e260e0b2e0a8ba35",
+        "D2_derived": "8572931f775f4840ec3f9da9643dcd4b9375e4c752e0a374bc563c247118ec27",
+        "W_writer_optimal": "a6be2f23d3219b5ede203ddbbb022347573134ed8975d06f2c0aae829947e006",
+        "M_model_optimal": "5cbe64abb2f9c5fdcefd6f41f7fdb609a965016285aba1ad2fd026cdf12efd95",
+        "D3_derived": "6b00246dbf8fd9fea15fe781ade5464ac31d5c78858a4ece220de9225dbab192",
+        "D4_derived": "23b714bc1bb7f7713a3ea1d4bf3d3bc5c2cb3d7e14b721c0c5df4e5a75911258",
+        "D5_maximal": "c5654cd2ffe3287cbe1e6cf217ba8472db45801178fa31076969c0ea065184b8"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "bc1922e968b6fdd221e8f2b0c14bcbc93881cded2791aca62d7e7c600ef785c9",
+        "D1_derived": "67b76822a18df348bc0c2675db6b830771dab271cda63ad3e1412d2309c488e6",
+        "D2_derived": "f3e801ce06e8ac619d2b5934f649401b1db99968d2100849bb51eb56dd8b5243",
+        "W_writer_optimal": "5b05bf09ee71c96807c8bf8a59a695bbf96b1721378af053926a1a3d84a15b5d",
+        "D3_derived": "b52f76698888e98daed71238de11fde7ea19985d8770a71f1a71c841417f76d5",
+        "D4_derived": "a0621650fcb8f6df801947967ff7bdd9bcf90543f1d305de041af5ac4f61bc7b",
+        "D5_maximal": "024a3fa89017c4288bb9b3e67d4a017affc29f29e0f1c14013400e0402043c9a",
+        "M_model_optimal": "024a3fa89017c4288bb9b3e67d4a017affc29f29e0f1c14013400e0402043c9a"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.09448126606249155,
+          "ink_mass_ratio": 0.10279994589476532,
+          "retained_factor_count": 2
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.1889625321249831,
+          "ink_mass_ratio": 0.18497227106722577,
+          "retained_factor_count": 6
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.28344379818747467,
+          "ink_mass_ratio": 0.28344379818747467,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 34,
+          "stimulus_sha256": "5cbe64abb2f9c5fdcefd6f41f7fdb609a965016285aba1ad2fd026cdf12efd95",
+          "visual_sha256": "024a3fa89017c4288bb9b3e67d4a017affc29f29e0f1c14013400e0402043c9a",
+          "factor_ids_sha256": "3670c73d3c4191f5d41a284d762450d3f05bfa000569aa88f16244718d9c45cb",
+          "equivalent_condition_id": "D5_maximal",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.5222958654583164,
+          "ink_mass_ratio": 0.5214391992425268,
+          "retained_factor_count": 10
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.7611479327291581,
+          "ink_mass_ratio": 0.7530772352225078,
+          "retained_factor_count": 13
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 34
+        }
+      }
+    },
+    {
+      "doc_id": "P19_DOC_A",
+      "file": "stimuli/P19_DOC_A.json",
+      "source_document_id": "d3fb7c69-98d4-46e7-a338-e8d451ce0ab4",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "116d77b157e0d4703efbebd10f0f363d13f26bb84c0a67a7de5eaea6facf5e56",
+        "D1_derived": "fd1a76227becdf962a2a8b915fc2bdb39ea91044c4509d9b3babd4f2c17e4fdc",
+        "D2_derived": "f4eb7a728b9508c72f08c1d948e1a859bd6c73238506859f2bba9d9e86b0e721",
+        "W_writer_optimal": "a5735350591ecaf3666592f603684beed7dfad3dc55803c52076843387e362a3",
+        "M_model_optimal": "6383887c4b5f2fb61b43e709d2e6a2c08478ad1856572bfe38f37e24287f755f",
+        "D3_derived": "4d02541f09eb8ca77fb1d9febe87b13c757b9e4aa3308dd83de1db2a96795936",
+        "D4_derived": "ed829bad0b4fc838118ed1c1cd069c7caa4733db488e8bbfd144172ca33607c1",
+        "D5_maximal": "28eaf94a04ce0dce83a36535f9e1bd114016e986b37ebeff1f76ff60990f5e72"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "41dd9fcfdc2a461b354893e79c3383739e0cba6d784cb41287f667a8b7affd03",
+        "D1_derived": "08f2548a884f0688bc8b1d4327783fc669218257c7657412d2ca0d323874f136",
+        "D2_derived": "3a4da01f41b0ecdbc3ea1704b257275ee3ce9b4905ca1c2db663b5be35a5b978",
+        "W_writer_optimal": "5e66686a5a11aa950fec9e7182b3cde3d53cf4de4adbd0d6428df32202bd8f44",
+        "D3_derived": "288a0dc1f97d6acfe384c08540c421ab4398419b9a7ebe058db59a2c8cf5e390",
+        "D4_derived": "ddb89859dabb215db90e369087865930690aee2ea5a91f9aa3d2441f4713d12e",
+        "D5_maximal": "de1d2160d01f094be34927e23e8889c8fa341843a62478e18fc6d8a689a74314",
+        "M_model_optimal": "ddb89859dabb215db90e369087865930690aee2ea5a91f9aa3d2441f4713d12e"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.19001744537767834,
+          "ink_mass_ratio": 0.19209260119022492,
+          "retained_factor_count": 4
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.3800348907553567,
+          "ink_mass_ratio": 0.38297176381209636,
+          "retained_factor_count": 9
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.5700523361330351,
+          "ink_mass_ratio": 0.5700523361330351,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 0.7352941176470589,
+          "retained_factor_count": 25,
+          "stimulus_sha256": "6383887c4b5f2fb61b43e709d2e6a2c08478ad1856572bfe38f37e24287f755f",
+          "visual_sha256": "ddb89859dabb215db90e369087865930690aee2ea5a91f9aa3d2441f4713d12e",
+          "factor_ids_sha256": "0dc83533189baae43b25cc6f3294d5b7b4a363036f2e7befb29d1bd7b0b31631",
+          "equivalent_condition_id": "D4_derived",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.71336822408869,
+          "ink_mass_ratio": 0.7207086481239183,
+          "retained_factor_count": 17
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.856684112044345,
+          "ink_mass_ratio": 0.8566032161397881,
+          "retained_factor_count": 25
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 34
+        }
+      }
+    },
+    {
+      "doc_id": "P19_DOC_B",
+      "file": "stimuli/P19_DOC_B.json",
+      "source_document_id": "6b0d1f2b-c2f3-4000-99a9-21c706900b83",
+      "viewport_width": 900,
+      "viewport_height": 2158,
+      "validation_status": "pass",
+      "source_html_sha256": {
+        "D0_plain": "546fdd022af10dee3644da92f0052c77316e05ff7be27170a6712d34b92e87c2",
+        "D1_derived": "059330830eb5bca1f852035a76dff0c4de7eb4fd388c63629006f13e5ae18209",
+        "D2_derived": "0af595363f9dd2fb902fe75134f11775cdc7f0361098f794dc9c9ea21b97c2c9",
+        "W_writer_optimal": "f129d9cf504e2c4305a78a2b0eddde44da646203951dd7c08b897393a39029f9",
+        "M_model_optimal": "422157ce3f4c156b9b62e14dfa64d8c6818abbbb6470955c124f0b83bff591fc",
+        "D3_derived": "795e78b1c573ee53c8d7b96b7d159c7e2ac40b82f6d0a4ff8756788e8afd72a9",
+        "D4_derived": "68b76ef87e46864f872cd4ac30d99ef668777ef9b132ca39e538a50633a87bd8",
+        "D5_maximal": "08bcaf236a95a0d888ba130923c1002b444a6539aeed09cdf8a563cacbd3b29e"
+      },
+      "visual_html_sha256": {
+        "D0_plain": "451a80f9f1be30f27806edea6283b396b3d1fbc3357957234b96071280f1615d",
+        "D1_derived": "e5b52198c59e2d69ea2316dcb6596862741cc087370f289655914f690f1e60fd",
+        "D2_derived": "47990a3f6bf6538a1d80ebba27a36fd53a2eaf03a9d09267f54f62963e5735a1",
+        "W_writer_optimal": "08ea743c3bb69962fabc1ad08f7a73df04ea1387e571d7b4cf08045987f09d0d",
+        "D3_derived": "4c45f6208577f3aca5bce6f20f44df7604dcc334d6217b41f931409a4032f0a3",
+        "D4_derived": "482832d3272063bbe2b3d643d189af9cfd3bde0bacb4c38202970415818496dc",
+        "D5_maximal": "694186f2e63b0a86b7e7a19dfbb0eef50651d25bf4e5c3cda8c941c5cba5bca4",
+        "M_model_optimal": "694186f2e63b0a86b7e7a19dfbb0eef50651d25bf4e5c3cda8c941c5cba5bca4"
+      },
+      "condition_meta": {
+        "D0_plain": {
+          "display_order": 0,
+          "target_ink_mass_ratio": 0,
+          "ink_mass_ratio": 0,
+          "retained_factor_count": 0
+        },
+        "D1_derived": {
+          "display_order": 1,
+          "target_ink_mass_ratio": 0.21050765501832372,
+          "ink_mass_ratio": 0.24761363323766472,
+          "retained_factor_count": 2
+        },
+        "D2_derived": {
+          "display_order": 2,
+          "target_ink_mass_ratio": 0.42101531003664744,
+          "ink_mass_ratio": 0.4181941553499546,
+          "retained_factor_count": 7
+        },
+        "W_writer_optimal": {
+          "display_order": 3,
+          "target_ink_mass_ratio": 0.6315229650549712,
+          "ink_mass_ratio": 0.6315229650549712,
+          "retained_factor_count": null
+        },
+        "M_model_optimal": {
+          "display_order": 4,
+          "target_ink_mass_ratio": null,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 38,
+          "stimulus_sha256": "422157ce3f4c156b9b62e14dfa64d8c6818abbbb6470955c124f0b83bff591fc",
+          "visual_sha256": "694186f2e63b0a86b7e7a19dfbb0eef50651d25bf4e5c3cda8c941c5cba5bca4",
+          "factor_ids_sha256": "a650faa96030c272f9ac78e43446de60daf3182bc8881c39d20cf6f6600a70c0",
+          "equivalent_condition_id": "D5_maximal",
+          "is_novel_prefix": false
+        },
+        "D3_derived": {
+          "display_order": 4,
+          "target_ink_mass_ratio": 0.7543486433699808,
+          "ink_mass_ratio": 0.7515977883125339,
+          "retained_factor_count": 19
+        },
+        "D4_derived": {
+          "display_order": 5,
+          "target_ink_mass_ratio": 0.8771743216849903,
+          "ink_mass_ratio": 0.868784213759777,
+          "retained_factor_count": 27
+        },
+        "D5_maximal": {
+          "display_order": 6,
+          "target_ink_mass_ratio": 1,
+          "ink_mass_ratio": 1,
+          "retained_factor_count": 38
+        }
+      }
+    }
+  ],
+  "model_optimal_equivalence_counts": {
+    "D5_maximal": 12,
+    "D4_derived": 11,
+    "novel_prefix": 11,
+    "D3_derived": 3,
+    "D2_derived": 1
+  },
+  "source_inventory": "Google Drive/CHI Text Enrichment/(for CHI) final output"
+}

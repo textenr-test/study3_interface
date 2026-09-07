@@ -1,0 +1,87 @@
+/*
+ * Reproducible web-font aliases used by the embedded study stimuli.
+ * Google Fonts supplies "Inter", "Noto Sans KR", and "Noto Serif KR". Naver's official
+ * Hangeul CDN supplies the Nanum and MaruBuri families. See FONT-LICENSES.md.
+ */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans+KR:wght@400;700&family=Noto+Serif+KR:wght@400;700&display=block");
+
+@font-face {
+  font-family: "Nanum Barun Gothic";
+  src: url("https://hangeul.pstatic.net/hangeul_static/webfont/NanumBarunGothic/NanumBarunGothicWeb.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Nanum Barun Gothic";
+  src: url("https://hangeul.pstatic.net/hangeul_static/webfont/NanumBarunGothic/NanumBarunGothicWebBold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Nanum Gothic";
+  src: url("https://hangeul.pstatic.net/hangeul_static/webfont/NanumGothic/NanumGothic.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Nanum Gothic";
+  src: url("https://hangeul.pstatic.net/hangeul_static/webfont/NanumGothic/NanumGothicBold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Nanum Myeongjo";
+  src: url("https://hangeul.pstatic.net/hangeul_static/webfont/NanumMyeongjo/NanumMyeongjo.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Nanum Myeongjo";
+  src: url("https://hangeul.pstatic.net/hangeul_static/webfont/NanumMyeongjo/NanumMyeongjoBold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "NanumSquare";
+  src: url("https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquare/NanumSquareR.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "NanumSquare";
+  src: url("https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquare/NanumSquareB.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "MaruBuri";
+  src: url("https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "MaruBuri";
+  src: url("https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+}
+
