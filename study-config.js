@@ -62,14 +62,14 @@ window.STUDY_CONFIG = Object.freeze({
     allowedPointer: "fine"
   },
   stimulusLanguage: "Korean",
-  dataEndpoint: "",
+  dataEndpoint: "https://script.google.com/macros/s/AKfycbw_QD_fAt7d9i1EhMfhnpeRWFWmnytPpzTufqGmrUKCu1hNT2ujoUETGkR4tmhh6P3p/exec",
   googleSheetUrl: "",
   redirects: {
-    complete: "",
-    screenedOut: "",
-    incompatibleDevice: "",
-    failedComprehension: "",
-    noConsent: ""
+    complete: "https://app.prolific.com/submissions/complete?cc=CW2P6FV4",
+    screenedOut: "https://app.prolific.com/submissions/complete?cc=C1JJDH8M",
+    incompatibleDevice: "https://app.prolific.com/submissions/complete?cc=CG4A1FAO",
+    failedComprehension: "https://app.prolific.com/submissions/complete?cc=COI7JSKM",
+    noConsent: "https://app.prolific.com/submissions/complete?cc=CYE28F39"
   },
   researcherContact: "Please contact the researcher through Prolific messaging.",
   supportNote: "If a technical problem prevents completion, message the researcher on Prolific and return the submission rather than submitting incomplete data."
