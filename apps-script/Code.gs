@@ -95,7 +95,7 @@ function setupStudyWorkbook() {
       ["Timing", "750 ms fixation, 1,000 ms simultaneous display, three attention checks (+1, +3, +1), and 60-second breaks after trials 38 and 76."],
       ["Checkpoint policy", "Trials are appended idempotently. The interface confirms each row, checks all 38/76 rows before each break, and confirms all 114 rows before completion."],
       ["Exports", "text-enrichment-final-log.csv and text-enrichment-final-log.json are created at setup and refreshed after each completed participant. Run exportStudyLogs() for an on-demand refresh."],
-      ["Slot policy", "The exact balance is guaranteed when every slot 1–35 has one valid completion. Slots are never released automatically; use releaseIncompleteSlot() for invalid/incomplete cases, retain partial rows for audit, and refill the released slot."],
+      ["Slot policy", "The exact balance is guaranteed when every slot 1–35 has one valid completion. Use releaseIncompleteSlot() for non-completers or releaseInvalidCompletedSlot() after a documented post-hoc invalidation, retain all rows for audit, and refill the released slot."],
       ["Stimulus warnings", "P6_DOC_A, P13_DOC_A, and P13_DOC_B have source-pipeline validation_status=warning and require analysis review."],
       ["Privacy", "Keep the spreadsheet and exported files restricted to authorized research personnel. The web endpoint has no public export route."],
       ["Study version", configuredStudyVersion_()],
@@ -196,7 +196,7 @@ function reserveSlot_(parameters) {
       .filter(function(row) {
         return row.study_version === studyVersion
           && Number(row.participant_slot)
-          && !["released", "released_with_partial_data"].includes(String(row.status));
+          && !["released", "released_with_partial_data", "released_invalid_complete"].includes(String(row.status));
       })
       .map(function(row) { return Number(row.participant_slot); }));
     let slot = null;
@@ -942,6 +942,69 @@ function releaseIncompleteSlot(participantId, studyId) {
       last_seen_at: new Date().toISOString()
     });
     return { released: true, allocationId: row.allocation_id, partialTrialCount: partialCount };
+  } finally {
+    lock.releaseLock();
+  }
+}
+
+function releaseInvalidCompletedSlot(participantId, studyId, invalidReason) {
+  const identityParticipant = safeIdentifier_(participantId, "participant_id");
+  const identityStudy = safeIdentifier_(studyId, "study_id");
+  const reason = String(invalidReason || "").trim();
+  if (reason.length < 3 || reason.length > 500) {
+    throw new Error("A 3–500 character invalidation reason is required.");
+  }
+  const studyVersion = configuredStudyVersion_();
+  const lock = LockService.getScriptLock();
+  lock.waitLock(30000);
+  try {
+    const spreadsheet = getSpreadsheet_();
+    const participantSheet = getOrCreateSheet_(spreadsheet, SHEET_NAMES.participants);
+    ensureHeaders_(participantSheet, HEADERS.Participants);
+    const row = readTable_(participantSheet).rows.find(function(item) {
+      return item.participant_id === identityParticipant
+        && item.study_id === identityStudy
+        && item.study_version === studyVersion;
+    });
+    if (!row) throw new Error("Participant record not found.");
+    if (row.status !== "complete") {
+      throw new Error("Only a completed participant can use releaseInvalidCompletedSlot().");
+    }
+    const releasedSlot = Number(row.participant_slot);
+    if (!releasedSlot) throw new Error("Completed participant has no allocation slot.");
+    const releasedAllocationId = row.allocation_id;
+    const timestamp = new Date().toISOString();
+    updateParticipantFields_(participantSheet, row._rowNumber, {
+      participant_slot: "",
+      status: "released_invalid_complete",
+      last_seen_at: timestamp
+    });
+
+    const eventSheet = getOrCreateSheet_(spreadsheet, SHEET_NAMES.events);
+    ensureHeaders_(eventSheet, HEADERS.Events);
+    appendObjectRow_(eventSheet, HEADERS.Events, {
+      event_id: "slot_invalidated_" + Utilities.getUuid().replace(/-/g, ""),
+      participant_id: row.participant_id,
+      session_id: row.session_id,
+      study_id: row.study_id,
+      participant_slot: releasedSlot,
+      event_type: "slot_invalidated_after_completion",
+      event_timestamp: timestamp,
+      completed_trials: Number(row.completed_trials) || STUDY_DESIGN.trialsPerParticipant,
+      detail_json: JSON.stringify({
+        allocationId: releasedAllocationId,
+        invalidReason: reason,
+        priorStatus: "complete"
+      }),
+      study_version: studyVersion
+    });
+    return {
+      released: true,
+      invalidatedCompletedParticipant: true,
+      slot: releasedSlot,
+      allocationId: releasedAllocationId,
+      reason: reason
+    };
   } finally {
     lock.releaseLock();
   }

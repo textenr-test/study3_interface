@@ -22,7 +22,7 @@ The locked allocation in `assignments/` has 3,990 rows and guarantees, when slot
 - three different positions for each participant-document, no last-five/first-five boundary overlap, no adjacent A/B documents by the same writer, and 105 unique participant-set document orders; and
 - each eligible attention-check position 1 or 2 times per set and exactly 5 times after pooling the three sets.
 
-The browser assigns no fresh randomness during a session. It loads one of the 35 immutable, seed-reproducible schedules; collector locking ensures a slot is held by at most one active participant. Exact final balance requires one valid completion in every slot. If a participant is invalid or incomplete, use `releaseIncompleteSlot()` and recruit a replacement into that released slot rather than adding a 36th allocation.
+The browser assigns no fresh randomness during a session. It loads one of the 35 immutable, seed-reproducible schedules; collector locking ensures a slot is held by at most one active participant. Exact final balance requires one valid completion in every slot. Use `releaseIncompleteSlot()` for an incomplete participant or `releaseInvalidCompletedSlot()` with a documented reason for a post-hoc invalid completion, then recruit a replacement into that released slot rather than adding a 36th allocation. All prior trial and event rows remain available for audit and must be excluded by participant status during analysis.
 
 ## M-equivalent-D exclusion
 

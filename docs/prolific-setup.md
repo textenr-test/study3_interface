@@ -35,7 +35,7 @@ Do not reuse the Study 2 Sheet or Apps Script deployment.
 7. Deploy a new web app as the owner, accessible to anyone with the deployment link.
 8. Put the new `/exec` URL in `study-config.js` and verify the health handshake reports the Study 3 service, collector, assignment, and schema versions.
 
-The collector reserves slots 1–35 under a lock, writes trials idempotently, confirms every stored row, and requires checkpoints at 38, 76, and 114 trials. Exact balance requires one valid completion in every slot. Incomplete or invalid slots are never released automatically; use `releaseIncompleteSlot("PROLIFIC_PID", "STUDY_ID")` under the approved replacement policy, then recruit a replacement into that released slot.
+The collector reserves slots 1–35 under a lock, writes trials idempotently, confirms every stored row, and requires checkpoints at 38, 76, and 114 trials. Exact balance requires one valid completion in every slot. Slots are never released automatically. Use `releaseIncompleteSlot("PROLIFIC_PID", "STUDY_ID")` for a non-completer, or `releaseInvalidCompletedSlot("PROLIFIC_PID", "STUDY_ID", "documented reason")` for a post-hoc invalid completion, then recruit a replacement into that released slot. Prior rows remain in the workbook for audit; analysis must join to participant status and exclude released records.
 
 ## Assignment and stimulus checks
 
