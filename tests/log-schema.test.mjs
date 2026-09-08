@@ -24,7 +24,7 @@ const requiredNotionFields = [
 
 assert.equal(csv, TRIAL_LOG_HEADERS.join(",") + "\n");
 assert.equal(json.schema_version, TRIAL_LOG_SCHEMA_VERSION);
-assert.equal(json.study_version, "2026-09-07-study3-v1");
+assert.equal(json.study_version, "2026-09-08-study3-v2");
 assert.deepEqual(json.columns.map((column) => column.name), TRIAL_LOG_HEADERS);
 assert.deepEqual(json.records, []);
 requiredNotionFields.forEach((field) => assert.ok(TRIAL_LOG_HEADERS.includes(field), `Missing ${field}`));
@@ -36,4 +36,3 @@ assert.doesNotMatch(collector, /if \(payload\.kind === "final"\) \{\s+try \{\s+e
 assert.match(collector, /rowRange\.setValues\(\[values\]\)/);
 
 console.log("CSV/JSON trial-log templates and collector pipeline schema verified.");
-

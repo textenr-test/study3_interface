@@ -1,14 +1,14 @@
 {
-  "schema_version": "text-enrichment-allocation-index-v3",
-  "study_version": "2026-09-07-study3-v1",
-  "assignment_version": "n42-study3-fano-v1",
-  "allocation_sha256": "0f2a0a5403ab64db4ceb9d80d564bf79f96756a0e1cbe955cd363ea85a1579c2",
+  "schema_version": "text-enrichment-allocation-index-v4",
+  "study_version": "2026-09-08-study3-v2",
+  "assignment_version": "n35-study3-carryover-v2",
+  "allocation_sha256": "a3fc59ffc43b946b8dcb68a1f0c65cf0c83f4135a6d0a90586be41ddbf8496d2",
   "participant_slots": [
     {
       "participant_slot": 1,
-      "allocation_id": "n42-study3-fano-v1-slot-01",
+      "allocation_id": "n35-study3-carryover-v2-slot-01",
       "file": "slots/slot-01.json",
-      "allocation_sha256": "4fed405431907b3f3a56ad4ab9a92a524af610b067d8ebf77807abb13b7eb0b3",
+      "allocation_sha256": "8940da0204ee750972894f13cd6437e1f141ba5782d99854d2564258b1a50424",
       "attention_checks": [
         {
           "set_id": 1,
@@ -32,9 +32,9 @@
     },
     {
       "participant_slot": 2,
-      "allocation_id": "n42-study3-fano-v1-slot-02",
+      "allocation_id": "n35-study3-carryover-v2-slot-02",
       "file": "slots/slot-02.json",
-      "allocation_sha256": "e9fcbad96a923d72d9b3aa03ed104e34cc0227e6854caf02b6e43265209ac62c",
+      "allocation_sha256": "e11a1a62502ad047470a1c8aebf3cbb5ad023db8161e708493e73d3412ceab99",
       "attention_checks": [
         {
           "set_id": 1,
@@ -58,9 +58,9 @@
     },
     {
       "participant_slot": 3,
-      "allocation_id": "n42-study3-fano-v1-slot-03",
+      "allocation_id": "n35-study3-carryover-v2-slot-03",
       "file": "slots/slot-03.json",
-      "allocation_sha256": "1928b781c44e0533c0eabac8fcfdd634e1c385fc13de1625cf97c106ef4ee461",
+      "allocation_sha256": "e76edbeb55e99a2b63323e6897bc1c9ceeab71299776b4f7837842cc3ff2733a",
       "attention_checks": [
         {
           "set_id": 1,
@@ -84,9 +84,9 @@
     },
     {
       "participant_slot": 4,
-      "allocation_id": "n42-study3-fano-v1-slot-04",
+      "allocation_id": "n35-study3-carryover-v2-slot-04",
       "file": "slots/slot-04.json",
-      "allocation_sha256": "e498dceaf7626c9d5bf66bbb1cdcbd1a673cd1ddcdf6ccbb20d83bbe3193a0d6",
+      "allocation_sha256": "677df8f883ea11b99752076b8a278294d17e079f8a4adbc891deee2bfeb01891",
       "attention_checks": [
         {
           "set_id": 1,
@@ -110,9 +110,9 @@
     },
     {
       "participant_slot": 5,
-      "allocation_id": "n42-study3-fano-v1-slot-05",
+      "allocation_id": "n35-study3-carryover-v2-slot-05",
       "file": "slots/slot-05.json",
-      "allocation_sha256": "03727e9cb40f7feb2e0c58d7d840eb641d6b03b84f317ad4ef5a49b02f586bfe",
+      "allocation_sha256": "76d5fec579e888e674c9e4d446cb5ca37d89adcb0af0eb1b175d142bd8c1f4cb",
       "attention_checks": [
         {
           "set_id": 1,
@@ -136,9 +136,9 @@
     },
     {
       "participant_slot": 6,
-      "allocation_id": "n42-study3-fano-v1-slot-06",
+      "allocation_id": "n35-study3-carryover-v2-slot-06",
       "file": "slots/slot-06.json",
-      "allocation_sha256": "7daf9350775e65976312bf326bb9072ec73106d55476cad54844393def3f6d9d",
+      "allocation_sha256": "de8c54d76b7b72b02bf0a0bce9cdfb20e2634f201681a01ae9aac4c94facffc9",
       "attention_checks": [
         {
           "set_id": 1,
@@ -162,9 +162,9 @@
     },
     {
       "participant_slot": 7,
-      "allocation_id": "n42-study3-fano-v1-slot-07",
+      "allocation_id": "n35-study3-carryover-v2-slot-07",
       "file": "slots/slot-07.json",
-      "allocation_sha256": "4272b18f1b698c972969c53638778d515921a913d15356e17b7475f84bcb67aa",
+      "allocation_sha256": "de78dd6731ad7a2101396a67b8c1e526bdf962d48288ec65f86d6ba362e56817",
       "attention_checks": [
         {
           "set_id": 1,
@@ -188,9 +188,9 @@
     },
     {
       "participant_slot": 8,
-      "allocation_id": "n42-study3-fano-v1-slot-08",
+      "allocation_id": "n35-study3-carryover-v2-slot-08",
       "file": "slots/slot-08.json",
-      "allocation_sha256": "e0e6495748907cc0cd2d6d18bef2d2f748a2675deb3d57d53cdc7c9af1d1dd19",
+      "allocation_sha256": "531ba05e1f709c67f2e4b32d24e91aefdb4a573779c8aae9d4fdfea251739bb6",
       "attention_checks": [
         {
           "set_id": 1,
@@ -214,9 +214,9 @@
     },
     {
       "participant_slot": 9,
-      "allocation_id": "n42-study3-fano-v1-slot-09",
+      "allocation_id": "n35-study3-carryover-v2-slot-09",
       "file": "slots/slot-09.json",
-      "allocation_sha256": "bef4cfa8b7ffd232735376761daf6b7e99252f12fedb88fde7c2274c169ef3a1",
+      "allocation_sha256": "649fb81d299f6a985db38b71b53f47ff5a53a026e7286fa32387d87ba71fe3cf",
       "attention_checks": [
         {
           "set_id": 1,
@@ -240,9 +240,9 @@
     },
     {
       "participant_slot": 10,
-      "allocation_id": "n42-study3-fano-v1-slot-10",
+      "allocation_id": "n35-study3-carryover-v2-slot-10",
       "file": "slots/slot-10.json",
-      "allocation_sha256": "064ab15a8c9a52dbb4c99bdae561db1ce489d372bc26e6842ee7dd7b07476eba",
+      "allocation_sha256": "f780f7c6225c09ec9c0943c02edb84ad69a7432e0725de8557f0a7ea2dce76f2",
       "attention_checks": [
         {
           "set_id": 1,
@@ -266,9 +266,9 @@
     },
     {
       "participant_slot": 11,
-      "allocation_id": "n42-study3-fano-v1-slot-11",
+      "allocation_id": "n35-study3-carryover-v2-slot-11",
       "file": "slots/slot-11.json",
-      "allocation_sha256": "09f52772fad516d60e0e07bdbd12de385c79dd54ac90f528c3ef3c73f78f54cd",
+      "allocation_sha256": "d565652ca69efb58822f8bd5562695c07802d321ecc72dcd1ea031a616ea182d",
       "attention_checks": [
         {
           "set_id": 1,
@@ -292,9 +292,9 @@
     },
     {
       "participant_slot": 12,
-      "allocation_id": "n42-study3-fano-v1-slot-12",
+      "allocation_id": "n35-study3-carryover-v2-slot-12",
       "file": "slots/slot-12.json",
-      "allocation_sha256": "700c11a17622b3db7faf2b2f044238003085e62f8eb8fb9eb895f4f596169a7e",
+      "allocation_sha256": "4a6905314cf6e671663688974883f070e5f7136aa3a8509af5067ac840ae8243",
       "attention_checks": [
         {
           "set_id": 1,
@@ -318,9 +318,9 @@
     },
     {
       "participant_slot": 13,
-      "allocation_id": "n42-study3-fano-v1-slot-13",
+      "allocation_id": "n35-study3-carryover-v2-slot-13",
       "file": "slots/slot-13.json",
-      "allocation_sha256": "23c24ce0ae597ad1888cd4c39464bbb094486adbff0ade10cc66d7502beb5fc0",
+      "allocation_sha256": "151a19fb36bb190c0707bf09d55260f8f868d675a784c3e24e0afaf99a21fe20",
       "attention_checks": [
         {
           "set_id": 1,
@@ -344,9 +344,9 @@
     },
     {
       "participant_slot": 14,
-      "allocation_id": "n42-study3-fano-v1-slot-14",
+      "allocation_id": "n35-study3-carryover-v2-slot-14",
       "file": "slots/slot-14.json",
-      "allocation_sha256": "f17ea14445e65e106b22f7119bb8fc81513cc23265294254329419475458b8e2",
+      "allocation_sha256": "f76617e878a042e92b21fd51719c166b1167f3a99fc6f35f1b3cb6a4e6248893",
       "attention_checks": [
         {
           "set_id": 1,
@@ -370,9 +370,9 @@
     },
     {
       "participant_slot": 15,
-      "allocation_id": "n42-study3-fano-v1-slot-15",
+      "allocation_id": "n35-study3-carryover-v2-slot-15",
       "file": "slots/slot-15.json",
-      "allocation_sha256": "03931e8b3d1333b505ea22dc1be51377ba8028f959993f635c94e43fe92eab4b",
+      "allocation_sha256": "bd41ecec941575481de469c91d0ef2d4b82ebe5eb3c90cc20561205cd4d57ff0",
       "attention_checks": [
         {
           "set_id": 1,
@@ -396,9 +396,9 @@
     },
     {
       "participant_slot": 16,
-      "allocation_id": "n42-study3-fano-v1-slot-16",
+      "allocation_id": "n35-study3-carryover-v2-slot-16",
       "file": "slots/slot-16.json",
-      "allocation_sha256": "29780cb182242a34579c6ccaf2abc81d06ca946bc7fd373cebbc53d68e8af447",
+      "allocation_sha256": "f5a9710f2ff02ac1c30ed7c749ee7c7fb739b9fda788d7bf40c4e1b66e829ee7",
       "attention_checks": [
         {
           "set_id": 1,
@@ -422,9 +422,9 @@
     },
     {
       "participant_slot": 17,
-      "allocation_id": "n42-study3-fano-v1-slot-17",
+      "allocation_id": "n35-study3-carryover-v2-slot-17",
       "file": "slots/slot-17.json",
-      "allocation_sha256": "8f598c5141a20836d9db83d670dd4b3f31d8c3339344e8ca3d687fc835c60801",
+      "allocation_sha256": "e0544467885c264fc0b7f5a44aff16d302f40b97aabf2b6045fd7b5c7bc26241",
       "attention_checks": [
         {
           "set_id": 1,
@@ -448,9 +448,9 @@
     },
     {
       "participant_slot": 18,
-      "allocation_id": "n42-study3-fano-v1-slot-18",
+      "allocation_id": "n35-study3-carryover-v2-slot-18",
       "file": "slots/slot-18.json",
-      "allocation_sha256": "cffcf91e9b4d76e1c9bdf3c4ef7ad0bc8c31aa6af12b2440b07fafb7d6010003",
+      "allocation_sha256": "bbe505b3dca1447da0ee8116c89a1f4e24e1d0a46976e18cdaa3858660d05f9e",
       "attention_checks": [
         {
           "set_id": 1,
@@ -474,9 +474,9 @@
     },
     {
       "participant_slot": 19,
-      "allocation_id": "n42-study3-fano-v1-slot-19",
+      "allocation_id": "n35-study3-carryover-v2-slot-19",
       "file": "slots/slot-19.json",
-      "allocation_sha256": "52f29bec098a10638f84a405a8a5ca9b677ab421775a2622cc2eed4a4bd5c51d",
+      "allocation_sha256": "a24742c7bde030259432869e5adff9523957d68f30d659a8d71775b6eb581b87",
       "attention_checks": [
         {
           "set_id": 1,
@@ -500,9 +500,9 @@
     },
     {
       "participant_slot": 20,
-      "allocation_id": "n42-study3-fano-v1-slot-20",
+      "allocation_id": "n35-study3-carryover-v2-slot-20",
       "file": "slots/slot-20.json",
-      "allocation_sha256": "d8dd72492da61ec5e45a903a0a3e160ad3a88b0328bcfa99baa15bf2b949ca0a",
+      "allocation_sha256": "f219df22b977567450fdfb9f12cc01ef509bfa5db22643d8cd2e5687eb0a5a21",
       "attention_checks": [
         {
           "set_id": 1,
@@ -526,9 +526,9 @@
     },
     {
       "participant_slot": 21,
-      "allocation_id": "n42-study3-fano-v1-slot-21",
+      "allocation_id": "n35-study3-carryover-v2-slot-21",
       "file": "slots/slot-21.json",
-      "allocation_sha256": "3cdc18c5def75fe7a5c2a7215f4ed22bae5c7081adda5ca1ef19b9dfde14e386",
+      "allocation_sha256": "1c35db98e2b04777750a6bffdf451573ca2d7e64c78e70ed2283edec094b0a5f",
       "attention_checks": [
         {
           "set_id": 1,
@@ -552,9 +552,9 @@
     },
     {
       "participant_slot": 22,
-      "allocation_id": "n42-study3-fano-v1-slot-22",
+      "allocation_id": "n35-study3-carryover-v2-slot-22",
       "file": "slots/slot-22.json",
-      "allocation_sha256": "28eddbbaf87b9937c9423ba3f2b99253881778921c7dd9f7b4d58f1710fb5f65",
+      "allocation_sha256": "6e3b110e4e5918da41ba5812c57d6f425168217ee82b0f160107a2114d78ac20",
       "attention_checks": [
         {
           "set_id": 1,
@@ -578,9 +578,9 @@
     },
     {
       "participant_slot": 23,
-      "allocation_id": "n42-study3-fano-v1-slot-23",
+      "allocation_id": "n35-study3-carryover-v2-slot-23",
       "file": "slots/slot-23.json",
-      "allocation_sha256": "7fab483f5e5ad88715128a2aee6f4bc988c3f550cd106ed979059bca80e77fc9",
+      "allocation_sha256": "95e225840150e0261ae53898c2d57575f10da0c8d3110306db34768b41aba45e",
       "attention_checks": [
         {
           "set_id": 1,
@@ -604,9 +604,9 @@
     },
     {
       "participant_slot": 24,
-      "allocation_id": "n42-study3-fano-v1-slot-24",
+      "allocation_id": "n35-study3-carryover-v2-slot-24",
       "file": "slots/slot-24.json",
-      "allocation_sha256": "d9e2328f477dd2761959968d3567074599e1b311f6757c58c6959c628a4c72e9",
+      "allocation_sha256": "bf7591db166e2972a5da3706d922b37cb0f4feb43a3c66fd43be787f384ad689",
       "attention_checks": [
         {
           "set_id": 1,
@@ -630,9 +630,9 @@
     },
     {
       "participant_slot": 25,
-      "allocation_id": "n42-study3-fano-v1-slot-25",
+      "allocation_id": "n35-study3-carryover-v2-slot-25",
       "file": "slots/slot-25.json",
-      "allocation_sha256": "cea6293dd5113c83a43d669eea89dd9ffea994bc0b4ed75d1601d2edf08762f2",
+      "allocation_sha256": "effcaf7a8cb99b097751f07922e19771b9e19e46001615d47711433f56482406",
       "attention_checks": [
         {
           "set_id": 1,
@@ -656,9 +656,9 @@
     },
     {
       "participant_slot": 26,
-      "allocation_id": "n42-study3-fano-v1-slot-26",
+      "allocation_id": "n35-study3-carryover-v2-slot-26",
       "file": "slots/slot-26.json",
-      "allocation_sha256": "cd3ee6dcc507a77fe34c8814abcc47593055ed33bb99aa343b9954002bbe6cf4",
+      "allocation_sha256": "d1d14c6bc4f05398c0d7966e351df28f826915addd271a1aeaf8bbcb7cd08123",
       "attention_checks": [
         {
           "set_id": 1,
@@ -682,9 +682,9 @@
     },
     {
       "participant_slot": 27,
-      "allocation_id": "n42-study3-fano-v1-slot-27",
+      "allocation_id": "n35-study3-carryover-v2-slot-27",
       "file": "slots/slot-27.json",
-      "allocation_sha256": "9a16f026a463f0c045c9e5718f02d2539853177c1f595bb12d6cb408aae5a828",
+      "allocation_sha256": "a75a5f923439e14cbacc7f0c4ff625d265a36996e3ed0dc4947653f0b8920c0c",
       "attention_checks": [
         {
           "set_id": 1,
@@ -708,9 +708,9 @@
     },
     {
       "participant_slot": 28,
-      "allocation_id": "n42-study3-fano-v1-slot-28",
+      "allocation_id": "n35-study3-carryover-v2-slot-28",
       "file": "slots/slot-28.json",
-      "allocation_sha256": "b7b99b4e8f1837257347f440886514c0f65a5e3c76584259d05186e7e06669c1",
+      "allocation_sha256": "07e283086532c8922f765006ace2effa295589e426c9d4df475a7b470830b33a",
       "attention_checks": [
         {
           "set_id": 1,
@@ -734,9 +734,9 @@
     },
     {
       "participant_slot": 29,
-      "allocation_id": "n42-study3-fano-v1-slot-29",
+      "allocation_id": "n35-study3-carryover-v2-slot-29",
       "file": "slots/slot-29.json",
-      "allocation_sha256": "3e9d84f6a459f98daffffdcee280a5e8d270f8c82c0a62e20f047b5d34ee0ab3",
+      "allocation_sha256": "dfbe3d6cae7461e662f12ef078a4d3cde31f749a5f7bf8e215b3ad35bf2f9d4c",
       "attention_checks": [
         {
           "set_id": 1,
@@ -760,9 +760,9 @@
     },
     {
       "participant_slot": 30,
-      "allocation_id": "n42-study3-fano-v1-slot-30",
+      "allocation_id": "n35-study3-carryover-v2-slot-30",
       "file": "slots/slot-30.json",
-      "allocation_sha256": "107dee5a453a184e4cade0e30c80078d46472c6f014f2ffe643b72cfa558ad1a",
+      "allocation_sha256": "b8c2f45301078cc7a3b4ff4209cb26c53841106d187100b3176bd3e3c2abb91e",
       "attention_checks": [
         {
           "set_id": 1,
@@ -786,9 +786,9 @@
     },
     {
       "participant_slot": 31,
-      "allocation_id": "n42-study3-fano-v1-slot-31",
+      "allocation_id": "n35-study3-carryover-v2-slot-31",
       "file": "slots/slot-31.json",
-      "allocation_sha256": "74f0a4a2dce37ce70f1c12232aefd5770e640ada828bd9430e26beec8a0586d8",
+      "allocation_sha256": "7cbf5fe0ec0ace1a97b7180824e0c11904867bc85bbe02bda2219a63e7d1ea83",
       "attention_checks": [
         {
           "set_id": 1,
@@ -812,9 +812,9 @@
     },
     {
       "participant_slot": 32,
-      "allocation_id": "n42-study3-fano-v1-slot-32",
+      "allocation_id": "n35-study3-carryover-v2-slot-32",
       "file": "slots/slot-32.json",
-      "allocation_sha256": "f69caf770a0b7af4eb68ffaf922f20254313420a7052ac1e454efad404ef51cf",
+      "allocation_sha256": "ab6ec38092720a4657c0a653c117e17290eb8c45f02091c05404972a959ecb5a",
       "attention_checks": [
         {
           "set_id": 1,
@@ -838,9 +838,9 @@
     },
     {
       "participant_slot": 33,
-      "allocation_id": "n42-study3-fano-v1-slot-33",
+      "allocation_id": "n35-study3-carryover-v2-slot-33",
       "file": "slots/slot-33.json",
-      "allocation_sha256": "867c528fa2478441512544f575b16436cd20740d4a81cd73be13ab3abca74d27",
+      "allocation_sha256": "0d25148913f272bf288456a9beb4b024052ff12c692d9d30c438f8e5d6febe43",
       "attention_checks": [
         {
           "set_id": 1,
@@ -864,9 +864,9 @@
     },
     {
       "participant_slot": 34,
-      "allocation_id": "n42-study3-fano-v1-slot-34",
+      "allocation_id": "n35-study3-carryover-v2-slot-34",
       "file": "slots/slot-34.json",
-      "allocation_sha256": "70996aea0e3293b251a33728aa4a79648a7e6aba0abb4ead47f0f55138392c9d",
+      "allocation_sha256": "8198f23b64b1f9c56ff90cdc5c63f795922ffda9ebf22aa8d6a1362fc1d33d5c",
       "attention_checks": [
         {
           "set_id": 1,
@@ -890,9 +890,9 @@
     },
     {
       "participant_slot": 35,
-      "allocation_id": "n42-study3-fano-v1-slot-35",
+      "allocation_id": "n35-study3-carryover-v2-slot-35",
       "file": "slots/slot-35.json",
-      "allocation_sha256": "d87427838f2a7e0ec34fc9686a88142810264caba96843c116a48bfb31b55260",
+      "allocation_sha256": "084feb78135d13e345a5adba917e2efa740f7bf2f833791a7de5235ecc369431",
       "attention_checks": [
         {
           "set_id": 1,
@@ -913,188 +913,37 @@
           "response": 1
         }
       ]
-    },
-    {
-      "participant_slot": 36,
-      "allocation_id": "n42-study3-fano-v1-slot-36",
-      "file": "slots/slot-36.json",
-      "allocation_sha256": "2f23b3db517e8bd3790a4342f9987b63bff5af50c0ee3915a989e587792474c2",
-      "attention_checks": [
-        {
-          "set_id": 1,
-          "within_set_after_trial": 23,
-          "after_trial": 23,
-          "response": 1
-        },
-        {
-          "set_id": 2,
-          "within_set_after_trial": 9,
-          "after_trial": 47,
-          "response": 3
-        },
-        {
-          "set_id": 3,
-          "within_set_after_trial": 16,
-          "after_trial": 92,
-          "response": 1
-        }
-      ]
-    },
-    {
-      "participant_slot": 37,
-      "allocation_id": "n42-study3-fano-v1-slot-37",
-      "file": "slots/slot-37.json",
-      "allocation_sha256": "d4d29b5e6671cf009b7db72005f28cd7695b99f3cef1e1192a01e9f47e5fa539",
-      "attention_checks": [
-        {
-          "set_id": 1,
-          "within_set_after_trial": 24,
-          "after_trial": 24,
-          "response": 1
-        },
-        {
-          "set_id": 2,
-          "within_set_after_trial": 10,
-          "after_trial": 48,
-          "response": 3
-        },
-        {
-          "set_id": 3,
-          "within_set_after_trial": 17,
-          "after_trial": 93,
-          "response": 1
-        }
-      ]
-    },
-    {
-      "participant_slot": 38,
-      "allocation_id": "n42-study3-fano-v1-slot-38",
-      "file": "slots/slot-38.json",
-      "allocation_sha256": "10a6b5e597ee85356042e315f3c7f39c98907206d298ae8032077391234f95eb",
-      "attention_checks": [
-        {
-          "set_id": 1,
-          "within_set_after_trial": 25,
-          "after_trial": 25,
-          "response": 1
-        },
-        {
-          "set_id": 2,
-          "within_set_after_trial": 11,
-          "after_trial": 49,
-          "response": 3
-        },
-        {
-          "set_id": 3,
-          "within_set_after_trial": 18,
-          "after_trial": 94,
-          "response": 1
-        }
-      ]
-    },
-    {
-      "participant_slot": 39,
-      "allocation_id": "n42-study3-fano-v1-slot-39",
-      "file": "slots/slot-39.json",
-      "allocation_sha256": "ee867c2bc9ce22b2c8842dfa3e135a0591d57b45523253ea7f102ac649df0918",
-      "attention_checks": [
-        {
-          "set_id": 1,
-          "within_set_after_trial": 26,
-          "after_trial": 26,
-          "response": 1
-        },
-        {
-          "set_id": 2,
-          "within_set_after_trial": 12,
-          "after_trial": 50,
-          "response": 3
-        },
-        {
-          "set_id": 3,
-          "within_set_after_trial": 19,
-          "after_trial": 95,
-          "response": 1
-        }
-      ]
-    },
-    {
-      "participant_slot": 40,
-      "allocation_id": "n42-study3-fano-v1-slot-40",
-      "file": "slots/slot-40.json",
-      "allocation_sha256": "99bafbccb721d30a95647680a6df534b11b0cd4f14936805d1736268bad99dc5",
-      "attention_checks": [
-        {
-          "set_id": 1,
-          "within_set_after_trial": 27,
-          "after_trial": 27,
-          "response": 1
-        },
-        {
-          "set_id": 2,
-          "within_set_after_trial": 13,
-          "after_trial": 51,
-          "response": 3
-        },
-        {
-          "set_id": 3,
-          "within_set_after_trial": 20,
-          "after_trial": 96,
-          "response": 1
-        }
-      ]
-    },
-    {
-      "participant_slot": 41,
-      "allocation_id": "n42-study3-fano-v1-slot-41",
-      "file": "slots/slot-41.json",
-      "allocation_sha256": "bdf52512853422380aea4a9a3cbe447341ac0af9b16739e8c5cdb2722058b186",
-      "attention_checks": [
-        {
-          "set_id": 1,
-          "within_set_after_trial": 28,
-          "after_trial": 28,
-          "response": 1
-        },
-        {
-          "set_id": 2,
-          "within_set_after_trial": 14,
-          "after_trial": 52,
-          "response": 3
-        },
-        {
-          "set_id": 3,
-          "within_set_after_trial": 21,
-          "after_trial": 97,
-          "response": 1
-        }
-      ]
-    },
-    {
-      "participant_slot": 42,
-      "allocation_id": "n42-study3-fano-v1-slot-42",
-      "file": "slots/slot-42.json",
-      "allocation_sha256": "be8316d533e21facddd3e7001366c95d9a3d2a2cf9af9fadcc9861ff07f50108",
-      "attention_checks": [
-        {
-          "set_id": 1,
-          "within_set_after_trial": 29,
-          "after_trial": 29,
-          "response": 1
-        },
-        {
-          "set_id": 2,
-          "within_set_after_trial": 15,
-          "after_trial": 53,
-          "response": 3
-        },
-        {
-          "set_id": 3,
-          "within_set_after_trial": 22,
-          "after_trial": 98,
-          "response": 1
-        }
-      ]
     }
-  ]
+  ],
+  "validation": {
+    "duplicate_participant_document_cases": 0,
+    "ordered_condition_transition_frequency": [
+      94,
+      95
+    ],
+    "within_set_ordered_transition_frequency": [
+      92,
+      93
+    ],
+    "participant_pair_frequency": [
+      1,
+      11
+    ],
+    "condition_position_side_frequency": [
+      2,
+      3
+    ],
+    "global_position_side_frequency": [
+      17,
+      18
+    ],
+    "maximum_baseline_side_run": 3,
+    "writer_pair_adjacencies": 0,
+    "unique_document_orders": 105,
+    "attention_position_frequency_per_set": [
+      1,
+      2
+    ],
+    "attention_position_frequency_across_sets": 5
+  }
 }

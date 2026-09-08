@@ -3,7 +3,7 @@
  *
  * 1. Bind this script to the private researcher Google Sheet.
  * 2. Run setupStudyWorkbook() once.
- * 3. Set STUDY_VERSION=2026-09-07-study3-v1 in Script Properties.
+ * 3. Set STUDY_VERSION=2026-09-08-study3-v2 in Script Properties.
  * 4. Deploy as a web app, executing as the owner, accessible to anyone with the link.
  * 5. Put the /exec URL in study-config.js as dataEndpoint.
  *
@@ -12,17 +12,17 @@
  */
 
 const COLLECTOR_SERVICE = "text-enrichment-reader-study3";
-const COLLECTOR_VERSION = "2026-09-07-study3-v1";
+const COLLECTOR_VERSION = "2026-09-08-study3-v2";
 const SCHEMA_VERSION = "text-enrichment-trial-log-v3";
 const MAX_BATCH_SIZE = 8;
 
 const STUDY_DESIGN = Object.freeze({
-  participants: 42,
+  participants: 35,
   sets: 3,
   trialsPerSet: 38,
   trialsPerParticipant: 114,
-  assignmentVersion: "n42-study3-fano-v1",
-  assignmentSeed: "text-enrichment-reader-study3-n42-v1",
+  assignmentVersion: "n35-study3-carryover-v2",
+  assignmentSeed: "text-enrichment-reader-study3-n35-v2",
   conditions: ["D1_derived", "D2_derived", "W_writer_optimal", "D3_derived", "D4_derived", "D5_maximal", "M_model_optimal"]
 });
 
@@ -85,15 +85,17 @@ function setupStudyWorkbook() {
   if (readme.getLastRow() <= 1) {
     const rows = [
       ["Purpose", "Pseudonymous study records. One participant per Participants row; one analyzed response per Trials row; one parallel JSON record per TrialJSON row; quality and lifecycle records in Events."],
-      ["Trial balance", "42 completed allocation slots × 114 trials = 4,788 rows. Each participant completes three sets of 38 and sees three distinct enriched versions of every document."],
-      ["Condition balance", "Each participant sees two conditions 17 times and five conditions 16 times; each document-condition pair has 18 readers; each document-condition-set cell has 6 readers; each condition pair co-occurs 6 times per document."],
-      ["Side balance", "Within every participant-set, D0 appears left 19 times and right 19 times. Every document-condition-set cell is crossed 3/3."],
+      ["Trial balance", "35 valid completed allocation slots × 114 trials = 3,990 rows. Each participant completes three sets of 38 and sees three distinct enriched versions of every document."],
+      ["Condition balance", "Each participant sees two conditions 17 times and five conditions 16 times; each document-condition pair has 15 readers; each document-condition-set cell has 5 readers."],
+      ["Carryover balance", "Across all complete slots, every ordered pair of distinct conditions occurs 94 or 95 times (92 or 93 within sets); each condition occurs five times at every global position."],
+      ["M-equivalent-D rule", "If M is visually identical to a D condition for a document, M and that D condition never occur in the same participant-document triple."],
+      ["Side balance", "Within every participant-set, D0 appears left 19 times and right 19 times. Every document-condition-set and condition-position cell is crossed 2/3, each global position is 17/18, and side runs are at most three."],
       ["Model-optimal audit", "M records realized ink mass, retained-factor count, exact/visual/factor hashes, and its visually equivalent D condition when one exists."],
       ["Rating direction", "rating: −3 means enriched much less preferred, 0 no difference, +3 enriched much more preferred. spatial_rating is the raw left-to-right response."],
       ["Timing", "750 ms fixation, 1,000 ms simultaneous display, three attention checks (+1, +3, +1), and 60-second breaks after trials 38 and 76."],
       ["Checkpoint policy", "Trials are appended idempotently. The interface confirms each row, checks all 38/76 rows before each break, and confirms all 114 rows before completion."],
       ["Exports", "text-enrichment-final-log.csv and text-enrichment-final-log.json are created at setup and refreshed after each completed participant. Run exportStudyLogs() for an on-demand refresh."],
-      ["Slot policy", "Slots are never released automatically. Use releaseIncompleteSlot() deliberately if an incomplete allocation must be reassigned; retain partial rows for audit and analyze completed slots only."],
+      ["Slot policy", "The exact balance is guaranteed when every slot 1–35 has one valid completion. Slots are never released automatically; use releaseIncompleteSlot() for invalid/incomplete cases, retain partial rows for audit, and refill the released slot."],
       ["Stimulus warnings", "P6_DOC_A, P13_DOC_A, and P13_DOC_B have source-pipeline validation_status=warning and require analysis review."],
       ["Privacy", "Keep the spreadsheet and exported files restricted to authorized research personnel. The web endpoint has no public export route."],
       ["Study version", configuredStudyVersion_()],
@@ -204,7 +206,7 @@ function reserveSlot_(parameters) {
         break;
       }
     }
-    if (!slot) return { ok: false, error: "All 42 pre-generated allocation slots are assigned." };
+    if (!slot) return { ok: false, error: "All " + STUDY_DESIGN.participants + " pre-generated allocation slots are assigned." };
 
     const allocationId = allocationIdForSlot_(slot);
     const fields = {
@@ -690,7 +692,7 @@ function appendTrial_(spreadsheet, payload, identity, participantRow) {
 
 function validateTrialRecord_(record, studyVersion, participantRow) {
   const eventId = safeIdentifier_(record.eventId, "trial event_id");
-  const slot = integerInRange_(record.participantSlot, 1, 42, "participant_slot");
+  const slot = integerInRange_(record.participantSlot, 1, STUDY_DESIGN.participants, "participant_slot");
   if (slot !== Number(participantRow.participant_slot)) throw new Error("Trial participant slot mismatch.");
   const allocationId = safeIdentifier_(record.allocationId, "allocation_id");
   if (allocationId !== participantRow.allocation_id || allocationId !== allocationIdForSlot_(slot)) {
@@ -714,12 +716,26 @@ function validateTrialRecord_(record, studyVersion, participantRow) {
     || record.baselineSide === record.enrichedSide) throw new Error("Invalid side allocation.");
   if (Number(record.documentExposureNumber) !== setId) throw new Error("Document exposure number mismatch.");
   const expectedSeed = STUDY_DESIGN.assignmentSeed + ":slot:" + slot + ":set:" + setId
-    + ":position-schedule-v1";
+    + ":carryover-balanced-v2";
   if (record.randomizationSeed !== expectedSeed) throw new Error("Randomization seed mismatch.");
   const rating = numberInRange_(record.rating, -3, 3, "rating");
   const spatialRating = numberInRange_(record.spatialRating, -3, 3, "spatial_rating");
   if (!Number.isInteger(rating) || !Number.isInteger(spatialRating)) throw new Error("Ratings must be integers.");
   const responseTime = nonnegativeNumber_(record.responseTime, "response_time");
+  const equivalentCondition = nullableCondition_(record.modelOptimalEquivalentConditionId);
+  const assignedConditionTripleJson = validatedConditionTriple_(record.assignedConditionTriple);
+  const assignedConditionTriple = JSON.parse(assignedConditionTripleJson);
+  if (!assignedConditionTriple.includes(conditionId)) {
+    throw new Error("Trial condition is absent from assigned_condition_triple.");
+  }
+  if (record.withinDocumentVisualDuplicate !== false) {
+    throw new Error("M and its visually identical D condition cannot share an allocation.");
+  }
+  if (equivalentCondition
+      && assignedConditionTriple.includes("M_model_optimal")
+      && assignedConditionTriple.includes(equivalentCondition)) {
+    throw new Error("M and its visually identical D condition cannot share an allocation.");
+  }
   const receivedAt = new Date().toISOString();
   return {
     event_id: eventId,
@@ -749,12 +765,12 @@ function validateTrialRecord_(record, studyVersion, participantRow) {
     stimulus_sha256: nullableHash_(record.stimulusSha256, "stimulus_sha256"),
     visual_sha256: nullableHash_(record.visualSha256, "visual_sha256"),
     factor_ids_sha256: nullableHash_(record.factorIdsSha256, "factor_ids_sha256"),
-    model_optimal_equivalent_condition_id: nullableCondition_(record.modelOptimalEquivalentConditionId),
+    model_optimal_equivalent_condition_id: equivalentCondition,
     model_optimal_is_novel: nullableBoolean_(record.modelOptimalIsNovel, "model_optimal_is_novel"),
     fano_block_id: enumValue_(record.fanoBlockId, ["A", "B", "C", "D", "E", "F", "G"], "fano_block_id"),
     set_permutation_id: enumValue_(record.setPermutationId, ["123", "132", "213", "231", "312", "321"], "set_permutation_id"),
-    assigned_condition_triple_json: validatedConditionTriple_(record.assignedConditionTriple),
-    within_document_visual_duplicate: Boolean(record.withinDocumentVisualDuplicate),
+    assigned_condition_triple_json: assignedConditionTripleJson,
+    within_document_visual_duplicate: false,
     spatial_rating: spatialRating,
     planned_fixation_ms: nonnegativeNumber_(record.plannedFixationMs, "planned_fixation_ms"),
     planned_exposure_ms: nonnegativeNumber_(record.plannedExposureMs, "planned_exposure_ms"),
@@ -1125,7 +1141,7 @@ function verifyStudyVersion_(version) {
 }
 
 function configuredStudyVersion_() {
-  return PropertiesService.getScriptProperties().getProperty("STUDY_VERSION") || "2026-09-07-study3-v1";
+  return PropertiesService.getScriptProperties().getProperty("STUDY_VERSION") || "2026-09-08-study3-v2";
 }
 
 function integerInRange_(value, minimum, maximum, field) {

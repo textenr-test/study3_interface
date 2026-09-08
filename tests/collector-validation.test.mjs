@@ -12,7 +12,7 @@ assert.deepEqual(Array.from(context.__HEADERS.TrialJSON), [
   "received_at", "study_version"
 ]);
 assert.equal(context.__COLLECTOR_SERVICE, "text-enrichment-reader-study3");
-assert.equal(context.__COLLECTOR_VERSION, "2026-09-07-study3-v1");
+assert.equal(context.__COLLECTOR_VERSION, "2026-09-08-study3-v2");
 assert.equal(context.__SCHEMA_VERSION, "text-enrichment-trial-log-v3");
 assert.equal(context.__MAX_BATCH_SIZE, 8);
 assert.match(source, /payload\.kind === "batch" \? storePayloadBatch_\(payload\) : storePayload_\(payload\)/);
@@ -26,7 +26,7 @@ const participantRow = {
   session_id: "S001",
   study_id: "STUDY01",
   participant_slot: 4,
-  allocation_id: "n42-study3-fano-v1-slot-04"
+  allocation_id: "n35-study3-carryover-v2-slot-04"
 };
 const valid = {
   eventId: "trial_0123456789abcdef",
@@ -42,7 +42,7 @@ const valid = {
   baselineSide: "left",
   enrichedSide: "right",
   documentExposureNumber: 2,
-  randomizationSeed: "text-enrichment-reader-study3-n42-v1:slot:4:set:2:position-schedule-v1",
+  randomizationSeed: "text-enrichment-reader-study3-n35-v2:slot:4:set:2:carryover-balanced-v2",
   fanoBlockId: "A",
   setPermutationId: "123",
   assignedConditionTriple: ["D1_derived", "D3_derived", "M_model_optimal"],
@@ -72,19 +72,21 @@ const valid = {
   respondedAt: "2026-08-25T00:00:00.000Z"
 };
 
-const canonical = context.validateTrialRecord_(valid, "2026-09-07-study3-v1", participantRow);
+const canonical = context.validateTrialRecord_(valid, "2026-09-08-study3-v2", participantRow);
 assert.equal(canonical.global_trial_index, 50);
 assert.equal(canonical.set_id, 2);
 assert.equal(canonical.document_exposure_number, 2);
 assert.equal(canonical.rating, 2);
 assert.equal(canonical.response_time, 840);
-assert.equal(canonical.study_version, "2026-09-07-study3-v1");
+assert.equal(canonical.study_version, "2026-09-08-study3-v2");
 
-assert.throws(() => context.validateTrialRecord_({ ...valid, globalTrialIndex: 49 }, "2026-09-07-study3-v1", participantRow), /Global trial index mismatch/);
-assert.throws(() => context.validateTrialRecord_({ ...valid, enrichedSide: "left" }, "2026-09-07-study3-v1", participantRow), /side allocation/);
-assert.throws(() => context.validateTrialRecord_({ ...valid, rating: 4 }, "2026-09-07-study3-v1", participantRow), /rating/);
-assert.throws(() => context.validateTrialRecord_({ ...valid, randomizationSeed: "wrong" }, "2026-09-07-study3-v1", participantRow), /Randomization seed mismatch/);
-assert.equal(context.allocationIdForSlot_(42), "n42-study3-fano-v1-slot-42");
+assert.throws(() => context.validateTrialRecord_({ ...valid, globalTrialIndex: 49 }, "2026-09-08-study3-v2", participantRow), /Global trial index mismatch/);
+assert.throws(() => context.validateTrialRecord_({ ...valid, enrichedSide: "left" }, "2026-09-08-study3-v2", participantRow), /side allocation/);
+assert.throws(() => context.validateTrialRecord_({ ...valid, rating: 4 }, "2026-09-08-study3-v2", participantRow), /rating/);
+assert.throws(() => context.validateTrialRecord_({ ...valid, randomizationSeed: "wrong" }, "2026-09-08-study3-v2", participantRow), /Randomization seed mismatch/);
+assert.throws(() => context.validateTrialRecord_({ ...valid, withinDocumentVisualDuplicate: true }, "2026-09-08-study3-v2", participantRow), /cannot share/);
+assert.throws(() => context.validateTrialRecord_({ ...valid, modelOptimalEquivalentConditionId: "D3_derived" }, "2026-09-08-study3-v2", participantRow), /cannot share/);
+assert.equal(context.allocationIdForSlot_(35), "n35-study3-carryover-v2-slot-35");
 
 const identity = { participantId: "P001", sessionId: "S001", studyId: "STUDY01" };
 const trialRows = Array.from({ length: 114 }, (_, index) => ({
@@ -159,7 +161,7 @@ assert.deepEqual(bulkWrite.values, [["trial_a", 1], ["trial_b", -1]]);
 const eventRow = context.eventObject_({ type: "screenout" }, {
   kind: "screenout",
   requestId: "screenout_0123456789abcdef",
-  studyVersion: "2026-09-07-study3-v1",
+  studyVersion: "2026-09-08-study3-v2",
   participant: { slot: "" },
   participantSummary: { completedTrials: 0 }
 }, identity);

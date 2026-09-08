@@ -34,9 +34,9 @@ assert.match(app, /detectCollectorCompatibility\(true\)/);
 assert.match(app, /buildUploadBatch/);
 assert.match(app, /postFormWithTimeout/);
 assert.match(app, /initialAction === "allocate"/);
-assert.match(config, /version: "2026-09-07-study3-v1"/);
-assert.match(config, /releaseVersion: "2026-09-07-study3-v1"/);
-assert.match(config, /targetParticipants: 42/);
+assert.match(config, /version: "2026-09-08-study3-v2"/);
+assert.match(config, /releaseVersion: "2026-09-08-study3-v2"/);
+assert.match(config, /targetParticipants: 35/);
 assert.match(config, /M_model_optimal/);
 assert.match(config, /trialCount: 114/);
 assert.match(config, /breakAfterTrials: \[38, 76\]/);
@@ -54,8 +54,8 @@ for (const key of ["complete", "screenedOut", "incompatibleDevice", "failedCompr
 }
 // Duplicated Prolific studies may legitimately retain the same completion codes.
 assert.match(config, /exposureMs: 1000/);
-assert.ok(index.includes("app.js?v=2026-09-07-study3-v1"));
-assert.ok(index.includes("study-config.js?v=2026-09-07-study3-v1"));
+assert.ok(index.includes("app.js?v=2026-09-08-study3-v2"));
+assert.ok(index.includes("study-config.js?v=2026-09-08-study3-v2"));
 assert.ok((app.match(/CONFIG\.network\.dataRequestTimeoutMs/g) || []).length >= 6);
 assert.doesNotMatch(app, /function jsonp\(endpoint, query, timeoutMs = 10000\)/);
 assert.match(app, /\.json\?v=" \+ encodeURIComponent\(CONFIG\.releaseVersion\)/);

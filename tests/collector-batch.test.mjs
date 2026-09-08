@@ -6,13 +6,13 @@ const source = fs.readFileSync(new URL("../apps-script/Code.gs", import.meta.url
 const context = {
   console, Set, Map, Date, JSON, Number, String, Object, Boolean, Math, RegExp, Array,
   PropertiesService: {
-    getScriptProperties: () => ({ getProperty: (key) => key === "STUDY_VERSION" ? "2026-09-07-study3-v1" : "" })
+    getScriptProperties: () => ({ getProperty: (key) => key === "STUDY_VERSION" ? "2026-09-08-study3-v2" : "" })
   }
 };
 vm.runInNewContext(source, context, { filename: "Code.gs" });
 
 const identity = { participantId: "P001", studyId: "STUDY01", sessionId: "S001" };
-const allocationId = "n42-study3-fano-v1-slot-04";
+const allocationId = "n35-study3-carryover-v2-slot-04";
 const participantRow = {
   _rowNumber: 2,
   participant_id: identity.participantId,
@@ -20,11 +20,11 @@ const participantRow = {
   session_id: identity.sessionId,
   participant_slot: 4,
   allocation_id: allocationId,
-  assignment_version: "n42-study3-fano-v1",
+  assignment_version: "n35-study3-carryover-v2",
   status: "in_progress",
   completed_trials: 49,
   attention_checks_passed: 1,
-  study_version: "2026-09-07-study3-v1"
+  study_version: "2026-09-08-study3-v2"
 };
 const sheets = new Map();
 const writes = [];
@@ -57,7 +57,7 @@ function trialPayload(globalTrialIndex, eventId) {
   const setTrialIndex = ((globalTrialIndex - 1) % 38) + 1;
   return {
     kind: "trial",
-    studyVersion: "2026-09-07-study3-v1",
+    studyVersion: "2026-09-08-study3-v2",
     confirmationMode: "per_record",
     requestId: eventId,
     participant: {
@@ -66,7 +66,7 @@ function trialPayload(globalTrialIndex, eventId) {
       sessionId: identity.sessionId,
       slot: 4,
       allocationId,
-      assignmentVersion: "n42-study3-fano-v1"
+      assignmentVersion: "n35-study3-carryover-v2"
     },
     participantSummary: {
       status: "in_progress",
@@ -74,7 +74,7 @@ function trialPayload(globalTrialIndex, eventId) {
       completedTrials: globalTrialIndex,
       attentionChecksPassed: 1
     },
-    resumeState: { version: "2026-09-07-study3-v1", status: "in_progress", trialCursor: globalTrialIndex },
+    resumeState: { version: "2026-09-08-study3-v2", status: "in_progress", trialCursor: globalTrialIndex },
     record: {
       eventId,
       participantSlot: 4,
@@ -89,7 +89,7 @@ function trialPayload(globalTrialIndex, eventId) {
       baselineSide: "left",
       enrichedSide: "right",
       documentExposureNumber: setId,
-      randomizationSeed: `text-enrichment-reader-study3-n42-v1:slot:4:set:${setId}:position-schedule-v1`,
+      randomizationSeed: `text-enrichment-reader-study3-n35-v2:slot:4:set:${setId}:carryover-balanced-v2`,
       fanoBlockId: "A",
       setPermutationId: "123",
       assignedConditionTriple: ["D1_derived", "D3_derived", "M_model_optimal"],
@@ -118,8 +118,8 @@ function trialPayload(globalTrialIndex, eventId) {
 const batch = {
   kind: "batch",
   batchId: "batch_0123456789abcdef",
-  collectorVersion: "2026-09-07-study3-v1",
-  studyVersion: "2026-09-07-study3-v1",
+  collectorVersion: "2026-09-08-study3-v2",
+  studyVersion: "2026-09-08-study3-v2",
   participant: {
     participantId: identity.participantId,
     studyId: identity.studyId,

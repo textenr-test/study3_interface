@@ -3,9 +3,9 @@ import { buildUploadBatch, collectorHealthProblems, postFormWithTimeout } from "
 
 const expected = {
   service: "text-enrichment-reader-study3",
-  collectorVersion: "2026-09-07-study3-v1",
-  studyVersion: "2026-09-07-study3-v1",
-  assignmentVersion: "n42-study3-fano-v1",
+  collectorVersion: "2026-09-08-study3-v2",
+  studyVersion: "2026-09-08-study3-v2",
+  assignmentVersion: "n35-study3-carryover-v2",
   schemaVersion: "text-enrichment-trial-log-v3"
 };
 const health = { ok: true, ...expected };
@@ -44,4 +44,3 @@ await assert.rejects(
 );
 
 console.log("Collector health validation, batching, and POST timeout verified.");
-

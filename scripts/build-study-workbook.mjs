@@ -25,9 +25,9 @@ const eventHeaders = [
 const readmeRows = [
   ["Text Enrichment Reader Study — Study 3 Data Dictionary", "Value"],
   ["Purpose", "Raw pseudonymous study records. Participants, analyzed trial responses, and lifecycle/quality events are separated by tab."],
-  ["Expected final trials", 4788],
+  ["Expected final trials", 3990],
   ["Expected unique document-condition pairs", 266],
-  ["Expected ratings per pair", 18],
+  ["Expected ratings per pair", 15],
   ["Rating direction", "rating: −3 = enriched much less preferred; 0 = no difference; +3 = enriched much more preferred."],
   ["Participant identifiers", "Prolific participant, study, and session IDs only. Do not add direct identifiers."],
   ["Sets and breaks", "Three sets of 38; every row is confirmed, with full server checkpoints after trials 38, 76, and 114."],
@@ -35,7 +35,7 @@ const readmeRows = [
   ["Source warnings", "Review P6_DOC_A, P13_DOC_A, and P13_DOC_B before analysis; source pipeline status is warning."],
   ["Collector", "Deploy apps-script/Code.gs as a bound Google Apps Script web app."],
   ["Access", "Keep spreadsheet sharing restricted to authorized research personnel."],
-  ["Study version", "2026-09-07-study3-v1"],
+  ["Study version", "2026-09-08-study3-v2"],
   ["Study 3 screening", "No color-vision plate is administered. color_test_json is retained as an intentionally blank compatibility column."]
 ];
 

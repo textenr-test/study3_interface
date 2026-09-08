@@ -1,13 +1,13 @@
 window.STUDY_CONFIG = Object.freeze({
-  version: "2026-09-07-study3-v1",
-  releaseVersion: "2026-09-07-study3-v1",
+  version: "2026-09-08-study3-v2",
+  releaseVersion: "2026-09-08-study3-v2",
   title: "First-Impression Study — Study 3",
-  targetParticipants: 42,
+  targetParticipants: 35,
   trialCount: 114,
   setCount: 3,
   trialsPerSet: 38,
-  assignmentVersion: "n42-study3-fano-v1",
-  assignmentSeed: "text-enrichment-reader-study3-n42-v1",
+  assignmentVersion: "n35-study3-carryover-v2",
+  assignmentSeed: "text-enrichment-reader-study3-n35-v2",
   conditionOrder: [
     "D1_derived",
     "D2_derived",
@@ -53,7 +53,7 @@ window.STUDY_CONFIG = Object.freeze({
   },
   collector: {
     service: "text-enrichment-reader-study3",
-    version: "2026-09-07-study3-v1",
+    version: "2026-09-08-study3-v2",
     schemaVersion: "text-enrichment-trial-log-v3"
   },
   device: {

@@ -7,6 +7,8 @@ export function hashString(value) {
   return hash >>> 0;
 }
 
+const MAX_PARTICIPANT_SLOT = 35;
+
 export function mulberry32(seed) {
   return function random() {
     let t = seed += 0x6d2b79f5;
@@ -28,7 +30,7 @@ export function seededShuffle(items, seedText) {
 
 export function validateAssignmentPayload(payload, expectations = {}) {
   const participantSlot = Number(payload?.participant_slot);
-  if (!Number.isInteger(participantSlot) || participantSlot < 1 || participantSlot > 42) {
+  if (!Number.isInteger(participantSlot) || participantSlot < 1 || participantSlot > MAX_PARTICIPANT_SLOT) {
     throw new Error("The pre-generated participant slot is invalid.");
   }
   if (expectations.participantSlot && participantSlot !== Number(expectations.participantSlot)) {
@@ -61,23 +63,49 @@ export function validateAssignmentPayload(payload, expectations = {}) {
     }
     seenGlobal.add(row.global_trial_index);
     perSet.set(row.set_id, (perSet.get(row.set_id) || 0) + 1);
-    const docConditions = perDocument.get(row.document_id) || new Set();
-    docConditions.add(row.condition_id);
-    perDocument.set(row.document_id, docConditions);
+    if (!Array.isArray(row.assigned_condition_triple)
+      || row.assigned_condition_triple.length !== 3
+      || new Set(row.assigned_condition_triple).size !== 3
+      || !row.assigned_condition_triple.includes(row.condition_id)) {
+      throw new Error("Invalid assigned condition triple.");
+    }
+    if (row.within_document_visual_duplicate !== false) {
+      throw new Error("M and its visually identical D condition must never share a participant-document allocation.");
+    }
+    const tripleKey = [...row.assigned_condition_triple].sort().join("|");
+    const equivalent = row.model_optimal_equivalent_condition_id || "";
+    const documentSummary = perDocument.get(row.document_id) || {
+      conditions: new Set(),
+      tripleKey,
+      equivalent
+    };
+    if (documentSummary.tripleKey !== tripleKey || documentSummary.equivalent !== equivalent) {
+      throw new Error("Document allocation metadata changed across sets.");
+    }
+    documentSummary.conditions.add(row.condition_id);
+    perDocument.set(row.document_id, documentSummary);
     if (!/^(left|right)$/.test(row.baseline_side) || row.baseline_side === row.enriched_side) {
       throw new Error("Invalid left/right allocation.");
     }
   }
   if ([1, 2, 3].some((setId) => perSet.get(setId) !== 38)) throw new Error("Each set must contain 38 trials.");
-  if (perDocument.size !== 38 || [...perDocument.values()].some((conditions) => conditions.size !== 3)) {
+  if (perDocument.size !== 38 || [...perDocument.values()].some((summary) => summary.conditions.size !== 3)) {
     throw new Error("Each document must use three distinct enriched conditions.");
+  }
+  for (const summary of perDocument.values()) {
+    const observedKey = [...summary.conditions].sort().join("|");
+    if (observedKey !== summary.tripleKey) throw new Error("Document conditions do not match the assigned triple.");
+    const triple = summary.tripleKey.split("|");
+    if (summary.equivalent && triple.includes("M_model_optimal") && triple.includes(summary.equivalent)) {
+      throw new Error("M and its visually identical D condition must never share a participant-document allocation.");
+    }
   }
   return payload;
 }
 
 export async function loadParticipantAssignment({ participantSlot, studyVersion, assignmentVersion }) {
-  if (!Number.isInteger(participantSlot) || participantSlot < 1 || participantSlot > 42) {
-    throw new Error("participantSlot must be an integer from 1 to 42");
+  if (!Number.isInteger(participantSlot) || participantSlot < 1 || participantSlot > MAX_PARTICIPANT_SLOT) {
+    throw new Error("participantSlot must be an integer from 1 to 35");
   }
   const filename = `slot-${String(participantSlot).padStart(2, "0")}.json`;
   const response = await fetch(`./assignments/slots/${filename}?v=${encodeURIComponent(studyVersion)}`, { cache: "force-cache" });

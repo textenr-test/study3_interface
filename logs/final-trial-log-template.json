@@ -1,6 +1,6 @@
 {
   "schema_version": "text-enrichment-trial-log-v3",
-  "study_version": "2026-09-07-study3-v1",
+  "study_version": "2026-09-08-study3-v2",
   "columns": [
     {
       "name": "event_id",
@@ -18,7 +18,7 @@
       "name": "participant_slot",
       "type": "integer",
       "required": true,
-      "description": "Pre-generated allocation slot, 1–42."
+      "description": "Pre-generated allocation slot, 1–35."
     },
     {
       "name": "set_id",
@@ -180,7 +180,7 @@
       "name": "fano_block_id",
       "type": "string",
       "required": true,
-      "description": "Document-specific Fano row assigned to the participant."
+      "description": "Legacy A–G rotation-group label retained for schema compatibility."
     },
     {
       "name": "set_permutation_id",
@@ -198,7 +198,7 @@
       "name": "within_document_visual_duplicate",
       "type": "boolean",
       "required": true,
-      "description": "Whether M and its visually equivalent D condition both occur in the participant-document triple."
+      "description": "Must be false; M and its visually equivalent D condition are forbidden in the same participant-document triple."
     },
     {
       "name": "spatial_rating",

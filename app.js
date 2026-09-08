@@ -1,10 +1,10 @@
-import { hashString, loadParticipantAssignment } from "./assignment.js?v=2026-09-07-study3-v1";
-import { containsKoreanLanguage, deviceIsEligible } from "./eligibility.js?v=2026-09-07-study3-v1";
-import { expectedAttentionResponse } from "./attention.js?v=2026-09-07-study3-v1";
-import { resolveEarlyExitRoute } from "./exit-routing.js?v=2026-09-07-study3-v1";
-import { buildUploadBatch, collectorHealthProblems, postFormWithTimeout } from "./network.js?v=2026-09-07-study3-v1";
-import { calculateStimulusFit, choosePairContentHeight, resolveMeasuredHeight } from "./stimulus-fit.js?v=2026-09-07-study3-v1";
-import { finalStateIsComplete, initialStudyAction, nextStudyAction, remainingBreakMs } from "./study-flow.js?v=2026-09-07-study3-v1";
+import { hashString, loadParticipantAssignment } from "./assignment.js?v=2026-09-08-study3-v2";
+import { containsKoreanLanguage, deviceIsEligible } from "./eligibility.js?v=2026-09-08-study3-v2";
+import { expectedAttentionResponse } from "./attention.js?v=2026-09-08-study3-v2";
+import { resolveEarlyExitRoute } from "./exit-routing.js?v=2026-09-08-study3-v2";
+import { buildUploadBatch, collectorHealthProblems, postFormWithTimeout } from "./network.js?v=2026-09-08-study3-v2";
+import { calculateStimulusFit, choosePairContentHeight, resolveMeasuredHeight } from "./stimulus-fit.js?v=2026-09-08-study3-v2";
+import { finalStateIsComplete, initialStudyAction, nextStudyAction, remainingBreakMs } from "./study-flow.js?v=2026-09-08-study3-v2";
 
 const CONFIG = window.STUDY_CONFIG;
 const app = document.getElementById("app");
@@ -511,7 +511,7 @@ async function allocateParticipantSlot() {
     let allocation;
     if (isPreview) {
       const requested = Number(params.get("slot") || "1");
-      allocation = { ok: true, slot: Math.min(42, Math.max(1, Number.isInteger(requested) ? requested : 1)), existing: false };
+      allocation = { ok: true, slot: Math.min(CONFIG.targetParticipants, Math.max(1, Number.isInteger(requested) ? requested : 1)), existing: false };
     } else {
       allocation = await jsonp(CONFIG.dataEndpoint, {
         action: "reserve",
